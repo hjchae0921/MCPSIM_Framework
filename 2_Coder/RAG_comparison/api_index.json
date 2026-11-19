@@ -1,0 +1,2930 @@
+{
+  "basix.ufl.blocked_element": {
+    "embedding_id": "n2",
+    "kind": "function",
+    "chunk": "chunks/basix.ufl/basix.ufl.blocked_element.md",
+    "source": "https://docs.fenicsproject.org/basix/v0.10.0/python/_autosummary/basix.ufl.html#basix.ufl.blocked_element",
+    "sha256": "c206c2f04c237860e55a54ae23c737435e72a2599b1549e425bdded956ad3d54",
+    "ranking_description": "Create a UFL compatible blocked element."
+  },
+  "basix.ufl.custom_element": {
+    "embedding_id": "n7",
+    "kind": "function",
+    "chunk": "chunks/basix.ufl/basix.ufl.custom_element.md",
+    "source": "https://docs.fenicsproject.org/basix/v0.10.0/python/_autosummary/basix.ufl.html#basix.ufl.custom_element",
+    "sha256": "18da008100e94e90bc32cc482c2b9a6354723ce9e0bda1047423163ec00695d8",
+    "ranking_description": "Create a UFL compatible custom Basix element."
+  },
+  "basix.ufl.element": {
+    "embedding_id": "n22",
+    "kind": "function",
+    "chunk": "chunks/basix.ufl/basix.ufl.element.md",
+    "source": "https://docs.fenicsproject.org/basix/v0.10.0/python/_autosummary/basix.ufl.html#basix.ufl.element",
+    "sha256": "6a4f3f5fee5d7768f0548e6a6a5b60569fab49f25ff8065458e6419cbdfa98d7",
+    "ranking_description": "Create a UFL compatible element using Basix."
+  },
+  "basix.ufl.enriched_element": {
+    "embedding_id": "n31",
+    "kind": "function",
+    "chunk": "chunks/basix.ufl/basix.ufl.enriched_element.md",
+    "source": "https://docs.fenicsproject.org/basix/v0.10.0/python/_autosummary/basix.ufl.html#basix.ufl.enriched_element",
+    "sha256": "68af673fd1ee8304ab6bf14607fe44a0486d4107075d44b65897c99a08be0473",
+    "ranking_description": "Create an UFL compatible enriched element from a list of elements."
+  },
+  "basix.ufl.mixed_element": {
+    "embedding_id": "n35",
+    "kind": "function",
+    "chunk": "chunks/basix.ufl/basix.ufl.mixed_element.md",
+    "source": "https://docs.fenicsproject.org/basix/v0.10.0/python/_autosummary/basix.ufl.html#basix.ufl.mixed_element",
+    "sha256": "aaaa4906960128c55966fe54aa7bc48361fd0a38bd2e1fc7f8101064b4e1391f",
+    "ranking_description": "Create a UFL compatible mixed element from a list of elements."
+  },
+  "basix.ufl.quadrature_element": {
+    "embedding_id": "n37",
+    "kind": "function",
+    "chunk": "chunks/basix.ufl/basix.ufl.quadrature_element.md",
+    "source": "https://docs.fenicsproject.org/basix/v0.10.0/python/_autosummary/basix.ufl.html#basix.ufl.quadrature_element",
+    "sha256": "ff49c46abae9f1cb990f143ec664b61541dcc488219f164dfec84a552e44ed3d",
+    "ranking_description": "Create a quadrature element.\n\nWhen creating this element, either the quadrature scheme and degree\nmust be input or the quadrature points and weights must be."
+  },
+  "basix.ufl.real_element": {
+    "embedding_id": "n45",
+    "kind": "function",
+    "chunk": "chunks/basix.ufl/basix.ufl.real_element.md",
+    "source": "https://docs.fenicsproject.org/basix/v0.10.0/python/_autosummary/basix.ufl.html#basix.ufl.real_element",
+    "sha256": "66072d2c6f395063e262db464dace7fd5ac029ad42356f32b171d2d3d485854f",
+    "ranking_description": "Create a real element."
+  },
+  "basix.ufl.wrap_element": {
+    "embedding_id": "n47",
+    "kind": "function",
+    "chunk": "chunks/basix.ufl/basix.ufl.wrap_element.md",
+    "source": "https://docs.fenicsproject.org/basix/v0.10.0/python/_autosummary/basix.ufl.html#basix.ufl.wrap_element",
+    "sha256": "da3801f66d44f1d2d61fef7cb1db054b0b30fcad1334b474858ac29962bc5a02",
+    "ranking_description": "Wrap a Basix element as a Basix UFL element."
+  },
+  "dolfinx.fem.Constant": {
+    "embedding_id": "n50",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Constant.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Constant",
+    "sha256": "af46a8ff6e246ef8b62c910df58c59189fb9bf5ec41d1fd9e5a2d40c1f3c973d",
+    "ranking_description": "A constant with respect to a domain."
+  },
+  "dolfinx.fem.CoordinateElement": {
+    "embedding_id": "n56",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.CoordinateElement.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.CoordinateElement",
+    "sha256": "d3a689889f6261fc01b2bb283e919b4118a2377ff1b7aede6ec6f77cebe7d24a",
+    "ranking_description": "Coordinate element describing the geometry map for mesh cells."
+  },
+  "dolfinx.fem.CoordinateElement.create_dof_layout": {
+    "embedding_id": "n58",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.CoordinateElement.create_dof_layout.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.CoordinateElement.create_dof_layout",
+    "sha256": "cecb31e6a88f6639de862bb04f527ac2345db3708dd891719cd3896530f7e562",
+    "ranking_description": "Compute and return the dof layout"
+  },
+  "dolfinx.fem.CoordinateElement.hash": {
+    "embedding_id": "n63",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.CoordinateElement.hash.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.CoordinateElement.hash",
+    "sha256": "c4673d4e9f45c5745dc39dcf102e920cdf7b222acb3b62e35b24f551fef1b616",
+    "ranking_description": "Hash identifier of the coordinate element."
+  },
+  "dolfinx.fem.CoordinateElement.pull_back": {
+    "embedding_id": "n65",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.CoordinateElement.pull_back.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.CoordinateElement.pull_back",
+    "sha256": "cbe878cf89cba1347b49093d237867d6a2c28d1576d843ecf507368026c4ae75",
+    "ranking_description": "Pull points on the physical cell back to the reference cell.\n\nFor non-affine cells, the pull-back is a nonlinear operation."
+  },
+  "dolfinx.fem.CoordinateElement.push_forward": {
+    "embedding_id": "n69",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.CoordinateElement.push_forward.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.CoordinateElement.push_forward",
+    "sha256": "e57616178cc6ed27c9e04cd9514626ac26178c6ab0f5c8d248bf0b12d7f9796f",
+    "ranking_description": "Push points on the reference cell forward to the physical cell."
+  },
+  "dolfinx.fem.DirichletBC": {
+    "embedding_id": "n73",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.DirichletBC.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.DirichletBC",
+    "sha256": "15bad50f4e6289e7e9268f988704dd2ef95606ece9f4268fd176077e6dc6833e",
+    "ranking_description": "Representation of Dirichlet boundary condition which is imposed\non a linear system.\n\nNote:\n    Dirichlet boundary conditions  should normally be\n    constructed using :func:`fem.dirichletbc` and not using this\n    class initialiser. This class is combined with different\n    base classes that depend on the scalar type of the boundary\n    condition."
+  },
+  "dolfinx.fem.DirichletBC.dof_indices": {
+    "embedding_id": "n75",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.DirichletBC.dof_indices.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.DirichletBC.dof_indices",
+    "sha256": "b75a91b6aabb354409498cd0d541c946de1a272b6b58a969adca199140a8f999",
+    "ranking_description": "Access dof indices `(local indices, unrolled)`, including\nghosts, to which a Dirichlet condition is applied, and the index to\nthe first non-owned (ghost) index. The array of indices is sorted.\n\nNote:\n    The returned array is read-only."
+  },
+  "dolfinx.fem.DirichletBC.set": {
+    "embedding_id": "n79",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.DirichletBC.set.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.DirichletBC.set",
+    "sha256": "b7e8a0097ffcb23184a7576d8a05a9972d2163f42d4e3b30be974fdd0f05029e",
+    "ranking_description": "Set entries in an array that are constrained by Dirichlet\nboundary conditions.\n\nEntries in ``x`` that are constrained by a Dirichlet boundary\nconditions are set to ``alpha * (x_bc - x0)``, where ``x_bc`` is\nthe (interpolated) boundary condition value.\n\nFor elements with point-wise evaluated degrees-of-freedom, e.g.\nLagrange elements, ``x_bc`` is the value of the boundary condition\nat the degree-of-freedom. For elements with moment\ndegrees-of-freedom, ``x_bc`` is the value of the boundary condition\ninterpolated into the finite element space.\n\nIf `x` includes ghosted entries (entries available on the calling\nrank but owned by another rank), ghosted entries constrained by a\nDirichlet condition will also be set."
+  },
+  "dolfinx.fem.DofMap": {
+    "embedding_id": "n84",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.DofMap.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.DofMap",
+    "sha256": "acf9399d936fc07751d434ffe26598515834d4244b3a91017a6b2c629d685c5c",
+    "ranking_description": "Degree-of-freedom map.\n\nThis class handles the mapping of degrees of freedom. It builds a\ndof map based on a FiniteElement on a specific mesh."
+  },
+  "dolfinx.fem.DofMap.cell_dofs": {
+    "embedding_id": "n87",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.DofMap.cell_dofs.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.DofMap.cell_dofs",
+    "sha256": "a19cdb38f71826bff4fb59e4a750885a7e63a800c5ce37457ade3e73e456d1b8",
+    "ranking_description": "Cell local-global dof map"
+  },
+  "dolfinx.fem.ElementMetaData": {
+    "embedding_id": "n95",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.ElementMetaData.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.ElementMetaData",
+    "sha256": "e69d19fcc59c727e076aeea835d0ae971ab990e7d21827026789b236befaa3e6",
+    "ranking_description": "Data for representing a finite element\n\n:param family: Element type.\n:param degree: Polynomial degree of the element.\n:param shape: Shape for vector/tensor valued elements that are\n    constructed from blocked scalar elements (e.g., Lagrange).\n:param symmetry: Symmetry option for blocked tensor elements."
+  },
+  "dolfinx.fem.Expression": {
+    "embedding_id": "n100",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Expression.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Expression",
+    "sha256": "a43080023c3f01f73843cf0a6a9bad067f00bd78b7704807ea6b484e31b0f500",
+    "ranking_description": "Create a DOLFINx Expression.\n\nRepresents a mathematical expression evaluated at a pre-defined\nset of points on the reference cell. This class closely follows\nthe concept of a UFC Expression.\n\nThis functionality can be used to evaluate a gradient of a\nFunction at the quadrature points in all cells. This evaluated\ngradient can then be used as input to a non-FEniCS function that\ncalculates a material constitutive model.\n\nNote:\n    This wrapper is responsible for the FFCx compilation of the\n    UFL Expr and attaching the correct data to the underlying\n    C++ Expression."
+  },
+  "dolfinx.fem.Expression.X": {
+    "embedding_id": "n101",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Expression.X.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Expression.X",
+    "sha256": "c3dd394560e3ea16fb335fedd3733251091627bdf1eb35abb348caddeede7183",
+    "ranking_description": "Evaluation points on the reference cell"
+  },
+  "dolfinx.fem.Expression.eval": {
+    "embedding_id": "n111",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Expression.eval.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Expression.eval",
+    "sha256": "1041475faf0c0632041b21890959626fa9af6745f4018ee9e0711850b1df0aa5",
+    "ranking_description": "Evaluate Expression on entities."
+  },
+  "dolfinx.fem.FiniteElement": {
+    "embedding_id": "n125",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FiniteElement.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FiniteElement",
+    "sha256": "f1f64317bea4be454c921d21490e021aefca5444630a16d908974700efa40a73",
+    "ranking_description": "Creates a Python wrapper for the exported finite element class.\n\nNote:\n    Do not use this constructor directly. Instead use\n    :func:`finiteelement`."
+  },
+  "dolfinx.fem.FiniteElement.T_apply": {
+    "embedding_id": "n126",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FiniteElement.T_apply.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FiniteElement.T_apply",
+    "sha256": "b5c281290d7fe3d2befc62e3d7f651397284e975abf11bf8c4848dffe456f4b4",
+    "ranking_description": "Transform basis functions from the reference element ordering\nand orientation to the globally consistent physical element\nordering and orientation.\n\nNote:\n    Exposed for testing. Function is not vectorised across multiple\n    cells. Please see `basix.numba_helpers` for performant\n    versions."
+  },
+  "dolfinx.fem.FiniteElement.Tt_apply": {
+    "embedding_id": "n131",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FiniteElement.Tt_apply.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FiniteElement.Tt_apply",
+    "sha256": "2f65a7663cf0d187d11f9ffe1b8ca69933d2c67fa66251b0e93e565d6c588df6",
+    "ranking_description": "Apply the transpose of the operator applied by T_apply()."
+  },
+  "dolfinx.fem.FiniteElement.Tt_inv_apply": {
+    "embedding_id": "n133",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FiniteElement.Tt_inv_apply.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FiniteElement.Tt_inv_apply",
+    "sha256": "f7dc341292c47b7439cc988be7356514c2526c6946fbfa28d7a7e702e42e8c87",
+    "ranking_description": "Apply the inverse transpose of the operator applied by\nT_apply()."
+  },
+  "dolfinx.fem.Form": {
+    "embedding_id": "n146",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Form.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Form",
+    "sha256": "75fe023e499856d731e9cfc821c5a721e7da6224459829d8aae8e75b93be86ac",
+    "ranking_description": "A finite element form.\n\nNote:\n    Forms should normally be constructed using :func:`form` and\n    not using this class initialiser. This class is combined\n    with different base classes that depend on the scalar type\n    used in the Form."
+  },
+  "dolfinx.fem.Form.num_integrals": {
+    "embedding_id": "n157",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Form.num_integrals.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Form.num_integrals",
+    "sha256": "fe0df5ee0cbf7f509fb24c693d8f04ebb8254e9a41e46184f02d89edd51fc254",
+    "ranking_description": "Number of integrals of a given type for a specific cell type."
+  },
+  "dolfinx.fem.Function": {
+    "embedding_id": "n163",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Function.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Function",
+    "sha256": "5fec1fbf0219a5ba9bdaf4736e65eaec571e2c8375c1f7adcf613c5da48094d7",
+    "ranking_description": "A finite element function that is represented by a function space\n(domain, element and dofmap) and a vector holding the\ndegrees-of-freedom."
+  },
+  "dolfinx.fem.Function.copy": {
+    "embedding_id": "n169",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Function.copy.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Function.copy",
+    "sha256": "bb0c81aea0029e82804283d67ca29fe3c549b585779f2235eec587591dc7dadf",
+    "ranking_description": "Create a copy of the Function.\n\nThe function space is shared and the degree-of-freedom vector is\ncopied."
+  },
+  "dolfinx.fem.Function.eval": {
+    "embedding_id": "n172",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Function.eval.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Function.eval",
+    "sha256": "3b6a15456d55f77709052068efc9e2bdc5bcdaf3dd03e6e46705045039d0cfe9",
+    "ranking_description": "Evaluate Function at points x.\n\nPoints where x has shape (num_points, 3), and cells has shape\n(num_points,) and cell[i] is the index of the cell containing\npoint x[i]. If the cell index is negative the point is ignored."
+  },
+  "dolfinx.fem.Function.interpolate": {
+    "embedding_id": "n178",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Function.interpolate.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Function.interpolate",
+    "sha256": "66054ef625968b1210cfa05f03c3bb8d40d304bf81125b89239100f16af4c1d3",
+    "ranking_description": "Interpolate an expression."
+  },
+  "dolfinx.fem.Function.interpolate_nonmatching": {
+    "embedding_id": "n183",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Function.interpolate_nonmatching.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Function.interpolate_nonmatching",
+    "sha256": "5719f6bc2376dd2202b2257a902e5be999634bdd9c58a5c275c354ba353b38ae",
+    "ranking_description": "Interpolate a Function defined on one mesh to a function\ndefined on a different mesh."
+  },
+  "dolfinx.fem.Function.split": {
+    "embedding_id": "n189",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Function.split.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Function.split",
+    "sha256": "3b6e177b99cb41cd41cf824729a7bf9c81a9abddb498b897f949fb032d0ccda8",
+    "ranking_description": "Extract (any) sub-functions.\n\nA sub-function can be extracted from a discrete function that is\nin a mixed, vector, or tensor FunctionSpace. The sub-function\nresides in the subspace of the mixed space."
+  },
+  "dolfinx.fem.Function.sub": {
+    "embedding_id": "n191",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.Function.sub.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.Function.sub",
+    "sha256": "f4d8cd796c8c63af9346d35608bbdd025c343745f7d7202aa1b6b19ae5e09694",
+    "ranking_description": "Return a sub-function (a view into the ``Function``).\n\nSub-functions are indexed ``i = 0, ..., N-1``, where ``N`` is\nthe number of sub-spaces.\n\nNote:\n    If the sub-Function is re-used, for performance reasons the\n    returned ``Function`` should be stored by the caller to\n    avoid repeated re-computation of the subspace."
+  },
+  "dolfinx.fem.FunctionSpace": {
+    "embedding_id": "n198",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FunctionSpace.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FunctionSpace",
+    "sha256": "60195bfe2e89fd921e0d9967b0987d15df923f043a2f0c8ad55d0ccc49d615c7",
+    "ranking_description": "A space on which Functions (fields) can be defined."
+  },
+  "dolfinx.fem.FunctionSpace.clone": {
+    "embedding_id": "n201",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FunctionSpace.clone.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FunctionSpace.clone",
+    "sha256": "f7daf93da4fd08a3b5a0f7219e3e140345b48ecd055ce78acbd3a1f99c325803",
+    "ranking_description": "Create a new FunctionSpace :math:`W` which shares data with this\nFunctionSpace :math:`V`, but with a different unique integer ID.\n\nThis function is helpful for defining mixed problems and using\nblocked linear algebra. For example, a matrix block defined on\nthe spaces :math:`V \\times W` where, :math:`V` and :math:`W`\nare defined on the same finite element and mesh can be\nidentified as an off-diagonal block whereas the :math:`V \\times\nV` and :math:`V \\times V` matrices can be identified as\ndiagonal blocks. This is relevant for the handling of boundary\nconditions."
+  },
+  "dolfinx.fem.FunctionSpace.collapse": {
+    "embedding_id": "n203",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FunctionSpace.collapse.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FunctionSpace.collapse",
+    "sha256": "5ce3a124e3e68985998062ed545d2019c342210b09ce4d94407f372d04b69ffc",
+    "ranking_description": "Collapse a subspace and return a new function space and a map\nfrom new to old dofs."
+  },
+  "dolfinx.fem.FunctionSpace.component": {
+    "embedding_id": "n205",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FunctionSpace.component.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FunctionSpace.component",
+    "sha256": "bac48e1a056c35e3499c105f246dc9101157e71dac55a623accb1b1358bbf5b4",
+    "ranking_description": "Return the component relative to the parent space."
+  },
+  "dolfinx.fem.FunctionSpace.contains": {
+    "embedding_id": "n207",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FunctionSpace.contains.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FunctionSpace.contains",
+    "sha256": "ab2ef6aaf9d74301a1956be77cbb98550fbca496ecf108fe7c8d89a25875c285",
+    "ranking_description": "Check if a space is contained in, or is the same as\n(identity), this space."
+  },
+  "dolfinx.fem.FunctionSpace.sub": {
+    "embedding_id": "n217",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FunctionSpace.sub.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FunctionSpace.sub",
+    "sha256": "0b3597b6c233ac552388b6a72c7dcb3026e375dc9dac4e50cb84f63b5e3b0d06",
+    "ranking_description": "Return the i-th sub space.\n\nNote:\n    If the subspace is re-used, for performance reasons the\n    returned subspace should be stored by the caller to avoid\n    repeated re-computation of the subspace."
+  },
+  "dolfinx.fem.FunctionSpace.tabulate_dof_coordinates": {
+    "embedding_id": "n219",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FunctionSpace.tabulate_dof_coordinates.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FunctionSpace.tabulate_dof_coordinates",
+    "sha256": "8b9918d1766984da236c2af917cb86c0696cb4d8d01f5be64a448bb6cd314108",
+    "ranking_description": "Tabulate the coordinates of the degrees-of-freedom in the\nfunction space.\n\nNote:\n    This method is only for elements with point evaluation\n    degrees-of-freedom."
+  },
+  "dolfinx.fem.FunctionSpace.ufl_function_space": {
+    "embedding_id": "n221",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.FunctionSpace.ufl_function_space.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.FunctionSpace.ufl_function_space",
+    "sha256": "51a70690a8bdf19556a9205c720d430733f4950650fdda78bdf5f0ae2ddad5af",
+    "ranking_description": "UFL function space."
+  },
+  "dolfinx.fem.apply_lifting": {
+    "embedding_id": "n223",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.apply_lifting.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.apply_lifting",
+    "sha256": "768d8c5f6d98c8b336122d0e60d446f2c66bd9b3c2a96dbfb4600282311c1855",
+    "ranking_description": "Modify right-hand side vector ``b`` for lifting of Dirichlet\nboundary conditions.\n\nConsider the discrete algebraic system:\n\n.. math::\n\n   \\begin{bmatrix} A_{0} & A_{1} \\end{bmatrix}\n   \\begin{bmatrix}u_{0} \\\\ u_{1}\\end{bmatrix}\n   = b,\n\nwhere :math:`A_{i}` is a matrix. Partitioning each vector\n:math:`u_{i}` into 'unknown' (:math:`u_{i}^{(0)}`) and prescribed\n(:math:`u_{i}^{(1)}`) groups,\n\n.. math::\n\n    \\begin{bmatrix}\n        A_{0}^{(0)} & A_{0}^{(1)} & A_{1}^{(0)} & A_{1}^{(1)}\n    \\end{bmatrix}\n    \\begin{bmatrix}\n        u_{0}^{(0)} \\\\ u_{0}^{(1)} \\\\ u_{1}^{(0)} \\\\ u_{1}^{(1)}\n    \\end{bmatrix}\n    = b.\n\nIf :math:`u_{i}^{(1)} = \\alpha(g_{i} - x_{i})`, where :math:`g_{i}`\nis the Dirichlet boundary condition value, :math:`x_{i}` is provided\nand :math:`\\alpha` is a constant, then\n\n.. math::\n\n    \\begin{bmatrix}\n        A_{0}^{(0)} & A_{0}^{(1)} & A_{1}^{(0)} & A_{1}^{(1)}\n    \\end{bmatrix}\n    \\begin{bmatrix}u_{0}^{(0)} \\\\ \\alpha(g_{0} - x_{0})\n    \\\\ u_{1}^{(0)} \\\\ \\alpha(g_{1} - x_{1})\\end{bmatrix}\n    = b.\n\nRearranging,\n\n.. math::\n\n    \\begin{bmatrix}A_{0}^{(0)} & A_{1}^{(0)}\\end{bmatrix}\n    \\begin{bmatrix}u_{0}^{(0)} \\\\ u_{1}^{(0)}\\end{bmatrix}\n    = b - \\alpha A_{0}^{(1)} (g_{0} - x_{0})\n    - \\alpha A_{1}^{(1)} (g_{1} - x_{1}).\n\nThe modified  :math:`b` vector is\n\n.. math::\n\n    b \\leftarrow b - \\alpha A_{0}^{(1)} (g_{0} - x_{0})\n    - \\alpha A_{1}^{(1)} (g_{1} - x_{1})\n\nMore generally,\n\n.. math::\n    b \\leftarrow b - \\alpha A_{i}^{(1)} (g_{i} - x_{i}).\n\nNote:\n    Ghost contributions are not accumulated (not sent to owner).\n    Caller is responsible for reverse-scatter to update the ghosts.\n\nNote:\n    Boundary condition values are *not* set in ``b`` by this\n    function. Use :func:`dolfinx.fem.DirichletBC.set` to set values\n    in ``b``."
+  },
+  "dolfinx.fem.assemble_matrix": {
+    "embedding_id": "n231",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.assemble_matrix.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.assemble_matrix",
+    "sha256": "c76d31506f4dfa7142a415383f1bbc3f4769b6450badbaf6d75c40517a33cecf",
+    "ranking_description": "Assemble bilinear form into a matrix.\n\nNote:\n    The returned matrix is not finalised, i.e. ghost values are not\n    accumulated."
+  },
+  "dolfinx.fem.assemble_scalar": {
+    "embedding_id": "n240",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.assemble_scalar.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.assemble_scalar",
+    "sha256": "b1c27caaaad1c7a3d63a651cd9736667b3d1932e1cacab8188fb47ead0879976",
+    "ranking_description": "Assemble functional. The returned value is local and not\naccumulated across processes.\n\nNote:\n    Passing `constants` and `coefficients` is a performance\n    optimisation for when a form is assembled multiple times and\n    when (some) constants and coefficients are unchanged.\n\n    To compute the functional value on the whole domain, the output\n    of this function is typically summed across all MPI ranks."
+  },
+  "dolfinx.fem.bcs_by_block": {
+    "embedding_id": "n248",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.bcs_by_block.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.bcs_by_block",
+    "sha256": "8dd28d1bcf54c04f6cfc5d5dd05468fb5776b8e8a91bdf2c6eae240a283b5bf5",
+    "ranking_description": "Arrange Dirichlet boundary conditions by the function space that\nthey constrain.\n\nGiven a sequence of function spaces ``spaces`` and a sequence of\nDirichletBC objects ``bcs``, return a list where the ith entry is\nthe list of DirichletBC objects whose space is contained in\n``space[i]``."
+  },
+  "dolfinx.fem.compile_form": {
+    "embedding_id": "n255",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.compile_form.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.compile_form",
+    "sha256": "d414572c030bde53f697568795b60e209a85bcdb70c86756268264ab27dfaed8",
+    "ranking_description": "Compile UFL form without associated DOLFINx data."
+  },
+  "dolfinx.fem.compute_integration_domains": {
+    "embedding_id": "n259",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.compute_integration_domains.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.compute_integration_domains",
+    "sha256": "6028bc0b58b70d5dd71be08b71c3f730b7c8374cd57b911842a617ef3676474f",
+    "ranking_description": "Given an integral type and a set of entities compute integration\nentities.\n\nThis function returns a list ``[(id, entities)]``. For cell\nintegrals ``entities`` are the cell indices. For exterior facet\nintegrals, ``entities`` is a list of ``(cell_index,\nlocal_facet_index)`` pairs. For interior facet integrals,\n``entities`` is a list of ``(cell_index0, local_facet_index0,\ncell_index1, local_facet_index1)``. ``id`` refers to the subdomain\nid used in the definition of the integration measures of the\nvariational form.\n\nNote:\n    Owned mesh entities only are returned. Ghost entities are not\n    included.\n\nNote:\n    For facet integrals, the topology facet-to-cell and\n    cell-to-facet connectivity must be computed before calling this\n    function."
+  },
+  "dolfinx.fem.coordinate_element": {
+    "embedding_id": "n263",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.coordinate_element.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.coordinate_element",
+    "sha256": "4b01b3927d93501fa2df33024df962022b18062c95ce75a090ef65ef9e6ca2da",
+    "ranking_description": "Create a Lagrange CoordinateElement from element metadata.\n\nCoordinate elements are typically used to create meshes."
+  },
+  "dolfinx.fem.create_dofmaps": {
+    "embedding_id": "n268",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.create_dofmaps.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.create_dofmaps",
+    "sha256": "6cde2ce50ed596d3ea1738d72cf3d52f6ca50a8348d2ce27a20de23fccffabcf",
+    "ranking_description": "Create degree-of-freedom maps on a given topology."
+  },
+  "dolfinx.fem.create_form": {
+    "embedding_id": "n272",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.create_form.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.create_form",
+    "sha256": "becc71bf7f72993c48c073223dc93900cbf53e4cc0aa9cd1d04ab4666ff7f235",
+    "ranking_description": "Create a Form object from a data-independent compiled form.\n\nReturn:\n    A Form object."
+  },
+  "dolfinx.fem.create_interpolation_data": {
+    "embedding_id": "n281",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.create_interpolation_data.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.create_interpolation_data",
+    "sha256": "62619f02efb8751ee371e93297a4f86c1e0dc8bf1677316a8eb832856c33530f",
+    "ranking_description": "Generate data needed to interpolate discrete functions across\ndifferent meshes."
+  },
+  "dolfinx.fem.create_matrix": {
+    "embedding_id": "n286",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.create_matrix.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.create_matrix",
+    "sha256": "643eb025541cbb41446669e8ba78f6a5086a7b682c8e62054636d48a9e2a014a",
+    "ranking_description": "Create a sparse matrix that is compatible with a given bilinear\nform."
+  },
+  "dolfinx.fem.create_sparsity_pattern": {
+    "embedding_id": "n288",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.create_sparsity_pattern.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.create_sparsity_pattern",
+    "sha256": "ebf5b5d7677c9780181b07d1259bdbab1e8c51a27c4b5a335cd3505a606b431c",
+    "ranking_description": "Create a sparsity pattern from a bilinear form.\n\nNote:\n    The pattern is not finalised, i.e. the caller is responsible for\n    calling ``assemble`` on the sparsity pattern."
+  },
+  "dolfinx.fem.create_vector": {
+    "embedding_id": "n290",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.create_vector.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.create_vector",
+    "sha256": "c4ce08650be53806b8de1be81727964a6b79b56f71a9f71be11c12dd36487b9f",
+    "ranking_description": "Create a Vector that is compatible with the given function space."
+  },
+  "dolfinx.fem.dirichletbc": {
+    "embedding_id": "n292",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.dirichletbc.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.dirichletbc",
+    "sha256": "d1206fd21c0c5a94b148466449711096fd5d33c5ba5bf5326cedb4833fe7f14d",
+    "ranking_description": "Create a representation of Dirichlet boundary condition which\nis imposed on a linear system."
+  },
+  "dolfinx.fem.discrete_curl": {
+    "embedding_id": "n297",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.discrete_curl.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.discrete_curl",
+    "sha256": "2fc5e7cc45e4e3d9b2610f7f23131dd3a56a5b70c5208726dabb25264076ac86",
+    "ranking_description": "Assemble a discrete curl operator.\n\nThe discrete curl operator interpolates the curl of H(curl) finite\nelement function into a H(div) space."
+  },
+  "dolfinx.fem.discrete_gradient": {
+    "embedding_id": "n301",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.discrete_gradient.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.discrete_gradient",
+    "sha256": "45055cf1a8cec8a778ed04ab1202428140be560f02e792dbe9ed2a63e76e86e6",
+    "ranking_description": "Assemble a discrete gradient operator.\n\nThe discrete gradient operator interpolates the gradient of a H1\nfinite element function into a H(curl) space. It is assumed that the\nH1 space uses an identity map and the H(curl) space uses a covariant\nPiola map."
+  },
+  "dolfinx.fem.extract_function_spaces": {
+    "embedding_id": "n305",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.extract_function_spaces.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.extract_function_spaces",
+    "sha256": "5395abd9d04222158ebf48c4f1d3ccd2731c7fdfd8f1e5183c01d5009c05d0b7",
+    "ranking_description": "Extract common function spaces from an array of forms.\n\nIf ``forms`` is a list of linear forms, this function returns of list\nof the corresponding test function spaces. If ``forms`` is a 2D\narray of bilinear forms, for ``index=0`` the list of common test\nfunction spaces for each row is returned, and if ``index=1`` the\ncommon trial function spaces for each column are returned."
+  },
+  "dolfinx.fem.finiteelement": {
+    "embedding_id": "n309",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.finiteelement.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.finiteelement",
+    "sha256": "77a027ee76c9acd4284da730e167aa95ba84ec44b0153c79617f0c565d357e9f",
+    "ranking_description": "Create a DOLFINx element from a basix.ufl element."
+  },
+  "dolfinx.fem.form": {
+    "embedding_id": "n314",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.form.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.form",
+    "sha256": "3bb86a06aa11eab747c170dfb321fc2943febf5d13c331bf00ecba3063d083b0",
+    "ranking_description": "Create a Form or list of Forms.\n\nNote:\n    This function is responsible for the compilation of a UFL form\n    (using FFCx) and attaching coefficients and domains specific\n    data to the underlying C++ form. It dynamically create a\n    :class:`Form` instance with an appropriate base class for the\n    scalar type, e.g. :func:`_cpp.fem.Form_float64`."
+  },
+  "dolfinx.fem.form_cpp_class": {
+    "embedding_id": "n317",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.form_cpp_class.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.form_cpp_class",
+    "sha256": "11ae02ec44d16b55524bb1c9ecc7f8869c91526be53fe329cee515804f1c3b7d",
+    "ranking_description": "Return the wrapped C++ class of a variational form of a specific\nscalar type.\n\nNote:\n    This function is for advanced usage, typically when writing\n    custom kernels using Numba or C."
+  },
+  "dolfinx.fem.functionspace": {
+    "embedding_id": "n336",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.functionspace.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.functionspace",
+    "sha256": "7684941370f79564a5ac9c49a9088dfe19a1aa7dd75e703eec9058e36d04e73e",
+    "ranking_description": "Create a finite element function space."
+  },
+  "dolfinx.fem.locate_dofs_geometrical": {
+    "embedding_id": "n341",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.locate_dofs_geometrical.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.locate_dofs_geometrical",
+    "sha256": "407a36a6bb8d09ae60e6fe6729db0881e8c3fd528e1f231b292d4875e2af8bb2",
+    "ranking_description": "Locate degrees-of-freedom geometrically using a marker function."
+  },
+  "dolfinx.fem.locate_dofs_topological": {
+    "embedding_id": "n345",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.locate_dofs_topological.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.locate_dofs_topological",
+    "sha256": "824585a462563c53cfd6eea1a8dd2fd579b3d60db7e0e80e44c4cdfc71097424",
+    "ranking_description": "Locate degrees-of-freedom belonging to mesh entities topologically."
+  },
+  "dolfinx.fem.mixed_topology_form": {
+    "embedding_id": "n350",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.mixed_topology_form.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.mixed_topology_form",
+    "sha256": "784c75134dc10c455dd974b7672da113562f835dc9677fec59492ded63ed6e7f",
+    "ranking_description": "Create a mixed-topology from from an array of Forms.\n\n# FIXME: This function is a temporary hack for mixed-topology\nmeshes. # It is needed because UFL does not know about\nmixed-topology meshes, # so we need to pass a list of forms for each\ncell type."
+  },
+  "dolfinx.fem.pack_coefficients": {
+    "embedding_id": "n353",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.pack_coefficients.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.pack_coefficients",
+    "sha256": "b2fe73a6f526ca50175b49afce7233176c91aadaa98a304cd258dc10546ef23e",
+    "ranking_description": "Pack form coefficients for use in assembly.\n\nPack the ``coefficients`` that appear in forms. The packed\ncoefficients can be passed to an assembler. This is a performance\noptimisation for cases where a form is assembled multiple times and\n(some) coefficients do not change.\n\nIf ``form`` is an array of forms, this function returns an array of\nform coefficients with the same shape as ``form``."
+  },
+  "dolfinx.fem.pack_constants": {
+    "embedding_id": "n356",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem/dolfinx.fem.pack_constants.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html#dolfinx.fem.pack_constants",
+    "sha256": "134e2f6de2c0eee5f01da6a63ff46ee2f3c107540a287405fb58a999e38ea440",
+    "ranking_description": "Pack form constants for use in assembly.\n\nPack the 'constants' that appear in forms. The packed constants can\nthen be passed to an assembler. This is a performance optimisation\nfor cases where a form is assembled multiple times and (some)\nconstants do not change.\n\nIf ``form`` is a sequence of forms, this function returns an array\nof form constants with the same shape as ``form``."
+  },
+  "dolfinx.fem.petsc.LinearProblem": {
+    "embedding_id": "n358",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.LinearProblem.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.LinearProblem",
+    "sha256": "1ca603110a74b493cd03f803253d72f5c1969f8dfbe8e9528d4d5ba35e905c1a",
+    "ranking_description": "High-level class for solving a linear variational problem using\na PETSc KSP.\n\nSolves problems of the form\n:math:`a_{ij}(u, v) = f_i(v), i,j=0,\\ldots,N\\\n\\forall v \\in V` where\n:math:`u=(u_0,\\ldots,u_N), v=(v_0,\\ldots,v_N)`\nusing PETSc KSP as the linear solver.\n\nNote:\n    This high-level class automatically handles PETSc memory\n    management. The user does not need to manually call\n    ``.destroy()`` on returned PETSc objects."
+  },
+  "dolfinx.fem.petsc.LinearProblem.solve": {
+    "embedding_id": "n376",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.LinearProblem.solve.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.LinearProblem.solve",
+    "sha256": "9d2f84ebd400b87da00cf1aec8d370fac5afb4e6783b0944a6a2bc2adfb390d6",
+    "ranking_description": "Solve the problem.\n\nThis method updates the solution ``u`` function(s) stored in the\nproblem instance.\n\nNote:\n    The user is responsible for asserting convergence of the KSP\n    solver e.g. ``problem.solver.getConvergedReason() > 0``.\n    Alternatively, pass ``\"ksp_error_if_not_converged\" : True`` in\n    ``petsc_options`` to raise a ``PETScError`` on failure."
+  },
+  "dolfinx.fem.petsc.NonlinearProblem": {
+    "embedding_id": "n388",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.NonlinearProblem.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.NonlinearProblem",
+    "sha256": "8f9509fa45ad5f7d1acd546314a9bf2b892729b1d5c069410434661478b2aff8",
+    "ranking_description": "High-level class for solving nonlinear variational problems\nwith PETSc SNES.\n\nSolves problems of the form\n:math:`F_i(u, v) = 0, i=0,\\ldots,N\\ \\forall v \\in V` where\n:math:`u=(u_0,\\ldots,u_N), v=(v_0,\\ldots,v_N)` using PETSc\nSNES as the non-linear solver.\n\nNote:\n    The deprecated version of this class for use with\n    :class:`dolfinx.nls.petsc.NewtonSolver` has been renamed\n    :class:`dolfinx.fem.petsc.NewtonSolverNonlinearProblem`.\n\nNote:\n    This high-level class automatically handles PETSc memory\n    management. The user does not need to manually call\n    ``.destroy()`` on returned PETSc objects."
+  },
+  "dolfinx.fem.petsc.NonlinearProblem.solve": {
+    "embedding_id": "n404",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.NonlinearProblem.solve.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.NonlinearProblem.solve",
+    "sha256": "596fcae4a3cb3eae682d62637d279fd0a5a631f35374167a1051f373e1603176",
+    "ranking_description": "Solve the problem.\n\nThis method updates the solution ``u`` function(s) stored in the\nproblem instance.\n\nNote:\n    The user is responsible for asserting convergence of the SNES\n    solver e.g. ``assert problem.solver.getConvergedReason() > 0``.\n    Alternatively, pass ``\"snes_error_if_not_converged\": True`` and\n    ``\"ksp_error_if_not_converged\" : True`` in ``petsc_options`` to\n    raise a ``PETScError`` on failure."
+  },
+  "dolfinx.fem.petsc.apply_lifting": {
+    "embedding_id": "n410",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.apply_lifting.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.apply_lifting",
+    "sha256": "d45f178e2356d258c243692ba36810013d40572c88753bfd7e242fa9e5cfc168",
+    "ranking_description": "Modify the right-hand side PETSc vector ``b`` to account for\nconstraints (Dirichlet boundary conitions).\n\nSee :func:`dolfinx.fem.apply_lifting` for a mathematical\ndescriptions of the lifting operation.\n\nNote:\n    Ghost contributions are not accumulated (not sent to owner).\n    Caller is responsible for reverse-scatter to update the ghosts.\n\nNote:\n    Boundary condition values are *not* set in ``b`` by this\n    function. Use :func:`dolfinx.fem.DirichletBC.set` to set values\n    in ``b``."
+  },
+  "dolfinx.fem.petsc.assemble_jacobian": {
+    "embedding_id": "n418",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.assemble_jacobian.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.assemble_jacobian",
+    "sha256": "6739ea06d14fe8fc9a2c8904cf5260a1117144c50da6c49da6efd24108f2e70b",
+    "ranking_description": "Assemble the Jacobian and preconditioner matrices at ``x``\ninto ``J`` and ``P_mat``.\n\nA function conforming to the interface expected by ``SNES.setJacobian``\ncan be created by fixing the first four arguments e.g.:\n\nExample::\n\n    snes = PETSc.SNES().create(mesh.comm)\n    assemble_jacobian = functools.partial(\n        dolfinx.fem.petsc.assemble_jacobian,\n        u, jacobian, preconditioner, bcs)\n    snes.setJacobian(assemble_jacobian, A, P_mat)"
+  },
+  "dolfinx.fem.petsc.assemble_matrix": {
+    "embedding_id": "n427",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.assemble_matrix.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.assemble_matrix",
+    "sha256": "69e79a844d9b2d8ac351c675010538e9a8f71a15b5aca12d3e12403e7e8c1861",
+    "ranking_description": "Assemble a bilinear form into a matrix.\n\nThe following cases are supported:\n\n1. If ``a`` is a single bilinear form, the form is assembled\n   into PETSc matrix of type ``kind``.\n#. If ``a`` is a :math:`m \\times n` rectangular array of forms the\n   forms in ``a`` are assembled into a matrix such that::\n\n        A = [A_00 ... A_0n]\n            [A_10 ... A_1n]\n            [     ...     ]\n            [A_m0 ..  A_mn]\n\n   where ``A_ij`` is the matrix associated with the form\n   ``a[i][j]``.\n\n   a. If ``kind`` is a ``PETSc.Mat.Type`` (other than\n      ``PETSc.Mat.Type.NEST``) or is ``None``, the matrix type is\n      ``kind`` of the default type (if ``kind`` is ``None``).\n   #. If ``kind`` is ``PETSc.Mat.Type.NEST`` or a rectangular array\n      of PETSc matrix types, the returned matrix has type\n      ``PETSc.Mat.Type.NEST``.\n\nRows/columns that are constrained by a Dirichlet boundary condition\nare zeroed, with the diagonal to set to ``diag``.\n\nConstant and coefficient data that appear in the forms(s) can be\npacked outside of this function to avoid re-packing by this\nfunction. The functions :func:`dolfinx.fem.pack_constants` and\n:func:`dolfinx.fem.pack_coefficients` can be used to 'pre-pack' the\ndata.\n\nNote:\n    The returned matrix is not 'assembled', i.e. ghost contributions\n    are not accumulated."
+  },
+  "dolfinx.fem.petsc.assemble_residual": {
+    "embedding_id": "n435",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.assemble_residual.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.assemble_residual",
+    "sha256": "29ad81bed4c3622b7d17b6d5d15d13f7996f50a12a0ab0b8c9d0da2ee96bd006",
+    "ranking_description": "Assemble the residual at ``x`` into the vector ``b``.\n\nA function conforming to the interface expected by ``SNES.setFunction``\ncan be created by fixing the first four arguments, e.g.:\n\nExample::\n\n    snes = PETSc.SNES().create(mesh.comm)\n    assemble_residual = functools.partial(\n        dolfinx.fem.petsc.assemble_residual,\n        u, residual, jacobian, bcs)\n    snes.setFunction(assemble_residual, x, b)"
+  },
+  "dolfinx.fem.petsc.assemble_vector": {
+    "embedding_id": "n438",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.assemble_vector.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.assemble_vector",
+    "sha256": "4102534b6565185e00d0168149cfb03d3c4cbe0f220cc218e0ee5ee821b6b18b",
+    "ranking_description": "Assemble linear form(s) into a new PETSc vector.\n\nThree cases are supported:\n\n1. If ``L`` is a single linear form, the form is assembled into a\n   ghosted PETSc vector.\n\n2. If ``L`` is a sequence of linear forms and ``kind`` is ``None``\n   or is ``PETSc.Vec.Type.MPI``, the forms are assembled into a\n   vector ``b`` such that ``b = [b_0, b_1, ..., b_n, b_0g, b_1g,\n   ..., b_ng]`` where ``b_i`` are the entries associated with the\n   'owned' degrees-of-freedom for ``L[i]`` and ``b_ig`` are the\n   'unowned' (ghost) entries for ``L[i]``.\n\n   For this case, the returned vector has an attribute ``_blocks``\n   that holds the local offsets into ``b`` for the (i) owned and\n   (ii) ghost entries for each ``L[i]``. See :func:`create_vector`\n   for a description of the offset blocks.\n\n3. If ``L`` is a sequence of linear forms and ``kind`` is\n   ``PETSc.Vec.Type.NEST``, the forms are assembled into a PETSc\n   nested vector ``b`` (a nest of ghosted PETSc vectors) such that\n   ``L[i]`` is assembled into into the ith nested matrix in ``b``.\n\nConstant and coefficient data that appear in the forms(s) can be\npacked outside of this function to avoid re-packing by this\nfunction. The functions :func:`dolfinx.fem.pack_constants` and\n:func:`dolfinx.fem.pack_coefficients` can be used to 'pre-pack' the\ndata.\n\nNote:\n    The returned vector is not finalised, i.e. ghost values are not\n    accumulated on the owning processes."
+  },
+  "dolfinx.fem.petsc.assign": {
+    "embedding_id": "n444",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.assign.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.assign",
+    "sha256": "788b560f27db69b1e3ea93fa5160a85ace24f8b453f073ffeea665e8659c49ec",
+    "ranking_description": "Assign :class:`Function` degrees-of-freedom to a vector.\n\nAssigns degree-of-freedom values in ``u``, which is possibly a\nsequence of ``Function``s, to ``x``. When ``u`` is a sequence of\n``Function``s, degrees-of-freedom for the ``Function``s in ``u`` are\n'stacked' and assigned to ``x``. See :func:`assign` for\ndocumentation on how stacked assignment is handled."
+  },
+  "dolfinx.fem.petsc.cffi_utils": {
+    "embedding_id": "n447",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.cffi_utils.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.cffi_utils",
+    "sha256": "f9e6cc29ba99ab7a9e5f510f24db1f282acbe0d111801116250f2ddb911ff8cb",
+    "ranking_description": "Utility attributes for working with CFFI (ABI mode) and Numba.\n\nRegisters Numba's complex types with CFFI.\n\nIf PETSc is available, CFFI convenience functions for calling PETSc C\nfunctions are also created. These are typically called from within\nNumba functions.\n\nNote:\n    `CFFI <https://cffi.readthedocs.io/>`_ and  `Numba\n    <https://numba.pydata.org/>`_ must be available to use these\n    utilities.\n\nExamples:\n    A typical use of these utility functions is::\n\n        import numpy as np\n        import numpy.typing as npt\n        def set_vals(A: int,\n                     m: int, rows: npt.NDArray[PETSc.IntType],\n                     n: int, cols: npt.NDArray[PETSc.IntType],\n                     data: npt.NDArray[PETSc.ScalarType], mode: int):\n            MatSetValuesLocal(A, m, ffi.from_buffer(rows), n,\n                              ffi.from_buffer(cols),\n                              ffi.from_buffer(rows(data), mode)"
+  },
+  "dolfinx.fem.petsc.create_matrix": {
+    "embedding_id": "n448",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.create_matrix.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.create_matrix",
+    "sha256": "b789c5a33febe1176a83b76c25dcd4a343123f32926c06f30f090557fa9421c4",
+    "ranking_description": "Create a PETSc matrix that is compatible with the (sequence) of\nbilinear form(s).\n\nThree cases are supported:\n\n1. For a single bilinear form, it creates a compatible PETSc matrix\n   of type ``kind``.\n2. For a rectangular array of bilinear forms, if ``kind`` is\n   ``PETSc.Mat.Type.NEST`` or ``kind`` is an array of PETSc ``Mat``\n   types (with the same shape as ``a``), a matrix of type\n   ``PETSc.Mat.Type.NEST`` is created. The matrix is compatible\n   with the forms ``a``.\n3. For a rectangular array of bilinear forms, it create a single\n   (non-nested) matrix of type ``kind`` that is compatible with the\n   array of for forms ``a``. If ``kind`` is ``None``, then the\n   matrix is the default type.\n\n   In this case, the matrix is arranged::\n\n         A = [a_00 ... a_0n]\n             [a_10 ... a_1n]\n             [     ...     ]\n             [a_m0 ..  a_mn]"
+  },
+  "dolfinx.fem.petsc.create_vector": {
+    "embedding_id": "n450",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.create_vector.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.create_vector",
+    "sha256": "7371fbb853bda6c24b5750e131c39e0a29ca46d9bafc0a9209ebe4d43e8f2c2d",
+    "ranking_description": "Create a PETSc vector that is compatible with a linear form(s)\nor functionspace(s).\nThree cases are supported:\n\n1. For a single space ``V``, if ``kind`` is ``None`` or is\n   ``PETSc.Vec.Type.MPI``, a ghosted PETSc vector which is compatible\n   with ``V`` is created.\n\n2. If ``V`` is a sequence of functionspaces and ``kind`` is ``None`` or\n   is ``PETSc.Vec.Type.MPI``, a ghosted PETSc vector which is\n   compatible with ``V`` is created. The created vector ``b``\n   is initialized such that on each MPI process ``b = [b_0, b_1, ...,\n   b_n, b_0g, b_1g, ..., b_ng]``, where ``b_i`` are the entries\n   associated with the 'owned' degrees-of-freedom for ``V[i]`` and\n   ``b_ig`` are the 'unowned' (ghost) entries for ``V[i]``.\n\n   For this case, the returned vector has an attribute ``_blocks``\n   that holds the local offsets into ``b`` for the (i) owned and\n   (ii) ghost entries for each ``V_i``. It can be accessed by\n   ``b.getAttr(\"_blocks\")``. The offsets can be used to get views\n   into ``b`` for blocks, e.g.::\n\n       >>> offsets0, offsets1, = b.getAttr(\"_blocks\")\n       >>> offsets0\n       (0, 12, 28)\n       >>> offsets1\n       (28, 32, 35)\n       >>> b0_owned = b.array[offsets0[0]:offsets0[1]]\n       >>> b0_ghost = b.array[offsets1[0]:offsets1[1]]\n       >>> b1_owned = b.array[offsets0[1]:offsets0[2]]\n       >>> b1_ghost = b.array[offsets1[1]:offsets1[2]]\n\n3. If ``L/V`` is a sequence of linear forms/functionspaces and ``kind``\n   is ``PETSc.Vec.Type.NEST``, a PETSc nested vector (a 'nest' of\n   ghosted PETSc vectors) which is compatible with ``L/V`` is created."
+  },
+  "dolfinx.fem.petsc.ctypes_utils": {
+    "embedding_id": "n453",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.ctypes_utils.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.ctypes_utils",
+    "sha256": "ed3bd9167dbf360c50421ad8bb855cb9224081b2b26b74de2c8837dcc50f3bf1",
+    "ranking_description": "Utility attributes for working with ctypes and PETSc.\n\nThese attributes are convenience functions for calling PETSc C\nfunctions, typically from within Numba functions.\n\nExamples:\n    A typical use of these utility functions is::\n\n        import numpy as np\n        import numpy.typing as npt\n        def set_vals(A: int,\n                     m: int, rows: npt.NDArray[PETSc.IntType],\n                     n: int, cols: npt.NDArray[PETSc.IntType],\n                     data: npt.NDArray[PETSc.ScalarTYpe], mode: int):\n            MatSetValuesLocal(A, m, rows.ctypes, n, cols.ctypes,\n                              data.ctypes, mode)"
+  },
+  "dolfinx.fem.petsc.discrete_curl": {
+    "embedding_id": "n454",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.discrete_curl.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.discrete_curl",
+    "sha256": "a890c0cad5bc4548503ace0ffcd7e145118868741692baf1f1cc2e1547741fcb",
+    "ranking_description": "Assemble a discrete curl operator."
+  },
+  "dolfinx.fem.petsc.discrete_gradient": {
+    "embedding_id": "n456",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.discrete_gradient.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.discrete_gradient",
+    "sha256": "4bfa4011db9a4253777909296bea6482db02d694a86eb5a44e6eea371fcf8aea",
+    "ranking_description": "Assemble a discrete gradient operator.\n\nThe discrete gradient operator interpolates the gradient of a H1\nfinite element function into a H(curl) space. It is assumed that the\nH1 space uses an identity map and the H(curl) space uses a covariant\nPiola map."
+  },
+  "dolfinx.fem.petsc.interpolation_matrix": {
+    "embedding_id": "n460",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.interpolation_matrix.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.interpolation_matrix",
+    "sha256": "58b77e11a2945d01f67a6481005c8ec5751ae57fd7ab30193f75f84477f80900",
+    "ranking_description": "Assemble an interpolation operator matrix for discreye\ninterpolation between finite element spaces.\n\nConsider is the vector of degrees-of-freedom  :math:`u_{i}`\nassociated with a function in :math:`V_{i}`. This function returns\nthe matrix :math:`\\Pi` sucht that\n\n.. math::\n\n    u_{1} = \\Pi u_{0}.\n\nNote:\n    The returned matrix is not finalised, i.e. ghost values are not\n    accumulated."
+  },
+  "dolfinx.fem.petsc.numba_utils": {
+    "embedding_id": "n462",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.numba_utils.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.numba_utils",
+    "sha256": "2c7214e332747656470d284b30b056e7fb64e4ee51858243cc265ad64717ec60",
+    "ranking_description": "Utility attributes for working with Numba and PETSc.\n\nThese attributes are convenience functions for calling PETSc C\nfunctions from within Numba functions.\n\nNote:\n    `Numba <https://numba.pydata.org/>`_ must be available\n    to use these utilities.\n\nExamples:\n    A typical use of these utility functions is::\n\n        import numpy as np\n        import numpy.typing as npt\n        def set_vals(A: int,\n                     m: int, rows: npt.NDArray[PETSc.IntType],\n                     n: int, cols: npt.NDArray[PETSc.IntType],\n                     data: npt.NDArray[PETSc.ScalarTYpe], mode: int):\n            MatSetValuesLocal(A, m, rows.ctypes, n, cols.ctypes,\n                              data.ctypes, mode)"
+  },
+  "dolfinx.fem.petsc.set_bc": {
+    "embedding_id": "n463",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.fem.petsc/dolfinx.fem.petsc.set_bc.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html#dolfinx.fem.petsc.set_bc",
+    "sha256": "c07f9a306d0e61db4858f4ff9933df77b353ff3cf796fa1c9535a4b69a153eef",
+    "ranking_description": "Set constraint (Dirchlet boundary condition) values in an vector.\n\nFor degrees-of-freedoms that are constrained by a Dirichlet boundary\ncondition, this function sets that degrees-of-freedom to ``alpha *\n(g - x0)``, where ``g`` is the boundary condition value.\n\nOnly owned entries in ``b`` (owned by the MPI process) are modified\nby this function."
+  },
+  "dolfinx.io.gmsh.MeshData": {
+    "embedding_id": "n467",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.io.gmsh/dolfinx.io.gmsh.MeshData.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html#dolfinx.io.gmsh.MeshData",
+    "sha256": "a2896959e830d4b3f7bab0122b197ab60b6c4932a647ce909c382a7750b732b5",
+    "ranking_description": "Data for representing a mesh and associated tags."
+  },
+  "dolfinx.io.gmsh.PhysicalGroup": {
+    "embedding_id": "n474",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.io.gmsh/dolfinx.io.gmsh.PhysicalGroup.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html#dolfinx.io.gmsh.PhysicalGroup",
+    "sha256": "8d16bd9faa5d58c782f44949b8d9617c83483feff78ca650e7fee3df97ad0831",
+    "ranking_description": "Physical group info."
+  },
+  "dolfinx.io.gmsh.TopologyDict": {
+    "embedding_id": "n477",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.io.gmsh/dolfinx.io.gmsh.TopologyDict.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html#dolfinx.io.gmsh.TopologyDict",
+    "sha256": "19a6356daf41b6752958168f005cc47c559cd06b3e5aa6d110e8c7cda3159b60",
+    "ranking_description": "TopologyDict is a TypedDict for storing the topology of the marked\ncell.\n\nNote:\n    The TypedDict is only used for type hinting, and does not\n    enforce the structure of the dictionary, but rather provides\n    a hint to the user and the type checker."
+  },
+  "dolfinx.io.gmsh.cell_perm_array": {
+    "embedding_id": "n481",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.io.gmsh/dolfinx.io.gmsh.cell_perm_array.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html#dolfinx.io.gmsh.cell_perm_array",
+    "sha256": "3dc9123053284d33c1618a206bd686bc5782a925c87574b2c94c9139344953a6",
+    "ranking_description": "The permutation array for permuting Gmsh ordering to DOLFINx\nordering."
+  },
+  "dolfinx.io.gmsh.extract_geometry": {
+    "embedding_id": "n485",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.io.gmsh/dolfinx.io.gmsh.extract_geometry.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html#dolfinx.io.gmsh.extract_geometry",
+    "sha256": "bdcd3c4722ffd8264a494e03a355d05e475ab30ad33e38188787176cfc8aec53",
+    "ranking_description": "Extract the mesh geometry from a Gmsh model.\n\nReturns an array of shape ``(num_nodes, 3)``, where the i-th row\ncorresponds to the i-th node in the mesh."
+  },
+  "dolfinx.io.gmsh.extract_topology_and_markers": {
+    "embedding_id": "n488",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.io.gmsh/dolfinx.io.gmsh.extract_topology_and_markers.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html#dolfinx.io.gmsh.extract_topology_and_markers",
+    "sha256": "2905376017d1201548df4c3710310a9b7f14cbaa7f412fcabb526da7738bf46d",
+    "ranking_description": "Extract all entities tagged with a physical marker in the gmsh\nmodel.\n\nReturns a nested dictionary where the first key is the gmsh MSH\nelement type integer. Each element type present in the model\ncontains the cell topology of the elements and corresponding\nmarkers."
+  },
+  "dolfinx.io.gmsh.model_to_mesh": {
+    "embedding_id": "n491",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.io.gmsh/dolfinx.io.gmsh.model_to_mesh.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html#dolfinx.io.gmsh.model_to_mesh",
+    "sha256": "97ffcefc34e4ef1a42ce8c3bfc73e39de2f93405767710bbd88bc3674b2c18cc",
+    "ranking_description": "Create a Mesh from a Gmsh model.\n\nCreates a :class:`dolfinx.mesh.Mesh` from the physical entities of\nthe highest topological dimension in the Gmsh model. In parallel,\nthe gmsh model is processed on one MPI rank, and the\n:class:`dolfinx.mesh.Mesh` is distributed across ranks.\n\nNote:\n    For performance, this function should only be called once for\n    large problems. For reuse, it is recommended to save the mesh\n    and corresponding tags using :class:`dolfinx.io.XDMFFile` after\n    creation for efficient access."
+  },
+  "dolfinx.io.gmsh.read_from_msh": {
+    "embedding_id": "n498",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.io.gmsh/dolfinx.io.gmsh.read_from_msh.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html#dolfinx.io.gmsh.read_from_msh",
+    "sha256": "c2fb59e7877e180cb131aef67d1b9dd657b2a2fb114488c0e204ba458a8607c2",
+    "ranking_description": "Read a Gmsh .msh file and return a :class:`dolfinx.mesh.Mesh` and\ncell facet markers.\n\nNote:\n    This function requires the Gmsh Python module."
+  },
+  "dolfinx.io.gmsh.ufl_mesh": {
+    "embedding_id": "n502",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.io.gmsh/dolfinx.io.gmsh.ufl_mesh.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html#dolfinx.io.gmsh.ufl_mesh",
+    "sha256": "8e4c6d35f54e3f74545ce01d66c65f0678a837153f9fa41f851ea2f823063c83",
+    "ranking_description": "Create a UFL mesh from a Gmsh cell identifier and geometric\ndimension.\n\nSee https://gmsh.info//doc/texinfo/gmsh.html#MSH-file-format."
+  },
+  "dolfinx.mesh.EntityMap": {
+    "embedding_id": "n505",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.EntityMap.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.EntityMap",
+    "sha256": "0449adb8c97944ebf606e614e171c9fe0ff789539d9a2054a21bd4d9302f6d65",
+    "ranking_description": "A bidirectional map that relates entities in two different\ntopologies."
+  },
+  "dolfinx.mesh.EntityMap.sub_topology_to_topology": {
+    "embedding_id": "n511",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.EntityMap.sub_topology_to_topology.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.EntityMap.sub_topology_to_topology",
+    "sha256": "d309e84d7d5ccc1d6568bc35c5761c7661424a4b1f36c6feb757aa356b081ed6",
+    "ranking_description": "Map entities between the sub-topology and the parent topology.\n\nIf `inverse` is False, this function maps a list of\n`self.dim()`-dimensional entities from `self.sub_topology()` to\nthe corresponding entities in `self.topology()`. If `inverse` is\nTrue, it performs the inverse mapping from `self.topology()` to\n`self.sub_topology()`. Entities that do not exist in the\nsub-topology are marked as -1.\n\nNote:\n    If `inverse` is `True`, this function recomputes the inverse\n    map on every call (it is not cached), which may be expensive\n    if called repeatedly."
+  },
+  "dolfinx.mesh.Geometry": {
+    "embedding_id": "n517",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Geometry.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Geometry",
+    "sha256": "bd6504e8c1d0317ed297751d3c7727f0daf7cde84bf998a7c79ea610b34b2e1b",
+    "ranking_description": "The geometry of a :class:`dolfinx.mesh.Mesh`"
+  },
+  "dolfinx.mesh.Geometry.index_map": {
+    "embedding_id": "n522",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Geometry.index_map.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Geometry.index_map",
+    "sha256": "acc5120627120f910f30c4d3e51da263bbeab35a153c12d6bd6ebff528a0dee0",
+    "ranking_description": "Index map describing the layout of the geometry points\n(nodes)."
+  },
+  "dolfinx.mesh.Mesh": {
+    "embedding_id": "n527",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Mesh.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Mesh",
+    "sha256": "712b0203ef6db1a38a768a01e902ff5ad325a6e2072fa7a9f0235a8b9a14d83a",
+    "ranking_description": "A mesh."
+  },
+  "dolfinx.mesh.Mesh.basix_cell": {
+    "embedding_id": "n533",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Mesh.basix_cell.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Mesh.basix_cell",
+    "sha256": "adac37152e70c357e6c44aa1b35e265d47500feb98c17eae10b2716e28f3f5e6",
+    "ranking_description": "Return the Basix cell type."
+  },
+  "dolfinx.mesh.Mesh.h": {
+    "embedding_id": "n537",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Mesh.h.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Mesh.h",
+    "sha256": "1cbd04ed729563d13ee14a6c0ed0a29f03575cb33556defe5f944d95e99d78cd",
+    "ranking_description": "Geometric size measure of cell entities."
+  },
+  "dolfinx.mesh.Mesh.ufl_cell": {
+    "embedding_id": "n541",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Mesh.ufl_cell.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Mesh.ufl_cell",
+    "sha256": "da21cbe9b13a6b235908de440eabc619c25c669762112546e52eeb8473833b0d",
+    "ranking_description": "Return the UFL cell type.\n\nNote:\n    This method is required for UFL compatibility."
+  },
+  "dolfinx.mesh.Mesh.ufl_domain": {
+    "embedding_id": "n543",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Mesh.ufl_domain.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Mesh.ufl_domain",
+    "sha256": "1f55ae17e6caaf604d2323fe46f69ea6592db42ada5bf54c0127c22f06f079fa",
+    "ranking_description": "Return the ufl domain corresponding to the mesh.\n\nNote:\n    This method is required for UFL compatibility."
+  },
+  "dolfinx.mesh.MeshTags": {
+    "embedding_id": "n547",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.MeshTags.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.MeshTags",
+    "sha256": "e76498a5bd3f28da7d77e9a233c5289c6a119ba62134b1f96a80777d0bfaf0d2",
+    "ranking_description": "Mesh tags associate data (markers) with a subset of mesh entities of\na given dimension."
+  },
+  "dolfinx.mesh.MeshTags.find": {
+    "embedding_id": "n550",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.MeshTags.find.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.MeshTags.find",
+    "sha256": "1b6dc2e9718a7cc19364cfdc7e60c312271f8b2621422f22978ec5641da9ed3a",
+    "ranking_description": "Get a list of all entity indices with a given value."
+  },
+  "dolfinx.mesh.MeshTags.ufl_id": {
+    "embedding_id": "n556",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.MeshTags.ufl_id.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.MeshTags.ufl_id",
+    "sha256": "890b001060a1a7717e13405e4af1795cab6a84f33e6bc97f65dcc123a136645a",
+    "ranking_description": "Identiftying integer used by UFL."
+  },
+  "dolfinx.mesh.Topology": {
+    "embedding_id": "n560",
+    "kind": "class",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology",
+    "sha256": "9a31c6cd1b44662ad34e5c67da513484828b69b8c3b486467fde07d995e0e79b",
+    "ranking_description": "Topology for a :class:`dolfinx.mesh.Mesh`"
+  },
+  "dolfinx.mesh.Topology.cell_name": {
+    "embedding_id": "n562",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.cell_name.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology.cell_name",
+    "sha256": "c944854bfc146da3ccb92d42007caf675ba1e981d9aa039f3329eee752209c1f",
+    "ranking_description": "String representation of the cell-type of the topology"
+  },
+  "dolfinx.mesh.Topology.connectivity": {
+    "embedding_id": "n566",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.connectivity.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology.connectivity",
+    "sha256": "7e464963dc9a1f90d7f3043426e84467957230b3c0c0ca4bebcae8abe31e18fc",
+    "ranking_description": "Return connectivity from entities of dimension ``d0`` to\nentities of dimension ``d1``."
+  },
+  "dolfinx.mesh.Topology.create_connectivity": {
+    "embedding_id": "n570",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.create_connectivity.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology.create_connectivity",
+    "sha256": "c4ca2a817036e04dadaec3c87cc7fc06b5865dcf9f6d0aadf1c1ece025246dfb",
+    "ranking_description": "Build entity connectivity ``d0 -> d1``."
+  },
+  "dolfinx.mesh.Topology.create_entities": {
+    "embedding_id": "n572",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.create_entities.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology.create_entities",
+    "sha256": "f021af6a217a0d0200ee9108c684167b7656838e47afcd5905b2ebe2b4b26e81",
+    "ranking_description": "Create entities of given topological dimension."
+  },
+  "dolfinx.mesh.Topology.create_entity_permutations": {
+    "embedding_id": "n574",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.create_entity_permutations.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology.create_entity_permutations",
+    "sha256": "c4963989ef1d0b546ad16d2d68ed3541cd56aa0f759fc6dde09e5fc9cbc7e368",
+    "ranking_description": "Compute entity permutations and reflections."
+  },
+  "dolfinx.mesh.Topology.get_cell_permutation_info": {
+    "embedding_id": "n578",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.get_cell_permutation_info.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology.get_cell_permutation_info",
+    "sha256": "5fb30556ed530b318a5b090744f2fba2fe03415c2fcce7a7244b8fbf6236bfdf",
+    "ranking_description": "Get permutation information.\n\nThe returned data is used for packing coefficients and\nassembling of tensors. The bits of each integer encodes the\nnumber of reflections and permutations for each sub-entity of\nthe cell to be able to map it to the reference element."
+  },
+  "dolfinx.mesh.Topology.get_facet_permutations": {
+    "embedding_id": "n580",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.get_facet_permutations.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology.get_facet_permutations",
+    "sha256": "369b4d08ce361c60261cc56f298c80019f0a03047a74f8ddd55e84b6948139cc",
+    "ranking_description": "Get the permutation integer to apply to facets.\n\nThe bits of each integer describes the number of reflections and\nrotations that has to be applied to a facet to map between a\nfacet in the mesh (relative to a cell) and the corresponding\nfacet on the reference element. The data has the shape\n``(num_cells, num_facets_per_cell)``, flattened row-wise. The\nnumber of cells include potential ghost cells.\n\nNote:\n    The data can be unpacked with ``numpy.unpack_bits``."
+  },
+  "dolfinx.mesh.Topology.index_map": {
+    "embedding_id": "n582",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.index_map.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology.index_map",
+    "sha256": "ebb716b7ae104168a53f983d868598e464a812415de4a9741931c3189713f74a",
+    "ranking_description": "Get the IndexMap that describes the parallel distribution of the\nmesh entities."
+  },
+  "dolfinx.mesh.Topology.index_maps": {
+    "embedding_id": "n584",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.index_maps.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology.index_maps",
+    "sha256": "ed956a1fba84d0f2717f1edb01117d4c1f4e2223342b92da3d85a03f74bbba12",
+    "ranking_description": "Get the IndexMaps that describes the parallel distribution of\n   the mesh entities, for each entity type of the dimension."
+  },
+  "dolfinx.mesh.Topology.interprocess_facets": {
+    "embedding_id": "n586",
+    "kind": "method",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.Topology.interprocess_facets.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.Topology.interprocess_facets",
+    "sha256": "cace2e84034be3da9a6bbe0f33a7c53dc5399ce6d161f415dddcdb052290f307",
+    "ranking_description": "List of inter-process facets, if facet topology has been\ncomputed."
+  },
+  "dolfinx.mesh.compute_incident_entities": {
+    "embedding_id": "n590",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.compute_incident_entities.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.compute_incident_entities",
+    "sha256": "1ebd33df4ab5bc831cf9ecc239b5006ac9fb3da2fff3721c06b70510331a4a81",
+    "ranking_description": "Compute all entities of ``d1`` connected to ``entities`` of\ndimension ``d0``."
+  },
+  "dolfinx.mesh.compute_midpoints": {
+    "embedding_id": "n592",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.compute_midpoints.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.compute_midpoints",
+    "sha256": "190a0a0e040ef6cf27e90512358c22a36eb6553ff5ac807ff842c40b7b077406",
+    "ranking_description": "Compute the midpoints of a set of mesh entities."
+  },
+  "dolfinx.mesh.create_box": {
+    "embedding_id": "n594",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.create_box.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.create_box",
+    "sha256": "077865b3dd04ec7b43835cfbf925a33ca0915f77fff3bcc18ee7b9a48fe336d1",
+    "ranking_description": "Create a box mesh."
+  },
+  "dolfinx.mesh.create_geometry": {
+    "embedding_id": "n601",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.create_geometry.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.create_geometry",
+    "sha256": "28d29bfaed77189e91e30c56c36d5312f4ef936e4afa6d12cadf08cf7878d238",
+    "ranking_description": "Create a Geometry object."
+  },
+  "dolfinx.mesh.create_interval": {
+    "embedding_id": "n608",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.create_interval.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.create_interval",
+    "sha256": "a7a7f74401d3987c1814f3018b84ddad631897d92fbf7d617f90fe8426cd1046",
+    "ranking_description": "Create an interval mesh."
+  },
+  "dolfinx.mesh.create_mesh": {
+    "embedding_id": "n614",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.create_mesh.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.create_mesh",
+    "sha256": "ced3b68a2e7ad27bf9a89f27b5a2ef3b8cee4beb8743cc66fb544114867235f2",
+    "ranking_description": "Create a mesh from topology and geometry arrays.\n\nNote:\n    If required, the coordinates ``x`` will be cast to the same\n    scalar type as the domain/element ``e``."
+  },
+  "dolfinx.mesh.create_rectangle": {
+    "embedding_id": "n620",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.create_rectangle.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.create_rectangle",
+    "sha256": "9fac70a27ff7ce5fc6d36876cb064714a154d4fd08af34431e18554dc3e8c97a",
+    "ranking_description": "Create a rectangle mesh."
+  },
+  "dolfinx.mesh.create_submesh": {
+    "embedding_id": "n626",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.create_submesh.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.create_submesh",
+    "sha256": "7a16e1acf590ae158aefcddb657998616eccbca6b40576be427dbfd0b50464c8",
+    "ranking_description": "Create a mesh with specified entities from another mesh."
+  },
+  "dolfinx.mesh.create_unit_cube": {
+    "embedding_id": "n628",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.create_unit_cube.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.create_unit_cube",
+    "sha256": "836876021ede95e7a237034b5070e9b7d0ff12bd6f586fad440640bbbca31244",
+    "ranking_description": "Create a mesh of a unit cube."
+  },
+  "dolfinx.mesh.create_unit_interval": {
+    "embedding_id": "n635",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.create_unit_interval.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.create_unit_interval",
+    "sha256": "a9f8bfe6fb86d734c2910d7d4f0bf82658cfab24b87a7273eec7998c55d6fa45",
+    "ranking_description": "Create a mesh on the unit interval."
+  },
+  "dolfinx.mesh.create_unit_square": {
+    "embedding_id": "n639",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.create_unit_square.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.create_unit_square",
+    "sha256": "e462f333621b2ca1e8b5eb137ca9d79d656841fb2e5f4b6e6d312073c689aa88",
+    "ranking_description": "Create a mesh of a unit square."
+  },
+  "dolfinx.mesh.entities_to_geometry": {
+    "embedding_id": "n644",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.entities_to_geometry.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.entities_to_geometry",
+    "sha256": "bbe2d45edef4eb1fd3b22d08ca129e50fe74b76db223b440defc752975bb9a1b",
+    "ranking_description": "Compute the geometric DOFs associated with the closure of the\ngiven mesh entities."
+  },
+  "dolfinx.mesh.exterior_facet_indices": {
+    "embedding_id": "n653",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.exterior_facet_indices.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.exterior_facet_indices",
+    "sha256": "0688e57510d2fd7a36ac603d2a28b6770758ff225e6ded930d5b695843c5ddb5",
+    "ranking_description": "Compute the indices of all exterior facets that are owned by the\ncaller.\n\nAn exterior facet (co-dimension 1) is one that is connected globally\nto only one cell of co-dimension 0).\n\nNote:\n    This is a collective operation that should be called on all\n    processes."
+  },
+  "dolfinx.mesh.locate_entities": {
+    "embedding_id": "n655",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.locate_entities.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.locate_entities",
+    "sha256": "23e14fff696cce6daa2f19ec9a1bb2915d133802b27e80715bc843615f6335a0",
+    "ranking_description": "Compute mesh entities satisfying a geometric marking function."
+  },
+  "dolfinx.mesh.locate_entities_boundary": {
+    "embedding_id": "n657",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.locate_entities_boundary.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.locate_entities_boundary",
+    "sha256": "64b40d5024be8aeb18ede23c1434abf3d21d1ba8d8dbc1a646bfd4edfb03ceb2",
+    "ranking_description": "Compute mesh entities that are connected to an owned boundary\nfacet and satisfy a geometric marking function.\n\nFor vertices and edges, in parallel this function will not\nnecessarily mark all entities that are on the exterior boundary. For\nexample, it is possible for a process to have a vertex that lies on\nthe boundary without any of the attached facets being a boundary\nfacet. When used to find degrees-of-freedom, e.g. using\n:func:`dolfinx.fem.locate_dofs_topological`, the function that uses\nthe data returned by this function must typically perform some\nparallel communication."
+  },
+  "dolfinx.mesh.meshtags": {
+    "embedding_id": "n659",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.meshtags.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.meshtags",
+    "sha256": "862d2b2e3da6c5633b62b6c38cde767496d3491ff5666b7e7b9de138c9703690",
+    "ranking_description": "Create a MeshTags object that associates data with a subset of\nmesh entities.\n\nNote:\n    The type of the returned MeshTags is inferred from the type of\n    ``values``."
+  },
+  "dolfinx.mesh.meshtags_from_entities": {
+    "embedding_id": "n662",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.meshtags_from_entities.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.meshtags_from_entities",
+    "sha256": "ea1a0776a2cc54588e948445076b40a8d16e7fb72a15aaebe2eb413835f2a038",
+    "ranking_description": "Create a :class:dolfinx.mesh.MeshTags` object that associates\ndata with a subset of mesh entities, where the entities are defined\nby their vertices.\n\nNote:\n    The type of the returned MeshTags is inferred from the type of\n    ``values``."
+  },
+  "dolfinx.mesh.refine": {
+    "embedding_id": "n666",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.refine.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.refine",
+    "sha256": "ef6e8bec8cc71d6cd506fd2b5eb888d99e994377790b17c70bdfae168927bb6a",
+    "ranking_description": "Refine a mesh.\n\nNote:\n    Using the `None` partitioner for the refined mesh, the refined mesh\n    will **not** include ghosts cells (cells connected by facet to an\n    owned cells) even if the parent mesh is ghosted. The refined cells\n    will be on the same process as the parent cell."
+  },
+  "dolfinx.mesh.transfer_meshtag": {
+    "embedding_id": "n671",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.transfer_meshtag.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.transfer_meshtag",
+    "sha256": "31f7489ff8780066adcd538da73fe950938c14a16fb7feb91ce8d000bd7af70d",
+    "ranking_description": "Generate cell mesh tags on a refined mesh from the mesh tags on the\ncoarse parent mesh."
+  },
+  "dolfinx.mesh.uniform_refine": {
+    "embedding_id": "n677",
+    "kind": "function",
+    "chunk": "chunks/dolfinx.mesh/dolfinx.mesh.uniform_refine.md",
+    "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html#dolfinx.mesh.uniform_refine",
+    "sha256": "fe755089c5be9b469b06e9545a519b5ac9bec1231d55ec04eca2da6a1681d1b7",
+    "ranking_description": "Uniformly refine a mesh.\n\nNote:\n    Using the default partitioner for the refined mesh, the refined\n    mesh will **not** include ghosts cells (cells connected by facet\n    to an owned cells) even if the parent mesh is ghosted. The\n    refined cells will be on the same process as the parent cell."
+  },
+  "ufl.AbstractDomain": {
+    "embedding_id": "n819",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.AbstractDomain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.AbstractDomain",
+    "sha256": "b0cb5601b14567e4031fd25db131a48468c94316b98fe61e01af28165d9bdb89",
+    "ranking_description": "Symbolic representation of a geometric domain.\n\nDomain has only a geometric and a topological dimension."
+  },
+  "ufl.AbstractDomain.can_make_function_space": {
+    "embedding_id": "n822",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.AbstractDomain.can_make_function_space.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.AbstractDomain.can_make_function_space",
+    "sha256": "bdedb6c1b47ee08f4ffe1c12576516471204978ad333ef00ff7c4cd5923b86a3",
+    "ranking_description": "Check whether this mesh can make a function space with ``element``."
+  },
+  "ufl.AbstractDomain.geometric_dimension": {
+    "embedding_id": "n825",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.AbstractDomain.geometric_dimension.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.AbstractDomain.geometric_dimension",
+    "sha256": "32bc1166bdbc46ede24bdc896ca9dfefdf3a53324587770f93145e35ce3af80a",
+    "ranking_description": "Return the dimension of the space this domain is embedded in."
+  },
+  "ufl.AbstractDomain.iterable_like": {
+    "embedding_id": "n827",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.AbstractDomain.iterable_like.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.AbstractDomain.iterable_like",
+    "sha256": "30282f01ad45fb8a270e3c7d18c99815d6c3a7419a9a09ee6f6a55ad4ec310d4",
+    "ranking_description": "Return iterable object that is iterable like ``element``."
+  },
+  "ufl.AbstractDomain.topological_dimension": {
+    "embedding_id": "n830",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.AbstractDomain.topological_dimension.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.AbstractDomain.topological_dimension",
+    "sha256": "5ecfce22a81e351892252d27b5422d79c5e73058f4d2c129f898d9158110664f",
+    "ranking_description": "Return the dimension of the topology of this domain."
+  },
+  "ufl.And": {
+    "embedding_id": "n834",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.And.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.And",
+    "sha256": "29319cd6d922317b04171ba9969347bbac4b5c34c91bd58c2dcd48baf3d8cc7c",
+    "ranking_description": "A boolean expression (left and right) for use with conditional."
+  },
+  "ufl.Argument": {
+    "embedding_id": "n838",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.Argument.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Argument",
+    "sha256": "1393f04df5068ee20026565942fa236b33aacf0fa6257756bcec01f92bb1cfda",
+    "ranking_description": "UFL value: Representation of an argument to a form."
+  },
+  "ufl.Argument.ufl_domains": {
+    "embedding_id": "n844",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Argument.ufl_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Argument.ufl_domains",
+    "sha256": "24ee2e2930d48e05b1fc7d3de92f159eca57b3e5244b30d77b709f2dd223d6b1",
+    "ranking_description": "Return UFL domains."
+  },
+  "ufl.Arguments": {
+    "embedding_id": "n849",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.Arguments.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Arguments",
+    "sha256": "2e2c067cca12627e61ccc6525444819fa4e8abdc057b718cac6de87b9ec11a2f",
+    "ranking_description": "Create an Argument in a mixed space.\n\nReturns a tuple with the function components corresponding to the subelements."
+  },
+  "ufl.BaseForm": {
+    "embedding_id": "n852",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.BaseForm.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.BaseForm",
+    "sha256": "0fa9e7dc6674669d99f6b992ed076371902f67c44c74842b9b586d9fe2cf3213",
+    "ranking_description": "Description of an object containing arguments."
+  },
+  "ufl.BaseForm.arguments": {
+    "embedding_id": "n859",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.BaseForm.arguments.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.BaseForm.arguments",
+    "sha256": "dc9cf28ba27c86552d8e28393e1226987504ccdc9bcd943e1e2a513b01d3168e",
+    "ranking_description": "Return all ``Argument`` objects found in form."
+  },
+  "ufl.BaseForm.coefficients": {
+    "embedding_id": "n861",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.BaseForm.coefficients.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.BaseForm.coefficients",
+    "sha256": "8110a2fe8e7276068c8413d835f1de76c6d8a0c68b9ac82549cea869696cc5f2",
+    "ranking_description": "Return all ``Coefficient`` objects found in form."
+  },
+  "ufl.BaseForm.empty": {
+    "embedding_id": "n863",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.BaseForm.empty.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.BaseForm.empty",
+    "sha256": "fe552e14defb0818e91a50f289ff78b6b9b07d3dc01fafd1287490b92784cf75",
+    "ranking_description": "Returns whether the BaseForm has no components."
+  },
+  "ufl.BaseForm.geometric_quantities": {
+    "embedding_id": "n865",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.BaseForm.geometric_quantities.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.BaseForm.geometric_quantities",
+    "sha256": "60d2f20697fb3ef9e4ae4963ef177d078e36140dcf21b2eb181caf68f61604f7",
+    "ranking_description": "Return all ``GeometricQuantity`` objects found in form."
+  },
+  "ufl.BaseForm.ufl_domain": {
+    "embedding_id": "n867",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.BaseForm.ufl_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.BaseForm.ufl_domain",
+    "sha256": "679fffbc1d3bdfc7ecfdf805b10775a4b85af4d8e9119798fa4296ab08bf9503",
+    "ranking_description": "Return the single geometric integration domain occuring in the base form.\n\nFails if multiple domains are found."
+  },
+  "ufl.Coargument": {
+    "embedding_id": "n870",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.Coargument.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Coargument",
+    "sha256": "138ffc60b39341df9a271434ad29f0f2ddfe76201ef3a3e11ec59182c04f6b02",
+    "ranking_description": "UFL value: Representation of an argument to a form in a dual space."
+  },
+  "ufl.Coargument.arguments": {
+    "embedding_id": "n879",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Coargument.arguments.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Coargument.arguments",
+    "sha256": "79ceb449c71530aded94aac0132c7d128f114d32dddb62ecbdf640a7078c56a8",
+    "ranking_description": "Return all Argument objects found in form."
+  },
+  "ufl.Coargument.equals": {
+    "embedding_id": "n882",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Coargument.equals.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Coargument.equals",
+    "sha256": "fbb515da8115240feefe305863c2284281dd85b298d39945a984f22b98d9b987",
+    "ranking_description": "Check equality."
+  },
+  "ufl.Coargument.ufl_domain": {
+    "embedding_id": "n885",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Coargument.ufl_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Coargument.ufl_domain",
+    "sha256": "1acac83d6fdd28ffe0497db1e6f009c0afb9dab6ae54f1be81362a51b11e6930",
+    "ranking_description": "Return the UFL domain."
+  },
+  "ufl.Dn": {
+    "embedding_id": "n889",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.Dn.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Dn",
+    "sha256": "154089a490723a63a741de5fd2320e868a0a47f267bedae049791b15de091280",
+    "ranking_description": "Take the directional derivative of f in the facet normal direction.\n\nThe facet normal is Dn(f) := dot(grad(f), n)."
+  },
+  "ufl.Dx": {
+    "embedding_id": "n892",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.Dx.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Dx",
+    "sha256": "54c0be9006a9edb18fe2176116a2e3f4edb825034d3e54c8735aae0a160d8b6d",
+    "ranking_description": "Take the partial derivative of f with respect to spatial variable number i.\n\nEquivalent to f.dx(*i)."
+  },
+  "ufl.Form": {
+    "embedding_id": "n896",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.Form.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form",
+    "sha256": "2a081148a180c7b9391bcac4d82522bf1d124c41d36227fb03722276551f0c9e",
+    "ranking_description": "Description of a weak form consisting of a sum of integrals over subdomains."
+  },
+  "ufl.Form.base_form_operators": {
+    "embedding_id": "n916",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.base_form_operators.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.base_form_operators",
+    "sha256": "f0858ec4740d0bcf04c7e5f7558789ef1a1233798f9dee9cdb2ce475358b317a",
+    "ranking_description": "Return all ``BaseFormOperator`` objects found in form."
+  },
+  "ufl.Form.coefficient_numbering": {
+    "embedding_id": "n918",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.coefficient_numbering.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.coefficient_numbering",
+    "sha256": "4388b5ccdf3bc1d6d7e4141d2395c914892503cd540c5d5c52d80243dad304ab",
+    "ranking_description": "Return a contiguous numbering of coefficients in a mapping ``{coefficient:number}``."
+  },
+  "ufl.Form.coefficients": {
+    "embedding_id": "n920",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.coefficients.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.coefficients",
+    "sha256": "a0857c43f25e7160e3db5933a1857b54190d03bcbf0d5203b2c3cced23cd5f1b",
+    "ranking_description": "Return all ``Coefficient`` objects found in form."
+  },
+  "ufl.Form.constant_numbering": {
+    "embedding_id": "n922",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.constant_numbering.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.constant_numbering",
+    "sha256": "07ac8f34e96f5129cd1f4e0064ffa1b8ea4f203d49650f20ebb753aeb355ae4c",
+    "ranking_description": "Return a contiguous numbering of constants in a mapping ``{constant:number}``."
+  },
+  "ufl.Form.constants": {
+    "embedding_id": "n924",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.constants.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.constants",
+    "sha256": "075c8ac2973dff7ad30addb1d6e60adc36e1ef2e67e102567624b6143a377081",
+    "ranking_description": "Get constants."
+  },
+  "ufl.Form.domain_numbering": {
+    "embedding_id": "n926",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.domain_numbering.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.domain_numbering",
+    "sha256": "287d91a622b601c98eaf552a5a68893746968f67e1fbb7c1b9788928e5f41451",
+    "ranking_description": "Return a contiguous numbering of domains in a mapping ``{domain:number}``."
+  },
+  "ufl.Form.empty": {
+    "embedding_id": "n928",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.empty.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.empty",
+    "sha256": "3e1bd439fca23b9f4ad9c56e9254c989f98cfe7caf31dbfaac6e156387680226",
+    "ranking_description": "Returns whether the form has no integrals."
+  },
+  "ufl.Form.equals": {
+    "embedding_id": "n930",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.equals.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.equals",
+    "sha256": "fe9bbd716cff15067c61e6bb147d813bd2b3bd0d81b20350917446c36c611aac",
+    "ranking_description": "Evaluate ``bool(lhs_form == rhs_form)``."
+  },
+  "ufl.Form.geometric_dimension": {
+    "embedding_id": "n933",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.geometric_dimension.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.geometric_dimension",
+    "sha256": "15b7ae0185926e968a20abe924b8f57346436db7df05f80200d29d36d8a1cd4b",
+    "ranking_description": "Return the geometric dimension shared by all domains and functions in this form."
+  },
+  "ufl.Form.integrals": {
+    "embedding_id": "n935",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.integrals.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.integrals",
+    "sha256": "065e460719909cc4370298bcb1fa02b9c18baa648a02eac29cb2fe5641ab4c81",
+    "ranking_description": "Return a sequence of all integrals in form."
+  },
+  "ufl.Form.integrals_by_domain": {
+    "embedding_id": "n937",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.integrals_by_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.integrals_by_domain",
+    "sha256": "7699b6c1bcfd0cb51ca6324cb0601f8187cc83ae27cad2c459d1aacf4d13bba4",
+    "ranking_description": "Return a sequence of all integrals with a particular integration domain."
+  },
+  "ufl.Form.integrals_by_type": {
+    "embedding_id": "n940",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.integrals_by_type.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.integrals_by_type",
+    "sha256": "fc27e29227227b7914114c76d72f3df7f032a7ceafbfdf7c83c300f153a046e3",
+    "ranking_description": "Return a sequence of all integrals with a particular domain type."
+  },
+  "ufl.Form.signature": {
+    "embedding_id": "n943",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.signature.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.signature",
+    "sha256": "67cd636b75703be3a37d5943ba5d4ecd258b8b8925f42dc4b7197bbd7c81e0a9",
+    "ranking_description": "Signature for use with jit cache (independent of incidental numbering of indices etc)."
+  },
+  "ufl.Form.subdomain_data": {
+    "embedding_id": "n945",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.subdomain_data.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.subdomain_data",
+    "sha256": "d26e204eb5c7b8bead63f63d4d1b76b17d64af855f945411a7b7de9b5fc803bb",
+    "ranking_description": "Returns a mapping on the form ``{domain:{integral_type: subdomain_data}}``."
+  },
+  "ufl.Form.terminal_numbering": {
+    "embedding_id": "n947",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.terminal_numbering.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.terminal_numbering",
+    "sha256": "663fa8ff6e6ff8f51e11fb64850c73bdd03aaf989eb723844ea5bfbd3f53d3d1",
+    "ranking_description": "Return a contiguous numbering for all counted objects in the form.\n\nThe returned object is mapping from terminal to its number (an integer).\n\nThe numbering is computed per type so :class:`Coefficient`,\n:class:`Constant`, etc will each be numbered from zero."
+  },
+  "ufl.Form.ufl_cell": {
+    "embedding_id": "n949",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.ufl_cell.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.ufl_cell",
+    "sha256": "77c2e96c88fe4cadf92687895ee0e94a04daf3f34a55c08747733ba0896104ff",
+    "ranking_description": "Return the single cell this form is defined on.\n\nFails if multiple cells are found."
+  },
+  "ufl.Form.ufl_domains": {
+    "embedding_id": "n951",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Form.ufl_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Form.ufl_domains",
+    "sha256": "631c8719c7f07990c6c3d7996cb59f0a9bc867b21c38b8e9b3786fa3bd07c4af",
+    "ranking_description": "Return the geometric integration domains occuring in the form.\n\nNB! This does not include domains of coefficients defined on\nother meshes.\n\nThe return type is a tuple even if only a single domain exists."
+  },
+  "ufl.FormSum": {
+    "embedding_id": "n954",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.FormSum.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.FormSum",
+    "sha256": "7939c08ed7ce5586d00a11b48df1f752e691dfac76f0294da601c7e4a1c71dc0",
+    "ranking_description": "Form sum.\n\nDescription of a weighted sum of variational forms and form-like objects\ncomponents is the list of Forms to be summed\narg_weights is a list of tuples of component index and weight"
+  },
+  "ufl.FormSum.components": {
+    "embedding_id": "n962",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.FormSum.components.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.FormSum.components",
+    "sha256": "16530c83830db618e467de6f8140cd7077f87dccd0be9a5ea4e28d66d57fecb6",
+    "ranking_description": "Get components."
+  },
+  "ufl.FormSum.empty": {
+    "embedding_id": "n964",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.FormSum.empty.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.FormSum.empty",
+    "sha256": "8987a05f5e88ffb11734187a4ecb182672553091cbb571cfd33964918697f078",
+    "ranking_description": "Returns whether the FormSum has no components."
+  },
+  "ufl.FormSum.equals": {
+    "embedding_id": "n966",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.FormSum.equals.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.FormSum.equals",
+    "sha256": "d88e37f848e6f52d0a0baf4ab53e6ab68f4f939d5e1c1fc9493726c87d0c9ad1",
+    "ranking_description": "Evaluate ``bool(lhs_form == rhs_form)``."
+  },
+  "ufl.FormSum.ufl_domains": {
+    "embedding_id": "n969",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.FormSum.ufl_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.FormSum.ufl_domains",
+    "sha256": "80e786546ef361aea7bdbcc0ac0483a7a22d436dd88f657383ff663a88aba7c4",
+    "ranking_description": "Return all domains found in the base form."
+  },
+  "ufl.FormSum.weights": {
+    "embedding_id": "n972",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.FormSum.weights.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.FormSum.weights",
+    "sha256": "3bcb03dfc210151e2d229acf8796a65063d721d85fae0ece1d140526d2cab6d8",
+    "ranking_description": "Get weights."
+  },
+  "ufl.FunctionSpace": {
+    "embedding_id": "n975",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.FunctionSpace.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.FunctionSpace",
+    "sha256": "513a03c3f413685cda9690845ac370967e698592877237dc86a625ef0aac7542",
+    "ranking_description": "Representation of a Function space."
+  },
+  "ufl.FunctionSpace.dual": {
+    "embedding_id": "n976",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.FunctionSpace.dual.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.FunctionSpace.dual",
+    "sha256": "2c03a01318510f9b7eebf068c2bd762f788ffd4b256edd89e52de1db30478271",
+    "ranking_description": "Get the dual of the space."
+  },
+  "ufl.Identity": {
+    "embedding_id": "n978",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.Identity.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Identity",
+    "sha256": "b63a18ba1d0e037ca61778054e808894d73ecae2aba4fab0514b799ee06ef16a",
+    "ranking_description": "Representation of an identity matrix."
+  },
+  "ufl.Identity.evaluate": {
+    "embedding_id": "n980",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Identity.evaluate.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Identity.evaluate",
+    "sha256": "9c5fbf5755fdc1832df70c6c0dfaf66e7d97fe90fc3730ad1436d76b467ca555",
+    "ranking_description": "Evaluate."
+  },
+  "ufl.Measure": {
+    "embedding_id": "n988",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.Measure.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Measure",
+    "sha256": "8151e4646f7a3578d1bb2e5598b5606a5220c9b5053efc71a8d20f5ac6f0a85b",
+    "ranking_description": "Representation of an integration measure.\n\nThe Measure object holds information about integration properties\nto be transferred to a Form on multiplication with a scalar\nexpression."
+  },
+  "ufl.Measure.integral_type": {
+    "embedding_id": "n1002",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Measure.integral_type.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Measure.integral_type",
+    "sha256": "c126550f76c1b3b6e2f1a6a999ac7786b3b925708a647271d8cbeeaae97f2e97",
+    "ranking_description": "Return the domain type.\n\nValid domain types are \"cell\", \"exterior_facet\", \"interior_facet\", etc."
+  },
+  "ufl.Measure.metadata": {
+    "embedding_id": "n1004",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Measure.metadata.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Measure.metadata",
+    "sha256": "510dcbf8ce107d01e43b16a24c70c23c6f85b9b37d94d294fbf90dd86e3863e4",
+    "ranking_description": "Return the integral metadata.\n\nThis data is not interpreted by UFL.\nIt is passed to the form compiler which can ignore it or use\nit to compile each integral of a form in a different way."
+  },
+  "ufl.Measure.reconstruct": {
+    "embedding_id": "n1006",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Measure.reconstruct.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Measure.reconstruct",
+    "sha256": "e0fefdb7b33e1aea055d3c8aeeea8485e396c2267db82fe19f3a1facb2693b20",
+    "ranking_description": "Construct a new Measure object with some properties replaced with new values.\n\nExample:\n    <dm = Measure instance>\n    b = dm.reconstruct(subdomain_id=2)\n    c = dm.reconstruct(metadata={ \"quadrature_degree\": 3 })\n\nUsed by the call operator, so this is equivalent:\n    b = dm(2)\n    c = dm(0, { \"quadrature_degree\": 3 })"
+  },
+  "ufl.Measure.subdomain_data": {
+    "embedding_id": "n1013",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Measure.subdomain_data.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Measure.subdomain_data",
+    "sha256": "ca158caff8add9ed7c2c4a1452437bb3f876ac07c06c428e56365be0f77df6ee",
+    "ranking_description": "Return the integral subdomain_data.\n\nThis data is not interpreted by\nUFL.  Its intension is to give a context in which the domain\nid is interpreted."
+  },
+  "ufl.Measure.subdomain_id": {
+    "embedding_id": "n1015",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Measure.subdomain_id.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Measure.subdomain_id",
+    "sha256": "9958634982cd37e3d2f8e6830300545777e82faae86bb4e8606c8a3c8abae17b",
+    "ranking_description": "Return the domain id of this measure (integer)."
+  },
+  "ufl.Measure.ufl_domain": {
+    "embedding_id": "n1017",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Measure.ufl_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Measure.ufl_domain",
+    "sha256": "72e79b06ff24cf21a63b52411e52b4bcd9d8e6e2c4be58cb9c12a6056574d48c",
+    "ranking_description": "Return the domain associated with this measure.\n\nThis may be None or a Domain object."
+  },
+  "ufl.Mesh": {
+    "embedding_id": "n1024",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.Mesh.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Mesh",
+    "sha256": "2ec9a0c3ed81b5ab8b92680972241f51f52783b1a1481d2e1eb679a98dd22b76",
+    "ranking_description": "Symbolic representation of a mesh."
+  },
+  "ufl.Mesh.can_make_function_space": {
+    "embedding_id": "n1028",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Mesh.can_make_function_space.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Mesh.can_make_function_space",
+    "sha256": "9a09745acda57f7cbd2b9600fa782f1f73d870718fd25330c6a2325a3c966d95",
+    "ranking_description": "Check whether this mesh can make a function space with ``element``."
+  },
+  "ufl.Mesh.is_piecewise_linear_simplex_domain": {
+    "embedding_id": "n1030",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Mesh.is_piecewise_linear_simplex_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Mesh.is_piecewise_linear_simplex_domain",
+    "sha256": "2b77e7ce7aa014ce04433cd2aad5b70a3f6d4c7d572a87565886b9487b2fbe88",
+    "ranking_description": "Check if the domain is a piecewise linear simplex."
+  },
+  "ufl.Mesh.iterable_like": {
+    "embedding_id": "n1032",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Mesh.iterable_like.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Mesh.iterable_like",
+    "sha256": "87da20a95c89ce4e92f05c8659063cacd632a234a99826a660d6879d75da54c3",
+    "ranking_description": "Return iterable object that is iterable like ``element``."
+  },
+  "ufl.Mesh.ufl_cargo": {
+    "embedding_id": "n1035",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Mesh.ufl_cargo.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Mesh.ufl_cargo",
+    "sha256": "a0b971a75ff7c5aea33340270ab009bb2556fdc6616114ba087dfb8d888ffe12",
+    "ranking_description": "Return carried object that will not be used by UFL."
+  },
+  "ufl.Mesh.ufl_cell": {
+    "embedding_id": "n1037",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Mesh.ufl_cell.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Mesh.ufl_cell",
+    "sha256": "0b2779161fc680d64d9aed06529c2770d95c1073cd0e15684f152c10690959fc",
+    "ranking_description": "Get the cell."
+  },
+  "ufl.Mesh.ufl_coordinate_element": {
+    "embedding_id": "n1039",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.Mesh.ufl_coordinate_element.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Mesh.ufl_coordinate_element",
+    "sha256": "42361ddc53b1f85459d055b0eca03b06a6a9f4316ac81ae25f38962a57630323",
+    "ranking_description": "Get the coordinate element."
+  },
+  "ufl.MeshSequence": {
+    "embedding_id": "n1044",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.MeshSequence.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MeshSequence",
+    "sha256": "aca4e8c1d2388c10931ae054a041eb3cafa81b17f489f7733888a4c193986c8c",
+    "ranking_description": "Symbolic representation of a mixed mesh.\n\nThis class represents a collection of meshes that, along with\na :class:`MixedElement`, represent a mixed function space defined on\nmultiple domains. This abstraction allows for defining the\nmixed function space with the conventional :class:`FunctionSpace`\nclass and integrating multi-domain problems seamlessly.\n\nCurrently, all component meshes must have the same cell type (and\nthus the same topological dimension).\n\nCurrently, one can only perform cell integrations when\n:class:`MeshSequence` is used.\n\n.. code-block:: python3\n\n    cell = triangle\n    mesh0 = Mesh(FiniteElement(\"Lagrange\", cell, 1, (2,), identity_pullback, H1))\n    mesh1 = Mesh(FiniteElement(\"Lagrange\", cell, 1, (2,), identity_pullback, H1))\n    domain = MeshSequence([mesh0, mesh1])\n    elem0 = FiniteElement(\"Lagrange\", cell, 1, (), identity_pullback, H1)\n    elem1 = FiniteElement(\"Lagrange\", cell, 2, (), identity_pullback, H1)\n    elem = MixedElement([elem0, elem1])\n    V = FunctionSpace(domain, elem)\n    v = TestFunction(V)\n    v0, v1 = split(v)"
+  },
+  "ufl.MeshSequence.can_make_function_space": {
+    "embedding_id": "n1047",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MeshSequence.can_make_function_space.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MeshSequence.can_make_function_space",
+    "sha256": "15eec18b9770b1a2dde07d7bfe7e13029a909d380b84ff4f70696891f445173c",
+    "ranking_description": "Check whether this mesh can make a function space with ``element``."
+  },
+  "ufl.MeshSequence.iterable_like": {
+    "embedding_id": "n1049",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MeshSequence.iterable_like.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MeshSequence.iterable_like",
+    "sha256": "573694dd181c45bc5a7105ce52fed31d030acd02cd451c63501594d01bdd36f8",
+    "ranking_description": "Return iterable object that is iterable like ``element``."
+  },
+  "ufl.MeshSequence.ufl_cell": {
+    "embedding_id": "n1052",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MeshSequence.ufl_cell.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MeshSequence.ufl_cell",
+    "sha256": "d321a7a7cc685d77b0731c5affb49275bfbd78052d1dde9fe36e2cc3354a1d97",
+    "ranking_description": "Get the cell."
+  },
+  "ufl.MeshView": {
+    "embedding_id": "n1055",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.MeshView.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MeshView",
+    "sha256": "4ce61ba25fdc74a556982f6b8b79a1015dd5c22b7f5790f9ad94967e7dae344e",
+    "ranking_description": "Symbolic representation of a mesh."
+  },
+  "ufl.MeshView.is_piecewise_linear_simplex_domain": {
+    "embedding_id": "n1058",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MeshView.is_piecewise_linear_simplex_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MeshView.is_piecewise_linear_simplex_domain",
+    "sha256": "9843ad3daad0b313268f377b5f7c9c94a503d0330c9f13fa25237374b538e92d",
+    "ranking_description": "Check if the domain is a piecewise linear simplex."
+  },
+  "ufl.MeshView.ufl_cell": {
+    "embedding_id": "n1060",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MeshView.ufl_cell.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MeshView.ufl_cell",
+    "sha256": "5949e5c47526772415fdb7772e53f6aec3f8fe5f16fda8bdc826bb90360620d2",
+    "ranking_description": "Get the cell."
+  },
+  "ufl.MeshView.ufl_mesh": {
+    "embedding_id": "n1062",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MeshView.ufl_mesh.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MeshView.ufl_mesh",
+    "sha256": "0d84146a3c129803fb19bd2228f6d198f3d80f8d2f9dd5e669114952bc49ebe2",
+    "ranking_description": "Get the mesh."
+  },
+  "ufl.MixedFunctionSpace": {
+    "embedding_id": "n1067",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.MixedFunctionSpace.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MixedFunctionSpace",
+    "sha256": "951e92b75a2169b5d2da44768652dcf2204ef7b0bc6549da1ee426d1a3bb9bad",
+    "ranking_description": "Mixed function space."
+  },
+  "ufl.MixedFunctionSpace.dual": {
+    "embedding_id": "n1072",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MixedFunctionSpace.dual.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MixedFunctionSpace.dual",
+    "sha256": "8d4cba4eaae4d471ef50f2201fc7722da3c1efc3a6db37d66fac2460b8dc8bd3",
+    "ranking_description": "Return the dual to this function space.\n\nIf no additional arguments are passed then a MixedFunctionSpace is\nreturned whose components are the duals of the originals.\n\nIf additional arguments are passed, these must be integers. In this\ncase, the MixedFunctionSpace which is returned will have dual\ncomponents in the positions corresponding to the arguments passed, and\nthe original components in the other positions."
+  },
+  "ufl.MixedFunctionSpace.num_sub_spaces": {
+    "embedding_id": "n1075",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MixedFunctionSpace.num_sub_spaces.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MixedFunctionSpace.num_sub_spaces",
+    "sha256": "05adff177605a45331b6e1cb3c56ca79bd0d1d686b10959c3fa6d01c6a8d7120",
+    "ranking_description": "Return number of subspaces."
+  },
+  "ufl.MixedFunctionSpace.ufl_domain": {
+    "embedding_id": "n1077",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MixedFunctionSpace.ufl_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MixedFunctionSpace.ufl_domain",
+    "sha256": "58c38385aa7e3c7e76199d25347f28c7bc35faf60147fa3ca4942274db2419a6",
+    "ranking_description": "Return ufl domain."
+  },
+  "ufl.MixedFunctionSpace.ufl_domains": {
+    "embedding_id": "n1079",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MixedFunctionSpace.ufl_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MixedFunctionSpace.ufl_domains",
+    "sha256": "1a84f066081e8b20713104dc5014e0260eda4047d8f6376f173d6cec39050449",
+    "ranking_description": "Return ufl domains."
+  },
+  "ufl.MixedFunctionSpace.ufl_element": {
+    "embedding_id": "n1081",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MixedFunctionSpace.ufl_element.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MixedFunctionSpace.ufl_element",
+    "sha256": "c6bd559e92e7652d3ab7852621d8770f2071c2ead75c039903723e8cace5dec8",
+    "ranking_description": "Return ufl element."
+  },
+  "ufl.MixedFunctionSpace.ufl_elements": {
+    "embedding_id": "n1083",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MixedFunctionSpace.ufl_elements.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MixedFunctionSpace.ufl_elements",
+    "sha256": "3d1ee782151eb40fba459c33e9731c2c05cbba495685cf8d5b80c155c49a0226",
+    "ranking_description": "Return ufl elements."
+  },
+  "ufl.MixedFunctionSpace.ufl_sub_space": {
+    "embedding_id": "n1085",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MixedFunctionSpace.ufl_sub_space.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MixedFunctionSpace.ufl_sub_space",
+    "sha256": "4699a28003cfafec702867431930c46d59f91ef34d9fcd0d41f98de5a7019076",
+    "ranking_description": "Return i-th ufl sub space."
+  },
+  "ufl.MixedFunctionSpace.ufl_sub_spaces": {
+    "embedding_id": "n1088",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.MixedFunctionSpace.ufl_sub_spaces.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.MixedFunctionSpace.ufl_sub_spaces",
+    "sha256": "1a490b45292bfcc8150c31f0cd7c7cb66941a03ed956683a455210941d5a2e53",
+    "ranking_description": "Return ufl sub spaces."
+  },
+  "ufl.Not": {
+    "embedding_id": "n1091",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.Not.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Not",
+    "sha256": "b73bee642f2c33c84cc5ab2cae988797cf974e50acb310c1edabea556e8731a5",
+    "ranking_description": "A boolean expression (not condition) for use with conditional."
+  },
+  "ufl.Or": {
+    "embedding_id": "n1094",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.Or.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.Or",
+    "sha256": "8f31b1bff790b49a1c3e7e897ed237623a982d6b4b7ba44dcdb7c21c3f8003d8",
+    "ranking_description": "A boolean expression (left or right) for use with conditional."
+  },
+  "ufl.PermutationSymbol": {
+    "embedding_id": "n1098",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.PermutationSymbol.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.PermutationSymbol",
+    "sha256": "29d55ffc0532f3f7f11bdf8f90805b5381ee681cbf55434305037c6177443505",
+    "ranking_description": "Representation of a permutation symbol.\n\nThis is also known as the Levi-Civita symbol, antisymmetric symbol,\nor alternating symbol."
+  },
+  "ufl.PermutationSymbol.evaluate": {
+    "embedding_id": "n1100",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.PermutationSymbol.evaluate.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.PermutationSymbol.evaluate",
+    "sha256": "e1dfa449ed1bfc8deb22b685c3222bab4a7631d03c190c2c009f1a9347dcd2ff",
+    "ranking_description": "Evaluate."
+  },
+  "ufl.TestFunction": {
+    "embedding_id": "n1108",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.TestFunction.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.TestFunction",
+    "sha256": "efdd0204b41989ae2f1c80144257c9701d3bf9269db82f088c52d59210ffa9e3",
+    "ranking_description": "UFL value: Create a test function argument to a form."
+  },
+  "ufl.TestFunctions": {
+    "embedding_id": "n1111",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.TestFunctions.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.TestFunctions",
+    "sha256": "d08bc510e408d5e01b3929d40227554b6cfbe04192b112f781f1f93b71be8572",
+    "ranking_description": "Create a TestFunction in a mixed space.\n\nReturns a tuple with the function components corresponding to the\nsubelements."
+  },
+  "ufl.TrialFunction": {
+    "embedding_id": "n1113",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.TrialFunction.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.TrialFunction",
+    "sha256": "645eb49743c079fa2cc6b473c1611ea46d33d1dac221e1103949501c3c36280d",
+    "ranking_description": "UFL value: Create a trial function argument to a form."
+  },
+  "ufl.TrialFunctions": {
+    "embedding_id": "n1116",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.TrialFunctions.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.TrialFunctions",
+    "sha256": "5a2ebbeef5578103e06fdf5b9f44cf849ce8d5f5f2e3929b47ff8643e6ef9467",
+    "ranking_description": "Create a TrialFunction in a mixed space.\n\nReturns a tuple with the function components corresponding to the\nsubelements."
+  },
+  "ufl.ZeroBaseForm": {
+    "embedding_id": "n1118",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.ZeroBaseForm.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.ZeroBaseForm",
+    "sha256": "17390b78cd7218e97547e58f0f54a8eb5e166680676df1704c7a226fe54c7029",
+    "ranking_description": "Description of a zero base form.\n\nZeroBaseForm is idempotent with respect to assembly and is mostly\nused for sake of simplifying base-form expressions."
+  },
+  "ufl.ZeroBaseForm.ufl_domains": {
+    "embedding_id": "n1124",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.ZeroBaseForm.ufl_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.ZeroBaseForm.ufl_domains",
+    "sha256": "3d6825d5891e77f6f9678269ef633ac43444f5eef335081d24a68c5776cab4ee",
+    "ranking_description": "Return all domains found in the base form."
+  },
+  "ufl.acos": {
+    "embedding_id": "n1128",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.acos.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.acos",
+    "sha256": "0222b81fab3cb5717da67574bb235077dd75a149619539273ea6f5039c9fbf5d",
+    "ranking_description": "Take the inverse cosine of f."
+  },
+  "ufl.action": {
+    "embedding_id": "n1131",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.action.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.action",
+    "sha256": "590d99ce53319bcb77882c0664265187c09b42bb1ebd27837386faec1f21ecb8",
+    "ranking_description": "Get the action.\n\nGiven a bilinear form, return a linear form\nwith an additional coefficient, representing the\naction of the form on the coefficient. This can be\nused for matrix-free methods.\nFor formbase objects,coefficient can be any object of the correct type,\nand this function returns an Action object.\n\nWhen `action` is being called multiple times on the same form, expanding derivatives\nbecome expensive -> `derivatives_expanded` enables to use caching mechanisms to avoid that."
+  },
+  "ufl.adjoint": {
+    "embedding_id": "n1136",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.adjoint.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.adjoint",
+    "sha256": "1cc95df8da599581967c9054db9219940759d97ca86ac7e8df2cb35d8152a6c4",
+    "ranking_description": "Get the adjoint.\n\nGiven a combined bilinear form, compute the adjoint form by\nchanging the ordering (count) of the test and trial functions, and\ntaking the complex conjugate of the result.\n\nBy default, new ``Argument`` objects will be created with\nopposite ordering. However, if the adjoint form is to\nbe added to other forms later, their arguments must match.\nIn that case, the user must provide a tuple *reordered_arguments*=(u2,v2).\n\nIf the form is a baseform instance instead of a Form object, we return an Adjoint\nobject instructing the adjoint to be computed at a later point.\n\nWhen `adjoint` is being called multiple times on the same form, expanding derivatives\nbecome expensive -> `derivatives_expanded` enables to use caching mechanisms to avoid that."
+  },
+  "ufl.argument.BaseArgument": {
+    "embedding_id": "n1141",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.argument.BaseArgument.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.argument.BaseArgument",
+    "sha256": "35303f50feacf04eb826b5eb28e65adcd7f9244e07f133be6c257e4a89db27c9",
+    "ranking_description": "UFL value: Representation of an argument to a form."
+  },
+  "ufl.argument.BaseArgument.is_cellwise_constant": {
+    "embedding_id": "n1147",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.argument.BaseArgument.is_cellwise_constant.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.argument.BaseArgument.is_cellwise_constant",
+    "sha256": "6a86a6b11ed51d3329885c55bff5dd068b29745a3385db02a43c76acb8c6cbfc",
+    "ranking_description": "Return whether this expression is spatially constant over each cell."
+  },
+  "ufl.argument.BaseArgument.number": {
+    "embedding_id": "n1149",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.argument.BaseArgument.number.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.argument.BaseArgument.number",
+    "sha256": "68b6382e6fc5a4e1eb821190a66ea2c9fd13cd09d48a24e3f72a141c5b19a950",
+    "ranking_description": "Return the Argument number."
+  },
+  "ufl.argument.BaseArgument.part": {
+    "embedding_id": "n1151",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.argument.BaseArgument.part.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.argument.BaseArgument.part",
+    "sha256": "9758a6ccf3657c7a4e28b46d0f817ee037ec5e668d47d891877bfd1a794a491c",
+    "ranking_description": "Return the part."
+  },
+  "ufl.argument.BaseArgument.ufl_domain": {
+    "embedding_id": "n1153",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.argument.BaseArgument.ufl_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.argument.BaseArgument.ufl_domain",
+    "sha256": "8e32cd08aebaee8635cfecd99b5e09c41fb594c1f65a897813952bc848c444ce",
+    "ranking_description": "Return the UFL domain."
+  },
+  "ufl.argument.BaseArgument.ufl_domains": {
+    "embedding_id": "n1155",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.argument.BaseArgument.ufl_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.argument.BaseArgument.ufl_domains",
+    "sha256": "542c3f994866941df551b4fe22e29504bb500d5f7cc7d9d1c7c3d0717f3608af",
+    "ranking_description": "Return UFL domains."
+  },
+  "ufl.argument.BaseArgument.ufl_element": {
+    "embedding_id": "n1157",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.argument.BaseArgument.ufl_element.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.argument.BaseArgument.ufl_element",
+    "sha256": "6c1d1084868157425f4afb7d1a1cf85a8c62fb2bfc2dc9eb71919e8c378d2546",
+    "ranking_description": "Return The UFL element."
+  },
+  "ufl.argument.BaseArgument.ufl_function_space": {
+    "embedding_id": "n1159",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.argument.BaseArgument.ufl_function_space.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.argument.BaseArgument.ufl_function_space",
+    "sha256": "c9a481088948843ae881b755098c70c1caa1b56c554c468bf55436021cd4e699",
+    "ranking_description": "Get the function space of this Argument."
+  },
+  "ufl.as_ufl": {
+    "embedding_id": "n1163",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.as_ufl.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.as_ufl",
+    "sha256": "9c478e422f67da8c733a4597e778fc5dbd8f771df21f9684c23246851f099439",
+    "ranking_description": "Converts expression to an Expr if possible."
+  },
+  "ufl.asin": {
+    "embedding_id": "n1166",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.asin.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.asin",
+    "sha256": "55f2481af3fc085acece55d9f231eef4369983bc2d0a6ff898b81b17af4f462a",
+    "ranking_description": "Take the inverse sine of f."
+  },
+  "ufl.atan": {
+    "embedding_id": "n1169",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.atan.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.atan",
+    "sha256": "43387c764574b2526ef4c46d3a22b52ab416e90b8b3aa94b57ceb7083c3d879d",
+    "ranking_description": "Take the inverse tangent of f."
+  },
+  "ufl.atan2": {
+    "embedding_id": "n1170",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.atan2.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.atan2",
+    "sha256": "3bd1f96232cbadcd33a5342e6346230158744e53c99fe436aef57ed6273fa952",
+    "ranking_description": "Take the inverse tangent with two the arguments f1 and f2."
+  },
+  "ufl.avg": {
+    "embedding_id": "n1176",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.avg.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.avg",
+    "sha256": "e5432b22c25bcde08952fdd6cdc883af59387b14ecf6dce8c9dcc20f440a051b",
+    "ranking_description": "Take the average of v across a facet."
+  },
+  "ufl.bessel_I": {
+    "embedding_id": "n1179",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.bessel_I.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.bessel_I",
+    "sha256": "4fa5c14e047464ff25a539064e898f6af454113b94e0e61aceb509453eb217a4",
+    "ranking_description": "Regular modified cylindrical Bessel function."
+  },
+  "ufl.bessel_J": {
+    "embedding_id": "n1183",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.bessel_J.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.bessel_J",
+    "sha256": "15fd338b0fe413189362781397e4934015e14aa23187d0186dfdf3eb4f54674f",
+    "ranking_description": "Cylindrical Bessel function of the first kind."
+  },
+  "ufl.bessel_K": {
+    "embedding_id": "n1187",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.bessel_K.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.bessel_K",
+    "sha256": "31f8c0065132a1ff1ce16e175b311f76c2063627c3cca5da488c42eaaa8df563",
+    "ranking_description": "Irregular modified cylindrical Bessel function."
+  },
+  "ufl.bessel_Y": {
+    "embedding_id": "n1191",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.bessel_Y.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.bessel_Y",
+    "sha256": "d2b615c4a2cec2c56f1e5e17286465cf218805b8b127834d8494b78d0f560406",
+    "ranking_description": "Cylindrical Bessel function of the second kind."
+  },
+  "ufl.cell_avg": {
+    "embedding_id": "n1195",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.cell_avg.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.cell_avg",
+    "sha256": "651221cad14d16b33d9072dc9453a2eb675e7d70eb5abcf751b9ff31103bc9b1",
+    "ranking_description": "Take the average of v over a cell."
+  },
+  "ufl.cofac": {
+    "embedding_id": "n1198",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.cofac.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.cofac",
+    "sha256": "c70ec79c919cd6bf1570b50bae9f690403178d93bcaf5d2d742f7d4f93f72651",
+    "ranking_description": "Take the cofactor of A."
+  },
+  "ufl.conditional": {
+    "embedding_id": "n1201",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.conditional.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.conditional",
+    "sha256": "4005e96e95d64932be0c4c8252721ab976cbc49a66449701319fa137bc309063",
+    "ranking_description": "A conditional expression.\n\nThis takes the value of true_value\nwhen condition evaluates to true and false_value otherwise."
+  },
+  "ufl.conj": {
+    "embedding_id": "n1206",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.conj.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.conj",
+    "sha256": "72d19e237e2063c732adc4a352580222d546de553a7bd4a27a451409be9bef94",
+    "ranking_description": "The complex conjugate of f."
+  },
+  "ufl.constantvalue.ComplexValue": {
+    "embedding_id": "n1209",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.constantvalue.ComplexValue.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ComplexValue",
+    "sha256": "708ed439b242e609bba311a2b778b4bc2e98dff3601e4a20d5f4280616a988fa",
+    "ranking_description": "Representation of a constant, complex scalar."
+  },
+  "ufl.constantvalue.ComplexValue.argument": {
+    "embedding_id": "n1210",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.constantvalue.ComplexValue.argument.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ComplexValue.argument",
+    "sha256": "5a6fc6c40a42f8e69419ee21b2aa153cc2357116256ca34da5bdff39c2644f4f",
+    "ranking_description": "Get the argument."
+  },
+  "ufl.constantvalue.ComplexValue.modulus": {
+    "embedding_id": "n1212",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.constantvalue.ComplexValue.modulus.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ComplexValue.modulus",
+    "sha256": "af5515e859da988d2355214b8a7fd25df260661afed9deda2d511486cc559e76",
+    "ranking_description": "Get the modulus."
+  },
+  "ufl.constantvalue.ConstantValue": {
+    "embedding_id": "n1215",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.constantvalue.ConstantValue.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ConstantValue",
+    "sha256": "14d211d910a1445f66f1a5d03c1c8f67646fc4b7c59deea64715498a5241c449",
+    "ranking_description": "Constant value."
+  },
+  "ufl.constantvalue.ConstantValue.is_cellwise_constant": {
+    "embedding_id": "n1216",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.constantvalue.ConstantValue.is_cellwise_constant.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ConstantValue.is_cellwise_constant",
+    "sha256": "860c166ea653bddc17e725ce4b3eafed4a99555f41e0055dc8fffe5e3481d85f",
+    "ranking_description": "Return whether this expression is spatially constant over each cell."
+  },
+  "ufl.constantvalue.ConstantValue.ufl_domains": {
+    "embedding_id": "n1218",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.constantvalue.ConstantValue.ufl_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ConstantValue.ufl_domains",
+    "sha256": "684307ec0ead91aa87b48e8cf95bdcf910703155f158b9b29a0c3ce4dfe0367c",
+    "ranking_description": "Return tuple of domains related to this terminal object."
+  },
+  "ufl.constantvalue.FloatValue": {
+    "embedding_id": "n1220",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.constantvalue.FloatValue.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.FloatValue",
+    "sha256": "38d3a1ecaafc8a28b17105354352ebe71235c8c805d2432f3f42af45c7e17c72",
+    "ranking_description": "Representation of a constant scalar floating point value."
+  },
+  "ufl.constantvalue.IntValue": {
+    "embedding_id": "n1222",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.constantvalue.IntValue.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.IntValue",
+    "sha256": "652632ff4c9d6ed1645289ecadf74305e36b1182815e2264775a4f2ddf174f33",
+    "ranking_description": "Representation of a constant scalar integer value."
+  },
+  "ufl.constantvalue.RealValue": {
+    "embedding_id": "n1225",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.constantvalue.RealValue.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.RealValue",
+    "sha256": "f793738edb263bcbdc3d6d66174a2bf70da8cf68a85391bcb89084452d68b47d",
+    "ranking_description": "Abstract class used to differentiate real values from complex ones."
+  },
+  "ufl.constantvalue.ScalarValue": {
+    "embedding_id": "n1226",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.constantvalue.ScalarValue.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ScalarValue",
+    "sha256": "470a99282d0e9c062579ea8bebc95c70ddfca8d93ef0ba3e6d8c39ae7b2ac222",
+    "ranking_description": "A constant scalar value."
+  },
+  "ufl.constantvalue.ScalarValue.evaluate": {
+    "embedding_id": "n1228",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.constantvalue.ScalarValue.evaluate.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ScalarValue.evaluate",
+    "sha256": "65d253ee264f29b3f24f3ec6e3293435dae6fd7ba41fe8c97707c5c321d86954",
+    "ranking_description": "Evaluate."
+  },
+  "ufl.constantvalue.ScalarValue.imag": {
+    "embedding_id": "n1234",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.constantvalue.ScalarValue.imag.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ScalarValue.imag",
+    "sha256": "ecbd25b0f0cfcbbcdba964459e0646aeb8e568f52a214b32e1cb30547125d405",
+    "ranking_description": "Imaginary part."
+  },
+  "ufl.constantvalue.ScalarValue.real": {
+    "embedding_id": "n1236",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.constantvalue.ScalarValue.real.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ScalarValue.real",
+    "sha256": "15b2717e4622cee01d9bb7cc41e2bed9857202101311c81ff43c486627fb2090",
+    "ranking_description": "Real part."
+  },
+  "ufl.constantvalue.ScalarValue.value": {
+    "embedding_id": "n1238",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.constantvalue.ScalarValue.value.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.ScalarValue.value",
+    "sha256": "4878130a39eb8ae1a3e4be5316bcad5d8bf94f94bd7effeffbff9722be0974b6",
+    "ranking_description": "Get the value."
+  },
+  "ufl.constantvalue.Zero": {
+    "embedding_id": "n1241",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.constantvalue.Zero.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.Zero",
+    "sha256": "68038ed236cdd604f65460bd99cbafcf94fe377c3b24851e9b82173a16de02f0",
+    "ranking_description": "Representation of a zero valued expression.\n\nClass for representing zero tensors of different shapes."
+  },
+  "ufl.constantvalue.Zero.evaluate": {
+    "embedding_id": "n1243",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.constantvalue.Zero.evaluate.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.Zero.evaluate",
+    "sha256": "83ad998902b93111fd64e01cfc79762de426a87e51d62f52fdb97448570132a4",
+    "ranking_description": "Evaluate."
+  },
+  "ufl.constantvalue.format_float": {
+    "embedding_id": "n1255",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.constantvalue.format_float.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.constantvalue.format_float",
+    "sha256": "02cd71907ff3261e8bb99fb86cb9f43933a64d125dbe3023a8957c8a60e5114e",
+    "ranking_description": "Format float value based on global UFL precision."
+  },
+  "ufl.core.terminal.FormArgument": {
+    "embedding_id": "n1258",
+    "kind": "class",
+    "chunk": "chunks/ufl.core/ufl.core.terminal.FormArgument.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.core.html#ufl.core.terminal.FormArgument",
+    "sha256": "9ffe89b03725904ef9d09de6b542c772e68cb290eaff74234217f502cd484a3b",
+    "ranking_description": "An abstract class for a form argument (a thing in a primal finite element space)."
+  },
+  "ufl.core.terminal.Terminal": {
+    "embedding_id": "n1259",
+    "kind": "class",
+    "chunk": "chunks/ufl.core/ufl.core.terminal.Terminal.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.core.html#ufl.core.terminal.Terminal",
+    "sha256": "93951cf47612984c9c6df7ecb3019fa4b7acbe6f0b991dba919eccf0fec9c825",
+    "ranking_description": "Base class for terminal objects.\n\nA terminal node in the UFL expression tree."
+  },
+  "ufl.core.terminal.Terminal.evaluate": {
+    "embedding_id": "n1260",
+    "kind": "method",
+    "chunk": "chunks/ufl.core/ufl.core.terminal.Terminal.evaluate.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.core.html#ufl.core.terminal.Terminal.evaluate",
+    "sha256": "f6b9e2236c138a2a8cdd35c9c4585a7dc41c1a0f092b44015e3d8ef774bfbe7f",
+    "ranking_description": "Get *self* from *mapping* and return the component asked for."
+  },
+  "ufl.core.terminal.Terminal.ufl_domains": {
+    "embedding_id": "n1267",
+    "kind": "method",
+    "chunk": "chunks/ufl.core/ufl.core.terminal.Terminal.ufl_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.core.html#ufl.core.terminal.Terminal.ufl_domains",
+    "sha256": "cf07ff4d565a42a51b0cb4158ee1acb46caf138fdd79ddaefac72dc5b482827a",
+    "ranking_description": "Return tuple of domains related to this terminal object."
+  },
+  "ufl.cos": {
+    "embedding_id": "n1269",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.cos.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.cos",
+    "sha256": "6726075548dba2d163c192b31fbf53db651b0cd84accb854d1f02685ca2e86ec",
+    "ranking_description": "Take the cosine of f."
+  },
+  "ufl.cosh": {
+    "embedding_id": "n1272",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.cosh.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.cosh",
+    "sha256": "85224399ce172d957d5053ea4753df6d70b2ba706ddf77973129b541e8a876ea",
+    "ranking_description": "Take the hyperbolic cosine of f."
+  },
+  "ufl.cross": {
+    "embedding_id": "n1275",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.cross.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.cross",
+    "sha256": "50b9e9a52d835028370338c0cc0bab252226a4b83b49b134abc8c301e786b470",
+    "ranking_description": "Take the cross product of a and b."
+  },
+  "ufl.curl": {
+    "embedding_id": "n1279",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.curl.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.curl",
+    "sha256": "3fe0d05fae204271ba356e2c4ee2bc796d311d1be3b8250966ecbf264f879fa1",
+    "ranking_description": "Take the curl of f."
+  },
+  "ufl.derivative": {
+    "embedding_id": "n1282",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.derivative.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.derivative",
+    "sha256": "81a6c6e8ab1f452bb9719a0072e8d418997258818e891421fd2c723337e4fc50",
+    "ranking_description": "Compute the Gateaux derivative of *form* w.r.t. *coefficient* in direction of *argument*.\n\nIf the argument is omitted, a new ``Argument`` is created\nin the same space as the coefficient, with argument number\none higher than the highest one in the form.\n\nThe resulting form has one additional ``Argument``\nin the same finite element space as the coefficient.\n\nA tuple of ``Coefficient`` s may be provided in place of\na single ``Coefficient``, in which case the new ``Argument``\nargument is based on a ``MixedElement`` created from this tuple.\n\nAn indexed ``Coefficient`` from a mixed space may be provided,\nin which case the argument should be in the corresponding\nsubspace of the coefficient space.\n\nIf provided, *coefficient_derivatives* should be a mapping from\n``Coefficient`` instances to their derivatives w.r.t. *coefficient*."
+  },
+  "ufl.det": {
+    "embedding_id": "n1288",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.det.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.det",
+    "sha256": "1ab0a0baf303249c92357c49903e94e0b29a1ebf3dd7b93b66d7f8a859621a19",
+    "ranking_description": "Take the determinant of A."
+  },
+  "ufl.dev": {
+    "embedding_id": "n1291",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.dev.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.dev",
+    "sha256": "3a2076ad506290c09470bd18d44d2223584ccdec0f288e0c0678e9be1a640896",
+    "ranking_description": "Take the deviatoric part of A."
+  },
+  "ufl.diag": {
+    "embedding_id": "n1294",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.diag.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.diag",
+    "sha256": "8eb0c45064ce7f7aebc7db775ac8771edfe53d162d9920be13aada5b76002d53",
+    "ranking_description": "Diagonal ranl-2 tensor.\n\nTake the diagonal part of rank 2 tensor A or make a diagonal rank 2\ntensor from a rank 1 tensor.\n\nAlways returns a rank 2 tensor. See also diag_vector."
+  },
+  "ufl.diag_vector": {
+    "embedding_id": "n1297",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.diag_vector.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.diag_vector",
+    "sha256": "75d133aa4af634db344457304720edd1240a27854d7f8e320fa688ff8e01e3e0",
+    "ranking_description": "Take the diagonal part of rank 2 tensor A and return as a vector.\n\nSee also diag."
+  },
+  "ufl.diff": {
+    "embedding_id": "n1300",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.diff.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.diff",
+    "sha256": "54308fb512f12f899718f65ef535e98ad3cb8aa2cadc41faf1902f8426b1a2bd",
+    "ranking_description": "Take the derivative of f with respect to the variable v.\n\nIf f is a form, diff is applied to each integrand."
+  },
+  "ufl.div": {
+    "embedding_id": "n1304",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.div.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.div",
+    "sha256": "f56f7de02f3816e286f19e7bf78a1709ddf44889d26354f3a1e295488df7241c",
+    "ranking_description": "Take the divergence of f.\n\nThis operator follows the div convention where\n  div(v) = v[i].dx(i)\n  div(T)[:] = T[:,i].dx(i)\nfor vector expressions v, and\narbitrary rank tensor expressions T.\n\nSee also: :py:func:`nabla_div`"
+  },
+  "ufl.domain.as_domain": {
+    "embedding_id": "n1307",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.domain.as_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.domain.as_domain",
+    "sha256": "23e034f8399e403e857b58326844d0333bb1284880c359f010d3ced3e396edda",
+    "ranking_description": "Convert any valid object to an AbstractDomain type."
+  },
+  "ufl.domain.extract_domains": {
+    "embedding_id": "n1310",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.domain.extract_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.domain.extract_domains",
+    "sha256": "7cd3973d276e803b41164f3bdf88125c5d12a261ca4b93a1197af37600287e2a",
+    "ranking_description": "Return all domains expression is defined on."
+  },
+  "ufl.domain.extract_unique_domain": {
+    "embedding_id": "n1314",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.domain.extract_unique_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.domain.extract_unique_domain",
+    "sha256": "401416bc808bf2fd75e30d967e9f4268d57b974e0bf7c69224a4e04e9db110ea",
+    "ranking_description": "Return the single unique domain expression is defined on or throw an error."
+  },
+  "ufl.domain.find_geometric_dimension": {
+    "embedding_id": "n1316",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.domain.find_geometric_dimension.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.domain.find_geometric_dimension",
+    "sha256": "08b6a5306e8b5d8f26dd784404f16af136c97d522bd09f1a08d55cccf5ecd33a",
+    "ranking_description": "Find the geometric dimension of an expression."
+  },
+  "ufl.domain.join_domains": {
+    "embedding_id": "n1319",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.domain.join_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.domain.join_domains",
+    "sha256": "916942ab93bd9c7b2268b785d106647958bd86ad700922e9bd154b97af9161a3",
+    "ranking_description": "Take a list of domains and return a set with only unique domain objects."
+  },
+  "ufl.domain.sort_domains": {
+    "embedding_id": "n1322",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.domain.sort_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.domain.sort_domains",
+    "sha256": "2d556dce95bf3c1c933c4cbcb9f49c9c6c4d9d56002ac6a3637faa00ebf2f56c",
+    "ranking_description": "Sort domains in a canonical ordering."
+  },
+  "ufl.dot": {
+    "embedding_id": "n1324",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.dot.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.dot",
+    "sha256": "0532077e59df3353abd8cfedc69563a7e247400e33ae95d7b62cd472023fb467",
+    "ranking_description": "Take the dot product of a and b.\n\nThis won't take the complex conjugate of the second argument."
+  },
+  "ufl.elem_div": {
+    "embedding_id": "n1328",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.elem_div.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.elem_div",
+    "sha256": "ec6cde6439faa49db941c1a9a0d6d3d42b82be56b10089de854af91a4b9fb741",
+    "ranking_description": "Take the elementwise division of tensors A and B with the same shape."
+  },
+  "ufl.elem_mult": {
+    "embedding_id": "n1332",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.elem_mult.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.elem_mult",
+    "sha256": "5b3865a4be3e012aefdd99c52729a22b6fd0461f43c000e93362c58c43c07b34",
+    "ranking_description": "Take the elementwise multiplication of tensors A and B with the same shape."
+  },
+  "ufl.elem_op": {
+    "embedding_id": "n1336",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.elem_op.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.elem_op",
+    "sha256": "e132b95d733f885451bec4a2d39d0f414759755ca874925a3390b1ce7418fc1d",
+    "ranking_description": "Apply element-wise operations.\n\nTake the element-wise application of operator op on scalar values\nfrom one or more tensor arguments."
+  },
+  "ufl.elem_pow": {
+    "embedding_id": "n1340",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.elem_pow.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.elem_pow",
+    "sha256": "2e026ea65c49251c2fb51b93365bdd2e45bac1dee46b85053ebb4df1aec1292c",
+    "ranking_description": "Take the elementwise power of tensors A and B with the same shape."
+  },
+  "ufl.energy_norm": {
+    "embedding_id": "n1344",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.energy_norm.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.energy_norm",
+    "sha256": "7a0e0f5510ef3b302da7e17e667dcf106913d8c7f548ae9c798a2c12d7f26eb5",
+    "ranking_description": "Get the energy norm.\n\nGiven a bilinear form *a* and a coefficient *f*,\nreturn the functional :math:`a(f,f)`."
+  },
+  "ufl.eq": {
+    "embedding_id": "n1348",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.eq.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.eq",
+    "sha256": "71d54d1541b41a52a7b6d1feeea59239a42b136926c2c56fd2cb90250bbce83f",
+    "ranking_description": "A boolean expression (left == right) for use with conditional."
+  },
+  "ufl.erf": {
+    "embedding_id": "n1352",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.erf.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.erf",
+    "sha256": "fe00c5aac92c3a57a33e2af0830acdb50bddf1a37537f10d0e89f70014a43789",
+    "ranking_description": "Take the error function of f."
+  },
+  "ufl.exp": {
+    "embedding_id": "n1355",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.exp.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.exp",
+    "sha256": "06436554118e437dec992277830569db119dff81a8359e8cb5931c4f845d8457",
+    "ranking_description": "Take the exponential of f."
+  },
+  "ufl.exterior_derivative": {
+    "embedding_id": "n1358",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.exterior_derivative.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.exterior_derivative",
+    "sha256": "58f5bf6cba71d674b3765d9b51b8f35e777905864d670f44284d834f81b04cb3",
+    "ranking_description": "Take the exterior derivative of f.\n\nThe exterior derivative uses the element Sobolev space to\ndetermine whether id, grad, curl or div should be used.\n\nNote that this uses the grad and div operators,\nas opposed to nabla_grad and nabla_div."
+  },
+  "ufl.extract_blocks": {
+    "embedding_id": "n1361",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.extract_blocks.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.extract_blocks",
+    "sha256": "ff3a75d58197c0846f06cc221add642b21ab8ee31ca2e874b4ea3394c5cadc4b",
+    "ranking_description": "Extract blocks.\n\nGiven a linear or bilinear form on a mixed space,\nextract the block corresponding to the indices ix, iy.\n\nExample:\n   a = inner(grad(u), grad(v))*dx + div(u)*q*dx + div(v)*p*dx\n   extract_blocks(a, 0, 0) -> inner(grad(u), grad(v))*dx\n   extract_blocks(a) -> [inner(grad(u), grad(v))*dx, div(v)*p*dx, div(u)*q*dx, 0]"
+  },
+  "ufl.facet_avg": {
+    "embedding_id": "n1366",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.facet_avg.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.facet_avg",
+    "sha256": "4cc57704c8cb21eb8fb682a03f5f2a43953bc80420b8fae523b24040486eea04",
+    "ranking_description": "Take the average of v over a facet."
+  },
+  "ufl.form.as_form": {
+    "embedding_id": "n1369",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.form.as_form.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.form.as_form",
+    "sha256": "af594dd7a5ee50746f4129b18581424f65081c8901c6ac5d653d0a4560b78aae",
+    "ranking_description": "Convert to form if not a form, otherwise return form."
+  },
+  "ufl.formoperators.set_list_item": {
+    "embedding_id": "n1372",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.formoperators.set_list_item.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.formoperators.set_list_item",
+    "sha256": "08ebda571c4d7f79fb4be4ca5f19b67a8f02ab4dc0cf18ec7d82ca0d526686d7",
+    "ranking_description": "Set an item in a nested list."
+  },
+  "ufl.formoperators.zero_lists": {
+    "embedding_id": "n1377",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.formoperators.zero_lists.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.formoperators.zero_lists",
+    "sha256": "2fbee6c60bbde26f1a0b525c8ae8884d2aa84d04ae18e1542c789e7f0136a5f8",
+    "ranking_description": "Createa list of zeros of the given shape."
+  },
+  "ufl.functional": {
+    "embedding_id": "n1380",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.functional.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functional",
+    "sha256": "587d2f9ed858e48d64c07c6faa996e4086538f3d93a7a9dcaf3dbd3ee9480388",
+    "ranking_description": "Extract the functional part of form."
+  },
+  "ufl.functionspace.AbstractFunctionSpace": {
+    "embedding_id": "n1383",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.functionspace.AbstractFunctionSpace.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.AbstractFunctionSpace",
+    "sha256": "76162edd1d489f2e8381e8628e77f760792b81a39391e3f2734498145f32e821",
+    "ranking_description": "Abstract function space."
+  },
+  "ufl.functionspace.AbstractFunctionSpace.ufl_sub_spaces": {
+    "embedding_id": "n1384",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.functionspace.AbstractFunctionSpace.ufl_sub_spaces.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.AbstractFunctionSpace.ufl_sub_spaces",
+    "sha256": "edcd7e86bc4f7c3f3274d912360d3677b9a79edc3728bbc9a1b78017305f97a7",
+    "ranking_description": "Return ufl sub spaces."
+  },
+  "ufl.functionspace.BaseFunctionSpace": {
+    "embedding_id": "n1386",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.functionspace.BaseFunctionSpace.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.BaseFunctionSpace",
+    "sha256": "76ad9f69ca61f1f6187b4d6aa9654999e86dc909390ecdcb9eb3364b4a1202f8",
+    "ranking_description": "Base function space."
+  },
+  "ufl.functionspace.BaseFunctionSpace.label": {
+    "embedding_id": "n1391",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.functionspace.BaseFunctionSpace.label.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.BaseFunctionSpace.label",
+    "sha256": "8fc281670b05acfa82e6f52e45b5b35608f78aa0b487053029bbef79bf259cda",
+    "ranking_description": "Return label of boundary domains to differentiate restricted and unrestricted."
+  },
+  "ufl.functionspace.BaseFunctionSpace.ufl_domain": {
+    "embedding_id": "n1393",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.functionspace.BaseFunctionSpace.ufl_domain.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.BaseFunctionSpace.ufl_domain",
+    "sha256": "50986febbf7618d10fa8081e4d19434ce39d2f7a243e8a22ae263bff6a94dbc1",
+    "ranking_description": "Return ufl domain."
+  },
+  "ufl.functionspace.BaseFunctionSpace.ufl_domains": {
+    "embedding_id": "n1395",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.functionspace.BaseFunctionSpace.ufl_domains.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.BaseFunctionSpace.ufl_domains",
+    "sha256": "f243351503b47751005031955b0fe7d80ea00121530cd8bbca4f5cd5fa5fb8e8",
+    "ranking_description": "Return ufl domains."
+  },
+  "ufl.functionspace.BaseFunctionSpace.ufl_element": {
+    "embedding_id": "n1397",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.functionspace.BaseFunctionSpace.ufl_element.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.BaseFunctionSpace.ufl_element",
+    "sha256": "73e7b0b69dd5041c4e1765c73b8ccd824ed0fb82b545ee70079e5e872912a240",
+    "ranking_description": "Return ufl element."
+  },
+  "ufl.functionspace.BaseFunctionSpace.ufl_sub_spaces": {
+    "embedding_id": "n1399",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.functionspace.BaseFunctionSpace.ufl_sub_spaces.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.BaseFunctionSpace.ufl_sub_spaces",
+    "sha256": "3165fc3822b8b6b1e5877d9e31f7fe5aedf434e4301a9d0bb540b8126f5b8293",
+    "ranking_description": "Return ufl sub spaces."
+  },
+  "ufl.functionspace.DualSpace": {
+    "embedding_id": "n1406",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.functionspace.DualSpace.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.DualSpace",
+    "sha256": "dd3306744187dbd1dd4ce2b8b59aa19f7909271af3983ca678c9b77f28e68778",
+    "ranking_description": "Representation of a Dual space."
+  },
+  "ufl.functionspace.DualSpace.dual": {
+    "embedding_id": "n1407",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.functionspace.DualSpace.dual.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.DualSpace.dual",
+    "sha256": "29f6673580ed6b463be5ef21267b9074bc5561ce6138dd3deb1b715465ac5feb",
+    "ranking_description": "Get the dual of the space."
+  },
+  "ufl.functionspace.TensorProductFunctionSpace": {
+    "embedding_id": "n1412",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.functionspace.TensorProductFunctionSpace.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.TensorProductFunctionSpace",
+    "sha256": "f1d0f776e2fc571ca4894c213deb4dc91b62545ce7181cac9fa157dd9f706a09",
+    "ranking_description": "Tensor product function space."
+  },
+  "ufl.functionspace.TensorProductFunctionSpace.ufl_sub_spaces": {
+    "embedding_id": "n1414",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.functionspace.TensorProductFunctionSpace.ufl_sub_spaces.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.functionspace.TensorProductFunctionSpace.ufl_sub_spaces",
+    "sha256": "4fe08be871dc38b67a329a17cd6d50f0ca8a0c1255d1d85a30a0e6d90c1ae771",
+    "ranking_description": "Return ufl sub spaces."
+  },
+  "ufl.ge": {
+    "embedding_id": "n1417",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.ge.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.ge",
+    "sha256": "d461e1ba4cfbc3ed3687fb95433dfed1aa16d464d874996e802dbf3f4147c568",
+    "ranking_description": "A boolean expression (left >= right) for use with conditional."
+  },
+  "ufl.grad": {
+    "embedding_id": "n1421",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.grad.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.grad",
+    "sha256": "f03adefb2b9993550c2db0f91b869ac8bcc0bb49f05f352bfa767e1ad67bd0c7",
+    "ranking_description": "Take the gradient of f.\n\nThis operator follows the grad convention where\n  grad(s)[i] = s.dx(i)\n  grad(v)[i,j] = v[i].dx(j)\n  grad(T)[:,i] = T[:].dx(i)\nfor scalar expressions s, vector expressions v,\nand arbitrary rank tensor expressions T.\n\nSee also: :py:func:`nabla_grad`"
+  },
+  "ufl.gt": {
+    "embedding_id": "n1424",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.gt.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.gt",
+    "sha256": "bac3831eb61fc110a54007fd7ee4dc0c6ddac945b2baff51edd3974ddee00375",
+    "ranking_description": "A boolean expression (left > right) for use with conditional."
+  },
+  "ufl.imag": {
+    "embedding_id": "n1428",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.imag.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.imag",
+    "sha256": "76565f6c6a7798eaf42cef472075a7becd228dc722d19bd16c4ceef05ec2af59",
+    "ranking_description": "The imaginary part of f."
+  },
+  "ufl.inner": {
+    "embedding_id": "n1431",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.inner.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.inner",
+    "sha256": "d02d387d24d06408298a214c60a51067b41489fa3edc513da3f733f453bf99d1",
+    "ranking_description": "Take the inner product of a and b.\n\nThe complex conjugate of the second argument is taken."
+  },
+  "ufl.integral_types": {
+    "embedding_id": "n1435",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.integral_types.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.integral_types",
+    "sha256": "72269fe20d645bbeeb60683b6c5a5418de4cab3cc73901cf184332a3103668cd",
+    "ranking_description": "Return a tuple of all domain type strings."
+  },
+  "ufl.inv": {
+    "embedding_id": "n1437",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.inv.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.inv",
+    "sha256": "a416d8c0c188747b11e163822bbf97725d789d00d8afa924f47a4d793a9e24c1",
+    "ranking_description": "Take the inverse of A."
+  },
+  "ufl.jump": {
+    "embedding_id": "n1440",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.jump.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.jump",
+    "sha256": "95e39661d78b82cfaa24ea90cde5b697c0051e840a38b8518c56bf98ae093ae3",
+    "ranking_description": "Take the jump of v across a facet."
+  },
+  "ufl.le": {
+    "embedding_id": "n1444",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.le.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.le",
+    "sha256": "990bb92385924a990679a7d00305f30c4f6fa1cc4838bd2a3dc9128c339bfdd7",
+    "ranking_description": "A boolean expression (left <= right) for use with conditional."
+  },
+  "ufl.lhs": {
+    "embedding_id": "n1448",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.lhs.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.lhs",
+    "sha256": "7b8716af4bf8bb26ac7361d5311b248a74f21635f1caa1b1b08fbb6545922371",
+    "ranking_description": "Get the left hand side.\n\nGiven a combined bilinear and linear form,\nextract the left hand side (bilinear form part).\n\nExample:\n    a = u*v*dx + f*v*dx\n    a = lhs(a) -> u*v*dx"
+  },
+  "ufl.ln": {
+    "embedding_id": "n1451",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.ln.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.ln",
+    "sha256": "f0ee695b5f4ab2a8f78dc4f544395d030a016b6cc4c9f123d4ecb803a8f6372f",
+    "ranking_description": "Take the natural logarithm of f."
+  },
+  "ufl.lt": {
+    "embedding_id": "n1454",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.lt.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.lt",
+    "sha256": "1f46225434d7df416139e4966526739129e663050581ebf1ffd2980147a8713c",
+    "ranking_description": "A boolean expression (left < right) for use with conditional."
+  },
+  "ufl.max_value": {
+    "embedding_id": "n1458",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.max_value.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.max_value",
+    "sha256": "37b887b967209168fd86f6056862cd2656996ee27a12bd77f7f278ada11845a8",
+    "ranking_description": "Take the maximum of x and y."
+  },
+  "ufl.measure.MeasureProduct": {
+    "embedding_id": "n1462",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.measure.MeasureProduct.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.measure.MeasureProduct",
+    "sha256": "d7720098c65fbc540c028965234ca39029827127be2fb8e0003f5bde26c95a0a",
+    "ranking_description": "Represents a product of measures.\n\nThis is a notational intermediate object to handle the notation\n\n    f*(dm1*dm2)\n\nThis is work in progress and not functional. It needs support\nin other parts of ufl and the rest of the code generation chain."
+  },
+  "ufl.measure.MeasureProduct.sub_measures": {
+    "embedding_id": "n1464",
+    "kind": "method",
+    "chunk": "chunks/ufl/ufl.measure.MeasureProduct.sub_measures.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.measure.MeasureProduct.sub_measures",
+    "sha256": "07b7ca15f5f126ee1f88ce0213121053193d0d22648c02e03efae75b660ea3c0",
+    "ranking_description": "Return submeasures."
+  },
+  "ufl.measure.MeasureSum": {
+    "embedding_id": "n1467",
+    "kind": "class",
+    "chunk": "chunks/ufl/ufl.measure.MeasureSum.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.measure.MeasureSum",
+    "sha256": "2d5339258f37a26b3141cc0662381763eb27e12432baecedd5bef349e1763610",
+    "ranking_description": "Represents a sum of measures.\n\nThis is a notational intermediate object to translate the notation\n    f*(ds(1)+ds(3))\ninto\n    f*ds(1) + f*ds(3)"
+  },
+  "ufl.measure.as_integral_type": {
+    "embedding_id": "n1470",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.measure.as_integral_type.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.measure.as_integral_type",
+    "sha256": "dc51537fd281d5faba8b4c8d3fde4bad8f96c0be4f5eaa09d4d4bbf011bc66c5",
+    "ranking_description": "Map short name to long name and require a valid one."
+  },
+  "ufl.measure.measure_names": {
+    "embedding_id": "n1473",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.measure.measure_names.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.measure.measure_names",
+    "sha256": "41fbda6daae1cca89300e81da4203002b93bc3b0482c8592e4a989be328126df",
+    "ranking_description": "Return a tuple of all measure name strings."
+  },
+  "ufl.min_value": {
+    "embedding_id": "n1475",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.min_value.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.min_value",
+    "sha256": "f517105dc1bf4963e9a52e4cc993a21134fc72ee82cf3006cf2abff124198e5a",
+    "ranking_description": "Take the minimum of x and y."
+  },
+  "ufl.nabla_div": {
+    "embedding_id": "n1479",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.nabla_div.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.nabla_div",
+    "sha256": "fa89dcb0b33cf62e0ff08c41f5b25f28c1d9d048c402cfa7e02006e4f8c448df",
+    "ranking_description": "Take the divergence of f.\n\nThis operator follows the div convention where\n  nabla_div(v) = v[i].dx(i)\n  nabla_div(T)[:] = T[i,:].dx(i)\nfor vector expressions v, and\narbitrary rank tensor expressions T.\n\nSee also: :py:func:`div`"
+  },
+  "ufl.nabla_grad": {
+    "embedding_id": "n1482",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.nabla_grad.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.nabla_grad",
+    "sha256": "278ca5cc4a8af6e7452710a3dd942d2fa8f6c4989e7ca04bcba9bcab7ca1e4a7",
+    "ranking_description": "Take the gradient of f.\n\nThis operator follows the grad convention where\n  nabla_grad(s)[i] = s.dx(i)\n  nabla_grad(v)[i,j] = v[j].dx(i)\n  nabla_grad(T)[i,:] = T[:].dx(i)\nfor scalar expressions s, vector expressions v,\nand arbitrary rank tensor expressions T.\n\nSee also: :py:func:`grad`"
+  },
+  "ufl.ne": {
+    "embedding_id": "n1485",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.ne.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.ne",
+    "sha256": "fb5a681f5eaec1bf4e079879c1b5329012ffc6bd5abc5167e42202620ffcf9d4",
+    "ranking_description": "A boolean expression (left != right) for use with conditional."
+  },
+  "ufl.operators.elem_op_items": {
+    "embedding_id": "n1489",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.operators.elem_op_items.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.operators.elem_op_items",
+    "sha256": "4dc658dbaf327e9e9996a3d1253f8b2f08709d7d88ce60ae6b7aed71fb73f9e8",
+    "ranking_description": "Elem op items."
+  },
+  "ufl.outer": {
+    "embedding_id": "n1494",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.outer.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.outer",
+    "sha256": "1c227e8b380f9e33841b5ccb9d34b865b0e23324b2cd1556486331d1eeb3f57e",
+    "ranking_description": "Take the outer product of two or more operands.\n\nThe complex conjugate of the first argument is taken."
+  },
+  "ufl.perp": {
+    "embedding_id": "n1497",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.perp.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.perp",
+    "sha256": "272b065927db720fa14e9af1a51793984a4047294f118eea87c3367c354a8a2f",
+    "ranking_description": "Take the perp of v.\n\nI.e. :math:`(-v_1, +v_0)`."
+  },
+  "ufl.rank": {
+    "embedding_id": "n1500",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.rank.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.rank",
+    "sha256": "1937f95e0b43fc91a292343d9995da594c695253cbf76191f5928ac75b44328b",
+    "ranking_description": "The rank of f."
+  },
+  "ufl.real": {
+    "embedding_id": "n1503",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.real.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.real",
+    "sha256": "aa10d38ed5aba48b1f5f7201b4c7ed657b4afee26e725e8c0d68d5bdd5c54afb",
+    "ranking_description": "The real part of f."
+  },
+  "ufl.register_integral_type": {
+    "embedding_id": "n1506",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.register_integral_type.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.register_integral_type",
+    "sha256": "7dd682a8d2a37c579de5c4a4767874e76488996e432a610f8108a12878711cba",
+    "ranking_description": "Register an integral type."
+  },
+  "ufl.rhs": {
+    "embedding_id": "n1510",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.rhs.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.rhs",
+    "sha256": "51b5e282556af19c46a9fcc58d1e4c025111056897ca97fd47ebc6e0f0c018a5",
+    "ranking_description": "Get the right hand side.\n\nGiven a combined bilinear and linear form,\nextract the right hand side (negated linear form part).\n\nExample:\n    a = u*v*dx + f*v*dx\n    L = rhs(a) -> -f*v*dx"
+  },
+  "ufl.sensitivity_rhs": {
+    "embedding_id": "n1513",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.sensitivity_rhs.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.sensitivity_rhs",
+    "sha256": "f0a9170b64793ba5495593d1fe391e84207ce887f24ba8b19a557fdc6326b007",
+    "ranking_description": "Compute the right hand side for a sensitivity calculation system.\n\nThe derivation behind this computation is as follows.\nAssume *a*, *L* to be bilinear and linear forms\ncorresponding to the assembled linear system\n\n.. math::\n\n    Ax = b.\n\nWhere *x* is the vector of the discrete function corresponding to *u*.\nLet *v* be some scalar variable this equation depends on.\nThen we can write\n\n.. math::\n    0 = \\\\frac{d}{dv}(Ax-b) = \\\\frac{dA}{dv} x + A \\\\frac{dx}{dv} -\n    \\\\frac{db}{dv},\n\n    A \\\\frac{dx}{dv} = \\\\frac{db}{dv} - \\\\frac{dA}{dv} x,\n\nand solve this system for :math:`\\\\frac{dx}{dv}`, using the same bilinear\nform *a* and matrix *A* from the original system.\nAssume the forms are written\n::\n\n    v = variable(v_expression)\n    L = IL(v) * dx\n    a = Ia(v) * dx\n\nwhere ``IL`` and ``Ia`` are integrand expressions.\nDefine a ``Coefficient u`` representing the solution\nto the equations. Then we can compute :math:`\\\\frac{db}{dv}`\nand :math:`\\\\frac{dA}{dv}` from the forms\n::\n\n    da = diff(a, v)\n    dL = diff(L, v)\n\nand the action of ``da`` on ``u`` by\n::\n\n    dau = action(da, u)\n\nIn total, we can build the right hand side of the system\nto compute :math:`\\\\frac{du}{dv}` with the single line\n::\n\n    dL = diff(L, v) - action(diff(a, v), u)\n\nor, using this function,\n::\n\n    dL = sensitivity_rhs(a, u, L, v)"
+  },
+  "ufl.shape": {
+    "embedding_id": "n1519",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.shape.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.shape",
+    "sha256": "46d5a116f7e057ae8dbd5ae46d4dd2eee77595da467b76f41218b01149bdf730",
+    "ranking_description": "The shape of f."
+  },
+  "ufl.sign": {
+    "embedding_id": "n1522",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.sign.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.sign",
+    "sha256": "0e5ae2b0ea35d6d5985dd55835c0f6f2746d070c6378e9c6a02f30b44d099b0e",
+    "ranking_description": "Return the sign of x.\n\nThis returns +1 if x is positive, -1 if x is negative, and 0 if x is 0."
+  },
+  "ufl.sin": {
+    "embedding_id": "n1525",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.sin.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.sin",
+    "sha256": "953805e3406d418d01b868e789323a0647e2d36a05dd4cdbb8858306c75991b0",
+    "ranking_description": "Take the sine of f."
+  },
+  "ufl.sinh": {
+    "embedding_id": "n1528",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.sinh.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.sinh",
+    "sha256": "9f6a4d184c5dd27b476e66676161394a0bf77707f7dd6b98b27cff92e3c267aa",
+    "ranking_description": "Take the hyperbolic sine of f."
+  },
+  "ufl.skew": {
+    "embedding_id": "n1531",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.skew.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.skew",
+    "sha256": "bcf61548960b3932c6b3fd44b43a5fed680e1f31a4d38326350aaf1cd72deaef",
+    "ranking_description": "Take the skew symmetric part of A."
+  },
+  "ufl.split": {
+    "embedding_id": "n1534",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.split.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.split",
+    "sha256": "cdb63384c5f31af38691eba641d3247a915747516a9d28d27859e3cb32469d13",
+    "ranking_description": "Split a coefficient or argument.\n\nIf v is a Coefficient or Argument in a mixed space, returns a tuple\nwith the function components corresponding to the subelements."
+  },
+  "ufl.sqrt": {
+    "embedding_id": "n1537",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.sqrt.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.sqrt",
+    "sha256": "4644131dffc51ad3fd18c27e002c2eb2bfbba4344caf75d981e2acadbc9bc36f",
+    "ranking_description": "Take the square root of f."
+  },
+  "ufl.sym": {
+    "embedding_id": "n1540",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.sym.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.sym",
+    "sha256": "fdc8b184de05b7754c04906d0523e742badba8d6bb27c0588f7b427d46ec9cd9",
+    "ranking_description": "Take the symmetric part of A."
+  },
+  "ufl.system": {
+    "embedding_id": "n1543",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.system.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.system",
+    "sha256": "67c2c1111eb9dd66c6fe88714147bbc37c9a992ec3409df9b713f75614d36859",
+    "ranking_description": "Split a form into the left hand side and right hand side.\n\nSee ``lhs`` and ``rhs``."
+  },
+  "ufl.tan": {
+    "embedding_id": "n1546",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.tan.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.tan",
+    "sha256": "0f4bb844b2cf73ca61b64e9c3ff72f9da9471d555a85551f78de55b021a38dca",
+    "ranking_description": "Take the tangent of f."
+  },
+  "ufl.tanh": {
+    "embedding_id": "n1549",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.tanh.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.tanh",
+    "sha256": "4a49c7a8c8e04c35d0a5aa14e12b1e639d71f809dad5d68fe23ace0cadf64dde",
+    "ranking_description": "Take the hyperbolic tangent of f."
+  },
+  "ufl.tr": {
+    "embedding_id": "n1552",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.tr.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.tr",
+    "sha256": "75ee11abc4fd671b1b0a2eb877187deb09282f93aaa40ffb9c5b396641b01d16",
+    "ranking_description": "Take the trace of A."
+  },
+  "ufl.transpose": {
+    "embedding_id": "n1555",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.transpose.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.transpose",
+    "sha256": "b23d1a9da8bd2fb49f820c039e56622e22f082994b6f4f48e009fd545208392a",
+    "ranking_description": "Take the transposed of tensor A."
+  },
+  "ufl.variable": {
+    "embedding_id": "n1558",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.variable.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.variable",
+    "sha256": "4d583bd1ad870344ce5c7f5fcf9af441ada1b7315f5592bcbc1dc6e9d1836a76",
+    "ranking_description": "Define a variable representing the given expression.\n\nSee also diff()."
+  },
+  "ufl.zero": {
+    "embedding_id": "n1561",
+    "kind": "function",
+    "chunk": "chunks/ufl/ufl.zero.md",
+    "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html#ufl.zero",
+    "sha256": "10c092deeece6ccb6d03a52862bcefe6c1d0a7aac88f7c7c09a1ef24f76472cc",
+    "ranking_description": "UFL literal constant: Return a zero tensor with the given shape."
+  }
+}

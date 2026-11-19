@@ -1,0 +1,212 @@
+{
+  "versions": {
+    "dolfinx": "0.10.0",
+    "basix": "0.10.0",
+    "ufl": "2025.2.1"
+  },
+  "documentation_repository": "https://github.com/FEniCS/docs",
+  "documentation_commit": "a2822165ff4ccf54671ee1c18199127d4cc6e87f",
+  "pages": [
+    {
+      "module": "dolfinx.fem",
+      "file": "official_html/dolfinx/v0.10.0/python/generated/dolfinx.fem.html",
+      "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.html",
+      "revision_url": "https://github.com/FEniCS/docs/blob/a2822165ff4ccf54671ee1c18199127d4cc6e87f/dolfinx/v0.10.0/python/generated/dolfinx.fem.html",
+      "sha256": "dece2fa196317465ba2068c950711c1aaefe86712120da1166a0e2b5eb30a038",
+      "api_count": 116
+    },
+    {
+      "module": "dolfinx.fem.petsc",
+      "file": "official_html/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html",
+      "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html",
+      "revision_url": "https://github.com/FEniCS/docs/blob/a2822165ff4ccf54671ee1c18199127d4cc6e87f/dolfinx/v0.10.0/python/generated/dolfinx.fem.petsc.html",
+      "sha256": "2f55d2e329e64274644d6fe15e15f354d8b794d27517519c0dc02e33efa0fbdb",
+      "api_count": 49
+    },
+    {
+      "module": "dolfinx.mesh",
+      "file": "official_html/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html",
+      "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html",
+      "revision_url": "https://github.com/FEniCS/docs/blob/a2822165ff4ccf54671ee1c18199127d4cc6e87f/dolfinx/v0.10.0/python/generated/dolfinx.mesh.html",
+      "sha256": "1859c6494ada082f5bc40a155861579e5dde033bbeabbb49e0f44bc5d3202c04",
+      "api_count": 90
+    },
+    {
+      "module": "dolfinx.io.gmsh",
+      "file": "official_html/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html",
+      "source": "https://docs.fenicsproject.org/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html",
+      "revision_url": "https://github.com/FEniCS/docs/blob/a2822165ff4ccf54671ee1c18199127d4cc6e87f/dolfinx/v0.10.0/python/generated/dolfinx.io.gmsh.html",
+      "sha256": "06c956812d9581caca296062e51a6f42f36e048ad67471adf90a9ea35a701c35",
+      "api_count": 20
+    },
+    {
+      "module": "basix.ufl",
+      "file": "official_html/basix/v0.10.0/python/_autosummary/basix.ufl.html",
+      "source": "https://docs.fenicsproject.org/basix/v0.10.0/python/_autosummary/basix.ufl.html",
+      "revision_url": "https://github.com/FEniCS/docs/blob/a2822165ff4ccf54671ee1c18199127d4cc6e87f/basix/v0.10.0/python/_autosummary/basix.ufl.html",
+      "sha256": "4ea439c3e84a7232ef1b828a2f1192b35515c1aaa9bbbf6569b8ddbda1dbd0a9",
+      "api_count": 8
+    },
+    {
+      "module": "ufl",
+      "file": "official_html/ufl/2025.2.1/api-doc/ufl.html",
+      "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.html",
+      "revision_url": "https://github.com/FEniCS/docs/blob/a2822165ff4ccf54671ee1c18199127d4cc6e87f/ufl/2025.2.1/api-doc/ufl.html",
+      "sha256": "e729c54d0047e39addf361bae425a8d0351e060e3eeff3d550c92157964dc10b",
+      "api_count": 2116
+    },
+    {
+      "module": "ufl.core",
+      "file": "official_html/ufl/2025.2.1/api-doc/ufl.core.html",
+      "source": "https://docs.fenicsproject.org/ufl/2025.2.1/api-doc/ufl.core.html",
+      "revision_url": "https://github.com/FEniCS/docs/blob/a2822165ff4ccf54671ee1c18199127d4cc6e87f/ufl/2025.2.1/api-doc/ufl.core.html",
+      "sha256": "18fa9481d52c2cb7a5ab022889314e04c5682531f2c78166019a29e0d07a62d2",
+      "api_count": 71
+    }
+  ],
+  "api_sources": [
+    {
+      "file": "api_sources/metadata/basix/__init__.py",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/python/basix/__init__.py",
+      "sha256": "c3d0b9ba1a47f31ae82d37197d9a7f53b264133f839465d2ea75f104b0d91690"
+    },
+    {
+      "file": "api_sources/metadata/dolfinx/__init__.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/__init__.py",
+      "sha256": "c8bc8519bf909c85257f92e97d70d95f537aed8eec800e9ef1fcc259f485ddd8"
+    },
+    {
+      "file": "api_sources/metadata/dolfinx/io/__init__.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/io/__init__.py",
+      "sha256": "9fa75d41045ff99ac605a8b7db54b5ae91d26c4a71a51de06dbc727a2418b457"
+    },
+    {
+      "file": "api_sources/metadata/dolfinx/la/__init__.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/la/__init__.py",
+      "sha256": "94798b20305e71a1fa6e409998b15648b764a6ef4dc5f2686f851a825715b29a"
+    },
+    {
+      "file": "api_sources/python/dolfinx/fem/__init__.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/__init__.py",
+      "sha256": "14648e87264718a450558bbce3eb6064d5fea844fdea119b83c24d75d0416d5d"
+    },
+    {
+      "file": "api_sources/python/ufl/argument.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/argument.py",
+      "sha256": "ebb3de4e55f5377c957ef27a5c1aaeb501ff3f2863341b13f34c77064c9000be"
+    },
+    {
+      "file": "api_sources/python/ufl/split_functions.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/split_functions.py",
+      "sha256": "f31ce165a1f0e9da641199680efc4f932c19476bf9de0aec0a6da7865bd0b4f9"
+    },
+    {
+      "file": "api_sources/python/ufl/functionspace.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/functionspace.py",
+      "sha256": "ea956e0748acd4c2aeb11f3d5a048615e4b80aed9437a194c7daafab5617f738"
+    },
+    {
+      "file": "api_sources/python/ufl/form.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/form.py",
+      "sha256": "a64bf1a5c0cadbe06b81733b1f7f98f574d2654fba87a1ddb5774897b2d46dc9"
+    },
+    {
+      "file": "api_sources/python/ufl/core/terminal.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/core/terminal.py",
+      "sha256": "a341975309136c702d808cab9e07c2a34e94234df7a42d7deea10e0703a46b9c"
+    },
+    {
+      "file": "api_sources/metadata/ufl/__init__.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/__init__.py",
+      "sha256": "2c067ad02c1ad648be970049aa6847efcf4c47d78d7f14109ac0339a85334eba"
+    },
+    {
+      "file": "api_sources/python/ufl/measure.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/measure.py",
+      "sha256": "97f9c8619d4513f67b45d32c9956730a1571a553343fe01166f1cf125747a649"
+    },
+    {
+      "file": "api_sources/python/ufl/domain.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/domain.py",
+      "sha256": "ad4e221517d14747f53b8c15d64501c236b5b546196bcb91998a48abc1c4b2b6"
+    },
+    {
+      "file": "api_sources/python/ufl/operators.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/operators.py",
+      "sha256": "6af141cfad2605e5a7cfa9d2b5e793f67404b5212b0e6bc4aae52129cc6367a8"
+    },
+    {
+      "file": "api_sources/python/dolfinx/fem/assemble.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/assemble.py",
+      "sha256": "fdba305d3c02088a0ed7276cfb415e9fe2759749e3f300fe82139fe5a34b150c"
+    },
+    {
+      "file": "api_sources/python/dolfinx/fem/bcs.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/bcs.py",
+      "sha256": "ac8d8a1fbefed7505fb85debfca9f683afb385c828ce5c9af67f51612bba974b"
+    },
+    {
+      "file": "api_sources/python/dolfinx/fem/dofmap.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/dofmap.py",
+      "sha256": "45cab71168a0e8f0c224df4b63c810fce79a9af5ddd49d34e5ddcbf97d413d47"
+    },
+    {
+      "file": "api_sources/python/dolfinx/fem/element.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/element.py",
+      "sha256": "d9d4aada8987f277ae5bdda2ff2bc6862aeb2859a7ba42ffd3d72112d9cd26c2"
+    },
+    {
+      "file": "api_sources/python/dolfinx/fem/forms.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/forms.py",
+      "sha256": "fcf032a91720bb8f5849b95c7a47dcbc6e3391dc8dc3d22529b4f7baf0e1be8f"
+    },
+    {
+      "file": "api_sources/python/dolfinx/fem/function.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/function.py",
+      "sha256": "63541293e567930fe752f4a4b5028f8a6269a87f558f6b85a6efbe95444ea8d0"
+    },
+    {
+      "file": "api_sources/python/dolfinx/fem/petsc.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/petsc.py",
+      "sha256": "841615634fd29d233574652c8c4375cd9057f156bf4e00eaba1f32c0a107b962"
+    },
+    {
+      "file": "api_sources/python/dolfinx/io/gmsh.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/io/gmsh.py",
+      "sha256": "565ab18b656e52dcd61e8de4958a9775d6ce2bd85b1ad4eab0a87789d0579739"
+    },
+    {
+      "file": "api_sources/python/dolfinx/mesh.py",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/mesh.py",
+      "sha256": "95c99c369c71070ef2b6376282cdb728e704b117f5f0cbbb1f035abc6082f31f"
+    },
+    {
+      "file": "api_sources/python/ufl/constantvalue.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/constantvalue.py",
+      "sha256": "99e6fb959972b475656ef8ed94623e0eab0e062e1b1351aa6b4b6a783d836692"
+    },
+    {
+      "file": "api_sources/python/ufl/formoperators.py",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/formoperators.py",
+      "sha256": "de6febc1c35950a39d01e5a37de6362ce30ec5d60941a5375c1f6c0d930a0c4b"
+    },
+    {
+      "file": "api_sources/python/basix/ufl.py",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/python/basix/ufl.py",
+      "sha256": "63b96e54f21d5bff2601de0310beea4585cd4f8ca3dee855f10c7153ccaaf5f1"
+    }
+  ],
+  "selection": {
+    "documented_apis": 2470,
+    "searchable_apis": 366,
+    "kinds": {
+      "function": 174,
+      "class": 54,
+      "method": 138
+    },
+    "embedding_model": "text-embedding-3-large",
+    "ranking": "Shared API descriptions, vectors, vector order and procedure queries with the knowledge graph. Cosine top three per query. Deduplicate by first occurrence within each stage.",
+    "context": "Official HTML converted to one Markdown chunk per API anchor. Nested members have their own chunks. Only retrieved Markdown is delivered to the coder."
+  },
+  "api_source_role": "Pinned library source files used to prepare API descriptions and resolve public names in the shared search index. Document retrieval returns the Markdown converted from official_html."
+}

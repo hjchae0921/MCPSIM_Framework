@@ -9,6 +9,7 @@ import re
 
 import numpy as np
 
+from codegen.ranking import TOP_K, rank_queries
 from .api_context import API_KINDS, build_records, compressed, facts_only
 
 MODEL = "text-embedding-3-large"
@@ -32,7 +33,6 @@ class RetrievedGraph:
 
 
 ASSETS = Path(__file__).with_name("assets")
-TOP_K = 3
 DEFINITIONS = {"HAS_ARGUMENT", "HAS_RETURN", "HAS_TYPE"}
 
 
@@ -147,20 +147,8 @@ class GraphRetriever:
                 raise ValueError("Embedding response indices do not match the queries")
             vectors.update((q, item.embedding) for q, item in zip(missing, data))
             self.query_vectors.update({q: vectors[q] for q in missing})
-        rankings, seeds = [], set()
-        for query in queries:
-            vector = np.asarray(vectors[query], dtype=np.float64)
-            if (
-                vector.shape != (self.vectors.shape[1],)
-                or not np.isfinite(vector).all()
-                or not np.linalg.norm(vector)
-            ):
-                raise ValueError("Invalid Procedure embedding")
-            scores = self.normalized @ (vector / np.linalg.norm(vector))
-            indices = np.argsort(-scores, kind="stable")[:TOP_K]
-            hits = [{"id": self.ids[i], "cosine_similarity": float(scores[i])} for i in indices]
-            rankings.append({"query": query, "top_3": hits})
-            seeds.update(item["id"] for item in hits)
+        rankings = rank_queries(self.ids, self.normalized, queries, vectors)
+        seeds = {hit["id"] for row in rankings for hit in row["top_3"]}
         fragment = expand(self.graph, seeds)
         payload, text = render_context(fragment, self.graph, self.names)
         return RetrievedGraph(

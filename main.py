@@ -12,6 +12,10 @@ def main():
 
         del sys.argv[1]
         build_graph()
+    elif sys.argv[1:2] == ["rag-context"]:
+        from RAG_comparison.retrieve import main as document_context
+
+        document_context(sys.argv[2:])
     else:
         from web.app import main as start_web
 
