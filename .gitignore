@@ -1,0 +1,14 @@
+data/
+.run/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.env
+.env.*
+*_apikey.txt
+*_api_key.txt
+.openai_key
+.openrouter_key
+knowledge_graph/referenced_sources/

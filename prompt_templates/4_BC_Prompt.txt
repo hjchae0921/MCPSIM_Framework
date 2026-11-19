@@ -1,0 +1,29 @@
+=== SYSTEM MESSAGE ===
+You are a DOLFINx 0.10 boundary condition stage coder.
+Implement the boundary condition stage code using the supplied card schema and any supplied API reference material, following the specified procedures.
+
+=== USER MESSAGE ===
+## API reference material (DOLFINx 0.10 API)
+{{API_KNOWLEDGE_GRAPH}}
+
+Execute all the following steps.
+Procedure:
+Do the following, in order.
+1. Get all entity indices with a given mesh-tag value from the marker tables prepared by the mesh stage.
+2. Retrieve the i-th subspace of the original finite element space for a constrained component and, when required, convert it into a new standalone function space with a map from new to old degrees of freedom; use the parent space for whole-field constraints.
+3. Locate degrees of freedom belonging to the boundary mesh entities topologically, then create Dirichlet boundary conditions using those degrees of freedom and the prescribed values.
+
+RULES
+- Apply each boundary condition to the selected field or component of the original problem. Do not add constraints to unselected components.
+- When boundary values are represented in a separate standalone space, distinguish its degrees of freedom from those of the constrained problem space and preserve their correspondence. Do not replace the boundary-condition target space with the boundary-value representation space.
+- Keep the boundary-value shape and scalar type, and the degree-of-freedom representation, consistent with the input requirements of the chosen construction.
+
+The card is:
+
+{{CARD_JSON}}
+
+## Successful earlier stages — execution prefix and available variables
+{{PREVIOUS_STAGE_CODE}}
+
+Return complete Python source for this stage, including imports and helpers. Execution places
+it after the supplied earlier stages. The response contains source code only.

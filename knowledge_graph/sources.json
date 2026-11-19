@@ -1,0 +1,1434 @@
+{
+  "versions": {
+    "dolfinx_version": "0.10.0",
+    "dolfinx_commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+    "basix_tag": "v0.10.0",
+    "basix_commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+    "ufl_tag": "2025.2.1",
+    "ufl_commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c"
+  },
+  "files": [
+    {
+      "file": "referenced_sources/metadata/basix/__init__.py",
+      "source_path": "python/basix/__init__.py",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/python/basix/__init__.py",
+      "sha256": "c3d0b9ba1a47f31ae82d37197d9a7f53b264133f839465d2ea75f104b0d91690",
+      "role": "prepared_public_export_metadata"
+    },
+    {
+      "file": "referenced_sources/metadata/dolfinx/__init__.py",
+      "source_path": "python/dolfinx/__init__.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/__init__.py",
+      "sha256": "c8bc8519bf909c85257f92e97d70d95f537aed8eec800e9ef1fcc259f485ddd8",
+      "role": "prepared_public_export_metadata"
+    },
+    {
+      "file": "referenced_sources/metadata/dolfinx/io/__init__.py",
+      "source_path": "python/dolfinx/io/__init__.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/io/__init__.py",
+      "sha256": "9fa75d41045ff99ac605a8b7db54b5ae91d26c4a71a51de06dbc727a2418b457",
+      "role": "prepared_public_export_metadata"
+    },
+    {
+      "file": "referenced_sources/metadata/dolfinx/la/__init__.py",
+      "source_path": "python/dolfinx/la/__init__.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/la/__init__.py",
+      "sha256": "94798b20305e71a1fa6e409998b15648b764a6ef4dc5f2686f851a825715b29a",
+      "role": "prepared_public_export_metadata"
+    },
+    {
+      "file": "referenced_sources/wrappers/basix/wrapper.cpp",
+      "source_path": "python/wrapper.cpp",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/python/wrapper.cpp",
+      "sha256": "ed023cc9965686b4bb968293d0cd056cb1a025c4a970da34ba3a0454801707a3",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/assemble.cpp",
+      "source_path": "python/dolfinx/wrappers/assemble.cpp",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/assemble.cpp",
+      "sha256": "61666550f88380edb220cc5a47277de9c72e22f894993fac9f4dd5b6f4db0caf",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/common.cpp",
+      "source_path": "python/dolfinx/wrappers/common.cpp",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/common.cpp",
+      "sha256": "4d2a34c0c54a25b1a672ef629bd28763c2545c24f0aaa64f220df6abe296160f",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/dolfinx.cpp",
+      "source_path": "python/dolfinx/wrappers/dolfinx.cpp",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/dolfinx.cpp",
+      "sha256": "ecef5d5fa864ec92d0c44e8aa70d4b99c918daace614a14aac27e4a652d6670d",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/fem.cpp",
+      "source_path": "python/dolfinx/wrappers/fem.cpp",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/fem.cpp",
+      "sha256": "bffb8e557558735fb04f2a4c9af41fbbc0161fee9fcc38cfee3da572d868ad17",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/graph.cpp",
+      "source_path": "python/dolfinx/wrappers/graph.cpp",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/graph.cpp",
+      "sha256": "17c0f5c5107be1a1e3c765fb4ff038468234c712914bbc90b427a7e5af4910b1",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/io.cpp",
+      "source_path": "python/dolfinx/wrappers/io.cpp",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/io.cpp",
+      "sha256": "d42abcbcaf108801ac19a77eb3d4954f6efb50c4aff76fb6b459929d05d5b378",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/la.cpp",
+      "source_path": "python/dolfinx/wrappers/la.cpp",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/la.cpp",
+      "sha256": "eb94e4a606d5d81fec9ad810da75b98efb12f8ac577947e2b015992d38184a98",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/mesh.cpp",
+      "source_path": "python/dolfinx/wrappers/mesh.cpp",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/mesh.cpp",
+      "sha256": "9eae3c446ea70c22aa0625cbc6763b3a2881d80737f090c3ee3aa880bdd54173",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/petsc.cpp",
+      "source_path": "python/dolfinx/wrappers/petsc.cpp",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/petsc.cpp",
+      "sha256": "cc6ae714367dfa6ed67199931327c86141b7ca56bb267ceb77700c328fc7daf2",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/refinement.cpp",
+      "source_path": "python/dolfinx/wrappers/refinement.cpp",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/refinement.cpp",
+      "sha256": "1388ebba3a1cbc58523e0a4cd58ffad3185df29e957919f482543ee1b86e1288",
+      "role": "prepared_cpp_binding"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/dolfinx_wrappers/array.h",
+      "source_path": "python/dolfinx/wrappers/dolfinx_wrappers/array.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/dolfinx_wrappers/array.h",
+      "sha256": "09d3857e2ce713cd912d7ee72bd94b436144f1f5e9ce97402b75f098d2e3de37",
+      "role": "prepared_cpp_binding_header"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/dolfinx_wrappers/pycoeff.h",
+      "source_path": "python/dolfinx/wrappers/dolfinx_wrappers/pycoeff.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/dolfinx_wrappers/pycoeff.h",
+      "sha256": "99d2355be1a4b6b416cfb7bd16564657cf14dc2c9b40e4408231d09e1e940ed2",
+      "role": "prepared_cpp_binding_header"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/dolfinx_wrappers/mesh.h",
+      "source_path": "python/dolfinx/wrappers/dolfinx_wrappers/mesh.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/dolfinx_wrappers/mesh.h",
+      "sha256": "37856f6fbf836233d9b06524297a7b3917f9c864ddf1d3a176ad391cb9ada30a",
+      "role": "prepared_cpp_binding_header"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/dolfinx_wrappers/MPICommWrapper.h",
+      "source_path": "python/dolfinx/wrappers/dolfinx_wrappers/MPICommWrapper.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/dolfinx_wrappers/MPICommWrapper.h",
+      "sha256": "73083860368cd4f96185fb6bb3cdff3f2cd34b7d774865580fc41db849fd9cfd",
+      "role": "prepared_cpp_binding_header"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/dolfinx_wrappers/numpy_dtype.h",
+      "source_path": "python/dolfinx/wrappers/dolfinx_wrappers/numpy_dtype.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/dolfinx_wrappers/numpy_dtype.h",
+      "sha256": "7d9cce46bfa67ee09896e2433bfd43a0d46f31385f0de1d6fb168c93b88a4334",
+      "role": "prepared_cpp_binding_header"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/dolfinx_wrappers/caster_mpi.h",
+      "source_path": "python/dolfinx/wrappers/dolfinx_wrappers/caster_mpi.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/dolfinx_wrappers/caster_mpi.h",
+      "sha256": "db2b78b3514946ba2353f2e0bf20bca53e6ddf0956e5daef47bf730d8e8f499a",
+      "role": "prepared_cpp_binding_header"
+    },
+    {
+      "file": "referenced_sources/wrappers/dolfinx/dolfinx_wrappers/caster_petsc.h",
+      "source_path": "python/dolfinx/wrappers/dolfinx_wrappers/caster_petsc.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/wrappers/dolfinx_wrappers/caster_petsc.h",
+      "sha256": "79cd29b53c4f21c63f2745180065cd4a46deee1b19714b5bfc00ee3f922635b8",
+      "role": "prepared_cpp_binding_header"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/cell.h",
+      "source_path": "cpp/basix/cell.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/cell.h",
+      "sha256": "a23a017fb37a03a38bf5940400100ee44944797e6af15b70685360e7f9e0fe44",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/element-families.h",
+      "source_path": "cpp/basix/element-families.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/element-families.h",
+      "sha256": "b2bfff80496f6fc8dc968c79e96ebf01414f7b0dd13fbb5186a6dfa434ea2f7e",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/finite-element.h",
+      "source_path": "cpp/basix/finite-element.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/finite-element.h",
+      "sha256": "b4b5ef7eab7fe958e2b3218490921d6334a801e5dbd980075e7be491b6cc2c9e",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/indexing.h",
+      "source_path": "cpp/basix/indexing.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/indexing.h",
+      "sha256": "719b645c55ed6f4ae7e11cba40e078d0aad224108fc3ac640dfa2deb475739c2",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/interpolation.h",
+      "source_path": "cpp/basix/interpolation.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/interpolation.h",
+      "sha256": "1cba42773802ac07bfad7c705fa833c0400b1e52f9a421602a6c7242a8262195",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/lattice.h",
+      "source_path": "cpp/basix/lattice.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/lattice.h",
+      "sha256": "52e594c1ac9968cf3388a964dad193f0460392c60e36a267f969735ce5083954",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/maps.h",
+      "source_path": "cpp/basix/maps.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/maps.h",
+      "sha256": "1ee8e1b52565c0708d68e8fba82b18de7cb1183d19871bef232dd9d4f8457bf4",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/mdspan.hpp",
+      "source_path": "cpp/basix/mdspan.hpp",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/mdspan.hpp",
+      "sha256": "1c0938af757edb15ce1eac30a5056eafb39fa1e98b22e0f5d291e9ffc0dd492f",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/polynomials.h",
+      "source_path": "cpp/basix/polynomials.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/polynomials.h",
+      "sha256": "d40a72c365bfe5b3ddec9330d12a7af0015563758952704e306922f6bcd236af",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/polyset.h",
+      "source_path": "cpp/basix/polyset.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/polyset.h",
+      "sha256": "05ef4dc88043044ade31c18048d18c9d72742306e62e5bba2ef98d49f9643219",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/quadrature.h",
+      "source_path": "cpp/basix/quadrature.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/quadrature.h",
+      "sha256": "9b1fd2f6640a6c752e2d174b3704fb8dd541f0ca1f5fc02fc43c220d98b577b3",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/sobolev-spaces.h",
+      "source_path": "cpp/basix/sobolev-spaces.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/sobolev-spaces.h",
+      "sha256": "be550b6e632123bfebf01f43762a00e0510353b0b668c9a50fe576a31e310607",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/IndexMap.h",
+      "source_path": "cpp/dolfinx/common/IndexMap.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/IndexMap.h",
+      "sha256": "72be0e86c34dad3d8cbbc63019751aaafcfa9a4e20a5bbfc709c8c455fbe0217",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/DirichletBC.h",
+      "source_path": "cpp/dolfinx/fem/DirichletBC.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/DirichletBC.h",
+      "sha256": "8591fb4497018620a3c61562744c9f771ae499551718e45654d2124a2c1a1a8d",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/DofMap.h",
+      "source_path": "cpp/dolfinx/fem/DofMap.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/DofMap.h",
+      "sha256": "fbacc33635b56e7587001d863315d3f33562e1d2e6faabcb28c6456ff7d9565e",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/FiniteElement.h",
+      "source_path": "cpp/dolfinx/fem/FiniteElement.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/FiniteElement.h",
+      "sha256": "04a2f7e35a515fcf20d265ba1ad6dc427e1e8c5baf0794420a16dfb3f198ea59",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/Form.h",
+      "source_path": "cpp/dolfinx/fem/Form.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/Form.h",
+      "sha256": "bc44b686f54be832b5622f6a6cca865f4fc6c9fb86c2a690152c77f02258abf0",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/FunctionSpace.h",
+      "source_path": "cpp/dolfinx/fem/FunctionSpace.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/FunctionSpace.h",
+      "sha256": "35cfb46b2b07e2536bb6d133fa98b9c039a7bee94ca710710f8bb434da94053c",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/assembler.h",
+      "source_path": "cpp/dolfinx/fem/assembler.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/assembler.h",
+      "sha256": "6a4e61e26273f1f9c6314ca19fa738057524cf0ec11d2ddf4479e08ab3ae43e2",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/discreteoperators.h",
+      "source_path": "cpp/dolfinx/fem/discreteoperators.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/discreteoperators.h",
+      "sha256": "dba51168cd06a66aad4fc21ced94ad057536f111b15cf111c20e8c5977555d86",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/sparsitybuild.h",
+      "source_path": "cpp/dolfinx/fem/sparsitybuild.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/sparsitybuild.h",
+      "sha256": "c4c06979220144e99f079ef1297f60ea202d7048a348f27b6931d456819a5734",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/utils.h",
+      "source_path": "cpp/dolfinx/fem/utils.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/utils.h",
+      "sha256": "3dee6e0bba220bb0c3567ed05af530b372ecdfd00d806c5e0a2ca865964ac147",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/la/MatrixCSR.h",
+      "source_path": "cpp/dolfinx/la/MatrixCSR.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/la/MatrixCSR.h",
+      "sha256": "7e55b33bbece3a1d8c0ac1948e7c5d8b40b5c5d79f928d3db786da2f438054d1",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/la/SparsityPattern.h",
+      "source_path": "cpp/dolfinx/la/SparsityPattern.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/la/SparsityPattern.h",
+      "sha256": "b6517f03e5eb01a12fe265e15db1792a816aa34c1473194b077003944083f9be",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/mesh/Mesh.h",
+      "source_path": "cpp/dolfinx/mesh/Mesh.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/mesh/Mesh.h",
+      "sha256": "65714e5ab7a6763adc0aba0b4c83742fc26e90a0d473b8c6c6546e9dbf77e867",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/Scatterer.h",
+      "source_path": "cpp/dolfinx/common/Scatterer.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/Scatterer.h",
+      "sha256": "113b6e6dbcfd5c4bd0e61b3535f30ca89ddf9f2bb341595d8f6a220312266258",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/Table.h",
+      "source_path": "cpp/dolfinx/common/Table.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/Table.h",
+      "sha256": "f271d1bee593181d016273520515742c719341a360dd1a971c563c37639333de",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/Timer.h",
+      "source_path": "cpp/dolfinx/common/Timer.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/Timer.h",
+      "sha256": "05bec062f33c91bc7048c74b94b47774626d733f4302b1df072f50686a2f95b0",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/defines.h",
+      "source_path": "cpp/dolfinx/common/defines.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/defines.h",
+      "sha256": "f9277eb3896ee4bbeff553c6abe0f2f4b08cf904b639375f9c80a740d1a86db8",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/log.h",
+      "source_path": "cpp/dolfinx/common/log.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/log.h",
+      "sha256": "3ea1e0d8b5bc548b82d2ff21031eef007a0361785df8b8f21ac82e5d69dcef9b",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/timing.h",
+      "source_path": "cpp/dolfinx/common/timing.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/timing.h",
+      "sha256": "5083e4ef35cedf4af1ca3cf9682cede8abbf410c9e71cc525606224537779836",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/utils.h",
+      "source_path": "cpp/dolfinx/common/utils.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/utils.h",
+      "sha256": "dd3708ef2b95ba96f0baaea2cca97c57d2d35beab956dc451cbf08984b8aa854",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/Constant.h",
+      "source_path": "cpp/dolfinx/fem/Constant.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/Constant.h",
+      "sha256": "b34d6da9681824da1f66cc62ef02e2e99913056abd3040df475447f877468c4c",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/CoordinateElement.h",
+      "source_path": "cpp/dolfinx/fem/CoordinateElement.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/CoordinateElement.h",
+      "sha256": "b60a2cd21705ffd4bddf88d6517c2b0fed7c978643e794bc9f990b426d464259",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/ElementDofLayout.h",
+      "source_path": "cpp/dolfinx/fem/ElementDofLayout.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/ElementDofLayout.h",
+      "sha256": "6c5af2cb49c6994b41a8b80333e5f4a6918997619bce3011d35b52eb71845a26",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/Expression.h",
+      "source_path": "cpp/dolfinx/fem/Expression.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/Expression.h",
+      "sha256": "5725a56eba7f5a3b11654b4a731489206d9604d522b40ec4aee1984e297380c1",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/Function.h",
+      "source_path": "cpp/dolfinx/fem/Function.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/Function.h",
+      "sha256": "651675c0324c9c7e582e4522e687cc8cca94d248a4db1128e0b517d8111d0595",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/dofmapbuilder.h",
+      "source_path": "cpp/dolfinx/fem/dofmapbuilder.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/dofmapbuilder.h",
+      "sha256": "7e6f9dcdfd9196856ce02f5611bc236e7f8efadf2ffc915067007aad8be4df75",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/interpolate.h",
+      "source_path": "cpp/dolfinx/fem/interpolate.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/interpolate.h",
+      "sha256": "7c49b12fdf85a5b312677133588445230633a0991f0d638726bfb770073b2187",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/graph/ordering.h",
+      "source_path": "cpp/dolfinx/graph/ordering.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/graph/ordering.h",
+      "sha256": "6adf695ed824806099f79bbc285ffe8a63f6b6f24022b767eab92f98a29a2cfd",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/mesh/EntityMap.h",
+      "source_path": "cpp/dolfinx/mesh/EntityMap.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/mesh/EntityMap.h",
+      "sha256": "b691873e590b5bfd8c6d7938844ad490da58eaa358aa99ffd08bc836751c558a",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/mesh/MeshTags.h",
+      "source_path": "cpp/dolfinx/mesh/MeshTags.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/mesh/MeshTags.h",
+      "sha256": "84247ba3e1f1ab76a9ebb0a79ed893db6a796be634d1898893f4a58d4f1729a1",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/graph/AdjacencyList.h",
+      "source_path": "cpp/dolfinx/graph/AdjacencyList.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/graph/AdjacencyList.h",
+      "sha256": "4cdeff19cf104521100cebeb16117eb93e2738d429838f768ec05b348800609f",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/graph/partition.h",
+      "source_path": "cpp/dolfinx/graph/partition.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/graph/partition.h",
+      "sha256": "0aa5943d3fa25b2d3021002a91a79786666ce7aff3f6d2964a57e599ed31a768",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/graph/partitioners.h",
+      "source_path": "cpp/dolfinx/graph/partitioners.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/graph/partitioners.h",
+      "sha256": "d8b966cc0797bd18161fa4c3f4c96d47eabbb8de8c1c4bcbbf77ea0a14e828d4",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/graph/utils.h",
+      "source_path": "cpp/dolfinx/graph/utils.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/graph/utils.h",
+      "sha256": "51fed176df36f8885e70c7432ad473f2e103f353a0afc4ad8263b33c8f1f54a1",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/io/ADIOS2Writers.h",
+      "source_path": "cpp/dolfinx/io/ADIOS2Writers.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/io/ADIOS2Writers.h",
+      "sha256": "1259e6de62238dec9660f0e359fc287bde075905517e4888665fedccf837ea03",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/io/VTKFile.h",
+      "source_path": "cpp/dolfinx/io/VTKFile.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/io/VTKFile.h",
+      "sha256": "777ebb9044574246bf2e9cfcb39782279a9977d40ba9831f14605b8d0fddf8ef",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/io/VTKHDF.h",
+      "source_path": "cpp/dolfinx/io/VTKHDF.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/io/VTKHDF.h",
+      "sha256": "16e29ba56d7800c92d40c1ae116db8dd51d25f59a0b4f873b6ed2c4bd2a1b012",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/io/XDMFFile.h",
+      "source_path": "cpp/dolfinx/io/XDMFFile.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/io/XDMFFile.h",
+      "sha256": "837dc6dad5d5f20fb713e36ec3a1bc985002fbeaac963743e137b268bdef7ca0",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/io/cells.h",
+      "source_path": "cpp/dolfinx/io/cells.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/io/cells.h",
+      "sha256": "9a439fb362117620c0a15fa496ad1360eaf6c1565d14ab4d310182d95456bfe5",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/io/utils.h",
+      "source_path": "cpp/dolfinx/io/utils.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/io/utils.h",
+      "sha256": "be4c5e70d2af89bdd33481b525cb03d9d0b3447c508ee7542fa093b8b162c1d0",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/io/vtk_utils.h",
+      "source_path": "cpp/dolfinx/io/vtk_utils.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/io/vtk_utils.h",
+      "sha256": "490368174909cfa9b2432600be99da2ffeb568c600ef838af11624aa26afffe8",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/io/xdmf_utils.h",
+      "source_path": "cpp/dolfinx/io/xdmf_utils.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/io/xdmf_utils.h",
+      "sha256": "192e8ca43e3bcb4a7593530b5b4c50e06c7f880e2fa8f6e0e41b18e7bf0061c9",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/la/Vector.h",
+      "source_path": "cpp/dolfinx/la/Vector.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/la/Vector.h",
+      "sha256": "73446483b74fc148313cdf56ec0dece5c9be2799dc8c68b81e3e58b8973e5083",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/la/utils.h",
+      "source_path": "cpp/dolfinx/la/utils.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/la/utils.h",
+      "sha256": "b911d251a6d9ad89ee7718e5bd8733c07ca173f9b3e1a34ef20bad4fbc708565",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/mesh/Geometry.h",
+      "source_path": "cpp/dolfinx/mesh/Geometry.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/mesh/Geometry.h",
+      "sha256": "f2698bfb3a660655c17efc2c1c485d0e80f6eb9b353b6465ba1ac566d0b43a38",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/mesh/Topology.h",
+      "source_path": "cpp/dolfinx/mesh/Topology.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/mesh/Topology.h",
+      "sha256": "876a689fe16a6d3197eb9250c30a4fb212c50ba21c6341343e2ec0c4d79aef87",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/mesh/cell_types.h",
+      "source_path": "cpp/dolfinx/mesh/cell_types.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/mesh/cell_types.h",
+      "sha256": "301317f390ff4279717f9fc4f74025c5706dc5abdeab43e0a873ccaf50c67ba7",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/mesh/generation.h",
+      "source_path": "cpp/dolfinx/mesh/generation.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/mesh/generation.h",
+      "sha256": "a4cae3dfacc7f59fb863e943ebb348f78e65898fea2dfd36d1eb7a7db867a448",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/mesh/graphbuild.h",
+      "source_path": "cpp/dolfinx/mesh/graphbuild.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/mesh/graphbuild.h",
+      "sha256": "ef545365b90bc70ef6ee2ffc17d29399476e1de7e691237a3bef360bd3a35846",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/mesh/topologycomputation.h",
+      "source_path": "cpp/dolfinx/mesh/topologycomputation.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/mesh/topologycomputation.h",
+      "sha256": "267642399105e16bdb48e4f1f4fb368beed8169d0128fc6acd98d11f69513b4d",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/mesh/utils.h",
+      "source_path": "cpp/dolfinx/mesh/utils.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/mesh/utils.h",
+      "sha256": "08419ce9d96fd405aa7d85fd684e5a0f0d84d974fe5bf967426b0f4d31a43f0c",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/petsc.h",
+      "source_path": "cpp/dolfinx/fem/petsc.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/petsc.h",
+      "sha256": "092222d2404aac7d1965560512abcdc0b20a079c57ff499933fec91655d04afc",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/la/petsc.h",
+      "source_path": "cpp/dolfinx/la/petsc.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/la/petsc.h",
+      "sha256": "edbb98b685546509da768c743db7d704e998f9c9740622873acd104d032014c1",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/nls/NewtonSolver.h",
+      "source_path": "cpp/dolfinx/nls/NewtonSolver.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/nls/NewtonSolver.h",
+      "sha256": "7ac8d29e98bdb0140e17f25268239826165a73b545cc48dabdd1631a2bc60f32",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/refinement/interval.h",
+      "source_path": "cpp/dolfinx/refinement/interval.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/refinement/interval.h",
+      "sha256": "7341ca4b3b52da3f1f45fe8ab5042e5ab74669347f9eef55e6b674fa37b6ac13",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/refinement/option.h",
+      "source_path": "cpp/dolfinx/refinement/option.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/refinement/option.h",
+      "sha256": "f97d90b26af8b33b81d35a5830af578a1c77eefa68eaa1727b15846352e8a21a",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/refinement/refine.h",
+      "source_path": "cpp/dolfinx/refinement/refine.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/refinement/refine.h",
+      "sha256": "21db4ff80beee9889ca0f44affb8595df740d2d668fe3c93271af03d3c290072",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/refinement/uniform.h",
+      "source_path": "cpp/dolfinx/refinement/uniform.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/refinement/uniform.h",
+      "sha256": "dadd65ea891894961fc343c0faa0426b1eff25cd0e4b0d821544fcb7eab4a5d4",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/refinement/utils.h",
+      "source_path": "cpp/dolfinx/refinement/utils.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/refinement/utils.h",
+      "sha256": "0c8f5a6ee356f35cec2bc8f9e57bed7d9084757293d45b545387559fbdf19f83",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/MPI.h",
+      "source_path": "cpp/dolfinx/common/MPI.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/MPI.h",
+      "sha256": "98a84d9d4d262d26291b3f7f4fb527a6ee550949ed6391829af39aa13076a9c6",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/precompute.h",
+      "source_path": "cpp/basix/precompute.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/precompute.h",
+      "sha256": "19e0f63de63d4e6a91d02fbdbe58e7669ccbafd1a22e9f641a36a74aa65ee9d9",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/types.h",
+      "source_path": "cpp/basix/types.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/types.h",
+      "sha256": "7fb8b71343e0eebb649d7b2e414e84b9881e3f080211c52e613f78d7d3278b5b",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/types.h",
+      "source_path": "cpp/dolfinx/common/types.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/types.h",
+      "sha256": "bfd3b2ddf3d5feec56e54771a897e565f408690327e6dc8e29402c902fa5e15c",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/traits.h",
+      "source_path": "cpp/dolfinx/fem/traits.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/traits.h",
+      "sha256": "211e6464a00cb2d47fbc521705b42272a069f3ccf8690bd348251d4f09523e7b",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/assemble_expression_impl.h",
+      "source_path": "cpp/dolfinx/fem/assemble_expression_impl.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/assemble_expression_impl.h",
+      "sha256": "51c65b805a350e0f7da2fc5b3e1dd51f9e9f1bee13c1971e42c16aeba82c0715",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/assemble_matrix_impl.h",
+      "source_path": "cpp/dolfinx/fem/assemble_matrix_impl.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/assemble_matrix_impl.h",
+      "sha256": "3c822fb92dfa53c03881f8d8294b68f46f87ba928079c2cdb7df72cd2a96e91b",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/assemble_scalar_impl.h",
+      "source_path": "cpp/dolfinx/fem/assemble_scalar_impl.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/assemble_scalar_impl.h",
+      "sha256": "c066bf3ea4f69601d43ab4285db2498a7d92328afe27904e8f4f56d5179bc0fb",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/assemble_vector_impl.h",
+      "source_path": "cpp/dolfinx/fem/assemble_vector_impl.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/assemble_vector_impl.h",
+      "sha256": "b8721695c52eeac24945424a1fe42381abe80f6f0b906773debddbf3d7c873a9",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/pack.h",
+      "source_path": "cpp/dolfinx/fem/pack.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/pack.h",
+      "sha256": "cac877efb0e039c9ab2fb39af105bcdf57473d1df21ed90f7002428ac528c768",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/math.h",
+      "source_path": "cpp/dolfinx/common/math.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/math.h",
+      "sha256": "216916d5ac4587dd9aa3a97d642566e6d33b35ba17998e53c94cc76e3be68781",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/fem/kernel.h",
+      "source_path": "cpp/dolfinx/fem/kernel.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/fem/kernel.h",
+      "sha256": "ef334e87e173875c1966f144f655f83930ed3d2a21b20d74e4a5c83de01fa17d",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/la/matrix_csr_impl.h",
+      "source_path": "cpp/dolfinx/la/matrix_csr_impl.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/la/matrix_csr_impl.h",
+      "sha256": "f6bf121a0d06283e010625c51863a5a631c70ef0122ce177b9a5209857bd5ff0",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/sort.h",
+      "source_path": "cpp/dolfinx/common/sort.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/sort.h",
+      "sha256": "65d12c9e6109427bdef239b446b756fe9030997eea74c95b7ffa327770e2217d",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/common/TimeLogger.h",
+      "source_path": "cpp/dolfinx/common/TimeLogger.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/common/TimeLogger.h",
+      "sha256": "7882a783fad66d376387ff1705b48dfcd1222758d7017458c46cbbc95315efe1",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/geometry/utils.h",
+      "source_path": "cpp/dolfinx/geometry/utils.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/geometry/utils.h",
+      "sha256": "6dccdfc6ec8255c86ed191503f36a543b8eb7e25997e846c86900519174a719f",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/io/HDF5Interface.h",
+      "source_path": "cpp/dolfinx/io/HDF5Interface.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/io/HDF5Interface.h",
+      "sha256": "f814034edf7c3831b33fe4776be0409df8a0008a15c6246436d5c4ea7324df4a",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/refinement/plaza.h",
+      "source_path": "cpp/dolfinx/refinement/plaza.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/refinement/plaza.h",
+      "sha256": "dbbfb23b118b7c3430834b4a2615406969443cae0743fdb90f366353111d968c",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/basix/cpp/basix/math.h",
+      "source_path": "cpp/basix/math.h",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/cpp/basix/math.h",
+      "sha256": "5a3f6ae37c1cac5ef061519e7b494d3d59c285b43a4c0ae9d93eff1fa2f9987f",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/geometry/BoundingBoxTree.h",
+      "source_path": "cpp/dolfinx/geometry/BoundingBoxTree.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/geometry/BoundingBoxTree.h",
+      "sha256": "201b97a0e52267c45f4a2a4cacfd61c4f389ec101510d4e338d5e535e7a96298",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/cpp_declarations/dolfinx/cpp/dolfinx/geometry/gjk.h",
+      "source_path": "cpp/dolfinx/geometry/gjk.h",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/cpp/dolfinx/geometry/gjk.h",
+      "sha256": "ac60fe83c8bc2d8e5628b5deb5af260dd2e3460f5fa59c19167846be5ea5142d",
+      "role": "prepared_cpp_declaration"
+    },
+    {
+      "file": "referenced_sources/python/dolfinx/fem/__init__.py",
+      "source_path": "python/dolfinx/fem/__init__.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/__init__.py",
+      "sha256": "14648e87264718a450558bbce3eb6064d5fea844fdea119b83c24d75d0416d5d",
+      "role": "existing_public_export_metadata"
+    },
+    {
+      "file": "referenced_sources/python/ufl/argument.py",
+      "source_path": "ufl/argument.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/argument.py",
+      "sha256": "ebb3de4e55f5377c957ef27a5c1aaeb501ff3f2863341b13f34c77064c9000be",
+      "role": "analyzed_python"
+    },
+    {
+      "file": "referenced_sources/python/ufl/split_functions.py",
+      "source_path": "ufl/split_functions.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/split_functions.py",
+      "sha256": "f31ce165a1f0e9da641199680efc4f932c19476bf9de0aec0a6da7865bd0b4f9",
+      "role": "analyzed_python"
+    },
+    {
+      "file": "referenced_sources/python/ufl/functionspace.py",
+      "source_path": "ufl/functionspace.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/functionspace.py",
+      "sha256": "ea956e0748acd4c2aeb11f3d5a048615e4b80aed9437a194c7daafab5617f738",
+      "role": "analyzed_python"
+    },
+    {
+      "file": "referenced_sources/python/ufl/form.py",
+      "source_path": "ufl/form.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/form.py",
+      "sha256": "a64bf1a5c0cadbe06b81733b1f7f98f574d2654fba87a1ddb5774897b2d46dc9",
+      "role": "analyzed_python"
+    },
+    {
+      "file": "referenced_sources/python/ufl/core/terminal.py",
+      "source_path": "ufl/core/terminal.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/core/terminal.py",
+      "sha256": "a341975309136c702d808cab9e07c2a34e94234df7a42d7deea10e0703a46b9c",
+      "role": "analyzed_python"
+    },
+    {
+      "file": "referenced_sources/metadata/ufl/__init__.py",
+      "source_path": "ufl/__init__.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/__init__.py",
+      "sha256": "2c067ad02c1ad648be970049aa6847efcf4c47d78d7f14109ac0339a85334eba",
+      "role": "public_alias_metadata"
+    },
+    {
+      "file": "referenced_sources/python/ufl/measure.py",
+      "source_path": "ufl/measure.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/measure.py",
+      "sha256": "97f9c8619d4513f67b45d32c9956730a1571a553343fe01166f1cf125747a649",
+      "role": "analyzed_python"
+    },
+    {
+      "file": "referenced_sources/python/ufl/domain.py",
+      "source_path": "ufl/domain.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/domain.py",
+      "sha256": "ad4e221517d14747f53b8c15d64501c236b5b546196bcb91998a48abc1c4b2b6",
+      "role": "analyzed_python"
+    },
+    {
+      "file": "referenced_sources/python/ufl/operators.py",
+      "source_path": "ufl/operators.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/operators.py",
+      "sha256": "6af141cfad2605e5a7cfa9d2b5e793f67404b5212b0e6bc4aae52129cc6367a8",
+      "role": "analyzed_python"
+    },
+    {
+      "file": "referenced_sources/python/dolfinx/fem/assemble.py",
+      "source_path": "python/dolfinx/fem/assemble.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/assemble.py",
+      "sha256": "fdba305d3c02088a0ed7276cfb415e9fe2759749e3f300fe82139fe5a34b150c",
+      "role": "unchanged_dolfinx_source"
+    },
+    {
+      "file": "referenced_sources/python/dolfinx/fem/bcs.py",
+      "source_path": "python/dolfinx/fem/bcs.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/bcs.py",
+      "sha256": "ac8d8a1fbefed7505fb85debfca9f683afb385c828ce5c9af67f51612bba974b",
+      "role": "unchanged_dolfinx_source"
+    },
+    {
+      "file": "referenced_sources/python/dolfinx/fem/dofmap.py",
+      "source_path": "python/dolfinx/fem/dofmap.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/dofmap.py",
+      "sha256": "45cab71168a0e8f0c224df4b63c810fce79a9af5ddd49d34e5ddcbf97d413d47",
+      "role": "unchanged_dolfinx_source"
+    },
+    {
+      "file": "referenced_sources/python/dolfinx/fem/element.py",
+      "source_path": "python/dolfinx/fem/element.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/element.py",
+      "sha256": "d9d4aada8987f277ae5bdda2ff2bc6862aeb2859a7ba42ffd3d72112d9cd26c2",
+      "role": "unchanged_dolfinx_source"
+    },
+    {
+      "file": "referenced_sources/python/dolfinx/fem/forms.py",
+      "source_path": "python/dolfinx/fem/forms.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/forms.py",
+      "sha256": "fcf032a91720bb8f5849b95c7a47dcbc6e3391dc8dc3d22529b4f7baf0e1be8f",
+      "role": "unchanged_dolfinx_source"
+    },
+    {
+      "file": "referenced_sources/python/dolfinx/fem/function.py",
+      "source_path": "python/dolfinx/fem/function.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/function.py",
+      "sha256": "63541293e567930fe752f4a4b5028f8a6269a87f558f6b85a6efbe95444ea8d0",
+      "role": "unchanged_dolfinx_source"
+    },
+    {
+      "file": "referenced_sources/python/dolfinx/fem/petsc.py",
+      "source_path": "python/dolfinx/fem/petsc.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/fem/petsc.py",
+      "sha256": "841615634fd29d233574652c8c4375cd9057f156bf4e00eaba1f32c0a107b962",
+      "role": "unchanged_dolfinx_source"
+    },
+    {
+      "file": "referenced_sources/python/dolfinx/io/gmsh.py",
+      "source_path": "python/dolfinx/io/gmsh.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/io/gmsh.py",
+      "sha256": "565ab18b656e52dcd61e8de4958a9775d6ce2bd85b1ad4eab0a87789d0579739",
+      "role": "unchanged_dolfinx_source"
+    },
+    {
+      "file": "referenced_sources/python/dolfinx/mesh.py",
+      "source_path": "python/dolfinx/mesh.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/dolfinx/mesh.py",
+      "sha256": "95c99c369c71070ef2b6376282cdb728e704b117f5f0cbbb1f035abc6082f31f",
+      "role": "unchanged_dolfinx_source"
+    },
+    {
+      "file": "referenced_sources/python/ufl/constantvalue.py",
+      "source_path": "ufl/constantvalue.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/constantvalue.py",
+      "sha256": "99e6fb959972b475656ef8ed94623e0eab0e062e1b1351aa6b4b6a783d836692",
+      "role": "analyzed_python"
+    },
+    {
+      "file": "referenced_sources/python/ufl/formoperators.py",
+      "source_path": "ufl/formoperators.py",
+      "repository": "FEniCS/ufl",
+      "commit": "902582a2c9932cf2b46a3a0219c784e8325a2a1c",
+      "source": "https://github.com/FEniCS/ufl/blob/902582a2c9932cf2b46a3a0219c784e8325a2a1c/ufl/formoperators.py",
+      "sha256": "de6febc1c35950a39d01e5a37de6362ce30ec5d60941a5375c1f6c0d930a0c4b",
+      "role": "analyzed_python"
+    },
+    {
+      "file": "referenced_sources/python/basix/ufl.py",
+      "source_path": "python/basix/ufl.py",
+      "repository": "FEniCS/basix",
+      "commit": "ea9b65c6f94734d9ccae36ba924f66e6596abeb8",
+      "source": "https://github.com/FEniCS/basix/blob/ea9b65c6f94734d9ccae36ba924f66e6596abeb8/python/basix/ufl.py",
+      "sha256": "63b96e54f21d5bff2601de0310beea4585cd4f8ca3dee855f10c7153ccaaf5f1",
+      "role": "whole_unmodified_basix_ufl_module"
+    },
+    {
+      "file": "referenced_sources/demos/demo_axis.ipynb",
+      "source_path": "python/demo/demo_axis.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_axis.py",
+      "sha256": "196cbb5eb96cc3900e15ef0592faa9db5f1a9064776c20abfbea0c1d62719f66",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_biharmonic.ipynb",
+      "source_path": "python/demo/demo_biharmonic.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_biharmonic.py",
+      "sha256": "70d78b7044ee04d7d161c77645d11a12ea0b45cebbd719272fbbe7be70d9d8d5",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_cahn-hilliard.ipynb",
+      "source_path": "python/demo/demo_cahn-hilliard.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_cahn-hilliard.py",
+      "sha256": "d39ecb1ef427307fd7088c2ed58ac925e641a186b1438101511d79ce18377069",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_comm-pattern.ipynb",
+      "source_path": "python/demo/demo_comm-pattern.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_comm-pattern.py",
+      "sha256": "bb8f697c590c8933c4c706ff9c49e65caffa2612a75ef039ecefa83117c73f00",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_gmsh.ipynb",
+      "source_path": "python/demo/demo_gmsh.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_gmsh.py",
+      "sha256": "a6071248fb70aa9bdd5ecb5d0a27babe46968f80f2309731563f3450998d584b",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_half_loaded_waveguide.ipynb",
+      "source_path": "python/demo/demo_half_loaded_waveguide.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_half_loaded_waveguide.py",
+      "sha256": "21b00c15025042c58b99ecd6a46e4bb061d94330c2a2b73af27e00eb234d21d1",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_hdg.ipynb",
+      "source_path": "python/demo/demo_hdg.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_hdg.py",
+      "sha256": "0f41cb393798c1e947e62a8f1637a746dd28d17ffaf7e570393f703144f567e6",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_helmholtz.ipynb",
+      "source_path": "python/demo/demo_helmholtz.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_helmholtz.py",
+      "sha256": "2446e264ee71116877a1d0d35d8b0c1bcfd589e273faa9dd94dce1c4a56231c2",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_interpolation-io.ipynb",
+      "source_path": "python/demo/demo_interpolation-io.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_interpolation-io.py",
+      "sha256": "888abd9bd2d37a764deb7d2e86082d21bcfdec2565b1d0ecf07d193ed4a426db",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_mixed-poisson.ipynb",
+      "source_path": "python/demo/demo_mixed-poisson.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_mixed-poisson.py",
+      "sha256": "22d993be2cef52cd446df906fab824bed5f2c7ec5edcab6d38ac1ccf7ec6e543",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_mixed-topology.ipynb",
+      "source_path": "python/demo/demo_mixed-topology.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_mixed-topology.py",
+      "sha256": "6077dd8c9d4beda3327ed4f19b7bb69f1840277b9feb5ac60af4e20eb8635b52",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_navier-stokes.ipynb",
+      "source_path": "python/demo/demo_navier-stokes.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_navier-stokes.py",
+      "sha256": "9d05a71b446922417014d92123a46c6d58989f2897b3e812864a8f23dd7d2952",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_pml.ipynb",
+      "source_path": "python/demo/demo_pml.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_pml.py",
+      "sha256": "e7aacef166a34c120ceac91c699119fd434a4a436f1f75c0bedc71eaf3173a45",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_poisson.ipynb",
+      "source_path": "python/demo/demo_poisson.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_poisson.py",
+      "sha256": "3bb84a8c10a0a0ca9eabd2c9a9040236821ded2680ea51f60055f4882ad1968f",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_pyamg.ipynb",
+      "source_path": "python/demo/demo_pyamg.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_pyamg.py",
+      "sha256": "b760214a9028f1e476d89ead98fe93c3598396689fa219114d6d4d7995ec7d70",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_pyvista.ipynb",
+      "source_path": "python/demo/demo_pyvista.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_pyvista.py",
+      "sha256": "465e62d53104d70baddd08b61ea8108d6d1cf4cb49478be72601e33af1ce7d50",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_scattering_boundary_conditions.ipynb",
+      "source_path": "python/demo/demo_scattering_boundary_conditions.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_scattering_boundary_conditions.py",
+      "sha256": "200c66b086cc93528d3018aba749bc0005164faf23b9e80efcdfea0db042dcad",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_static-condensation.ipynb",
+      "source_path": "python/demo/demo_static-condensation.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_static-condensation.py",
+      "sha256": "90e92a9aac345d72fe126f417d41859a683b4b0a1b7a4b624198a65d51aead60",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_stokes.ipynb",
+      "source_path": "python/demo/demo_stokes.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_stokes.py",
+      "sha256": "a19f801ddc3cc86030bee114fa5aedb507b300d0e60fa43a7cbce9c080080241",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_tnt-elements.ipynb",
+      "source_path": "python/demo/demo_tnt-elements.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_tnt-elements.py",
+      "sha256": "7f586638123ed752b78d2876936689e5feb456c2eaf846575d32e0945030824a",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_types.ipynb",
+      "source_path": "python/demo/demo_types.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_types.py",
+      "sha256": "a387ced29e7e3c2ef6c1b522a135091022a1221520bf64ca1309a991bdb5b629",
+      "role": "analyzed_demo"
+    },
+    {
+      "file": "referenced_sources/demos/demo_variants_of_lagrange_variants.ipynb",
+      "source_path": "python/demo/demo_lagrange_variants.py",
+      "repository": "FEniCS/dolfinx",
+      "commit": "b8375fa9fb932cbfce43005eeb4a3d52293f428b",
+      "source": "https://github.com/FEniCS/dolfinx/blob/b8375fa9fb932cbfce43005eeb4a3d52293f428b/python/demo/demo_lagrange_variants.py",
+      "sha256": "d05091fb83613e9efb3124a3527c2a2e8a1e6035fc20ddd5ed2446a8663aff5c",
+      "role": "analyzed_demo"
+    }
+  ]
+}

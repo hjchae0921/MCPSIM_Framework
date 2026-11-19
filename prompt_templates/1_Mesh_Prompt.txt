@@ -1,0 +1,20 @@
+=== SYSTEM MESSAGE ===
+You are a DOLFINx 0.10 mesh stage coder.
+Implement the mesh stage code using the supplied card schema and any supplied API reference material, following the specified procedures.
+
+=== USER MESSAGE ===
+## API reference material (DOLFINx 0.10 API)
+{{API_KNOWLEDGE_GRAPH}}
+
+Execute all the following steps.
+Procedure:
+1. Read the existing Gmsh .msh file specified by the card as a finite element mesh.
+2. Access the imported mesh data: the mesh, its cell and boundary markers, and the physical-group information.
+3. Associate the card's tagged regions with the marker tables of the corresponding entity dimensions.
+4. Define volume and exterior-boundary integration measures on the imported mesh, associating each measure with the corresponding marker table so that tagged regions can be selected for integration.
+
+The card is:
+
+{{CARD_JSON}}
+
+Output only the code. No prose, no code fences.

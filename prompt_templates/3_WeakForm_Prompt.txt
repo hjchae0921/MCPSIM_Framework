@@ -1,0 +1,30 @@
+=== SYSTEM MESSAGE ===
+You are a DOLFINx 0.10 weak form stage coder.
+Implement the weak form stage code using the supplied card schema and any supplied API reference material, following the specified procedures.
+
+=== USER MESSAGE ===
+## API reference material (DOLFINx 0.10 API)
+{{API_KNOWLEDGE_GRAPH}}
+
+Execute all the following steps.
+Procedure:
+Do the following, in order.
+1. Define coefficients that are constant with respect to the domain for the supplied material parameters, loads, and sources.
+2. Reconfigure the prepared integration measures with the card's selected subdomains and metadata to construct the supplied weak forms from their kinematic and constitutive expressions.
+
+RULES
+- For identically zero loads or sources, preserve the coefficient shape and test-function dependence so that symbolic simplification does not collapse the linear form.
+- Implement the forms and coefficients required by the supplied formulation using the prepared fields, and pass them to the next stage.
+- Do not solve the problem in this stage. Leave essential boundary conditions and solver construction to later stages.
+
+The card is:
+
+{{CARD_JSON}}
+
+{{FORMULATION}}
+
+## Successful earlier stages — execution prefix and available variables
+{{PREVIOUS_STAGE_CODE}}
+
+Return complete Python source for this stage, including imports and helpers. Execution places
+it after the supplied earlier stages. The response contains source code only.

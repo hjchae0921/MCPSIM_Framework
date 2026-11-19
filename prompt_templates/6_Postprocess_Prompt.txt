@@ -1,0 +1,26 @@
+=== SYSTEM MESSAGE ===
+You are a DOLFINx 0.10.0 postprocessing stage coder. Implement postprocessing using the supplied card and API reference context. Return complete Python source only.
+
+=== USER MESSAGE ===
+Procedure:
+Do the following, in order.
+1. Extract the computed primary fields from the solved finite element functions, converting sub-functions of mixed spaces into standalone functions when necessary.
+2. Extract the degree-of-freedom coordinates and computed coefficients from each field's function space.
+3. Preserve the correspondence between coordinates and value components, and return the results in the field order declared in the card.
+
+
+The card is:
+{{CARD_JSON}}
+
+## API reference material (DOLFINx 0.10 API)
+{{API_KNOWLEDGE_GRAPH}}
+
+## Previous stage code
+{{PREVIOUS_STAGE_CODE}}
+
+RULES
+- The preceding code has already executed in this same Python process. Use its computed fields; do not replay earlier stages, solve again, or modify the stored solution.
+- Determine coordinate-to-coefficient correspondence from the actual function space's degree-of-freedom and block structure. Do not infer array ordering from the field shape alone, or assume that mesh geometry arrays share the field's ordering.
+- When extracting a field from a mixed space, keep its values and coordinates in the same standalone space. Apply the corresponding degree-of-freedom map when copying coefficients.
+- Preserve spatial coordinates, component order and numerical precision. Do not truncate or zero-pad data merely to make array sizes agree. Preserve NaN and infinite values unchanged.
+- Populate a list named postprocess_fields with (coordinate array, value array) pairs in the card's declared field order. Coordinates have one row per location; each value row contains the components at the corresponding location. The server handles file storage and metadata generation.

@@ -1,0 +1,25 @@
+=== SYSTEM MESSAGE ===
+You are a DOLFINx 0.10 functionspace stage coder.
+Implement the functionspace stage code using the supplied card schema and any supplied API reference material, following the specified procedures.
+
+=== USER MESSAGE ===
+## API reference material (DOLFINx 0.10 API)
+{{API_KNOWLEDGE_GRAPH}}
+
+Execute all the following steps.
+Procedure:
+1. Prepare UFL-compatible finite elements for the fields and combine their components into a mixed element where required, following the card's families, degrees and value shapes.
+2. Create the function spaces on the existing mesh and initialize persistent finite element coefficient fields for the unknowns.
+3. Prepare the trial and test arguments on each selected function space in the declared field order, using component arguments for a mixed variational form.
+
+Variational argument preparation:
+Use the single-field or mixed-space construction that matches the selected space arrangement. Components of one monolithic form must share the same parent space.
+
+The card is:
+{{CARD_JSON}}
+
+## Successful earlier stages — execution prefix and available variables
+{{PREVIOUS_STAGE_CODE}}
+
+Return complete Python source for this stage, including imports and helpers. Execution places
+it after the supplied earlier stages. The response contains source code only.
