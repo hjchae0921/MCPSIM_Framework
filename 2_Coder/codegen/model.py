@@ -7,14 +7,13 @@ import sys
 import time
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent
+from codegen import PROJECT_ROOT, worker_environment
 from common.client import client as OPENAI_CLIENT, require_credentials
 from openai import RateLimitError, APIConnectionError, APITimeoutError
 from common.models import MODEL_PROFILES, completion_options
 
 EXECUTION_TIMEOUT = 1200
-WORK = Path(os.environ.get("RUN_DIR") or (ROOT / ".run"))
+WORK = Path(os.environ.get("RUN_DIR") or (PROJECT_ROOT / ".run"))
 
 PREFIX = ""  # earlier stages, prepended before running a stage's code
 TRACE = None  # optional per-run request/response recorder
@@ -133,7 +132,7 @@ def run_code(code, tag, *, suffix="", output=None, result_dir=None):
             "--run-dir",
             str(result_dir),
         ]
-        env["PYTHONPATH"] = str(ROOT) + os.pathsep + env.get("PYTHONPATH", "")
+        env["PYTHONPATH"] = worker_environment()["PYTHONPATH"]
     try:
         p = subprocess.run(
             command,

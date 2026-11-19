@@ -9,17 +9,17 @@ from boundary_condition_agent import values
 from functionspace_agent import agent as spaces
 from material_agent import agent as materials
 from solver_agent import agent as solvers
+from codegen import CODER_ROOT
 from codegen.boundary_card import card as componentwise_boundary_card
 from problem_selection_agent.spec import normalized
 
-ROOT = Path(__file__).resolve().parent.parent
 STAGES = (
-    ("mesh", "1_Mesh_Prompt.txt"),
-    ("function_space", "2_Functionspace_Prompt.txt"),
-    ("weak_form", "3_WeakForm_Prompt.txt"),
-    ("boundary_conditions", "4_BC_Prompt.txt"),
-    ("solve", "5_Solve_Prompt.txt"),
-    ("postprocess", "6_Postprocess_Prompt.txt"),
+    ("mesh", "1_mesh"),
+    ("function_space", "2_function_space"),
+    ("weak_form", "3_weak_form"),
+    ("boundary_conditions", "4_boundary_conditions"),
+    ("solve", "5_solve"),
+    ("postprocess", "6_postprocess"),
 )
 APPROVED_KEYS = (
     "confirmed_selection",
@@ -179,7 +179,10 @@ def split(state, mesh_path):
 
 
 def templates():
-    return {name: (ROOT / "prompt_templates" / filename).read_text() for name, filename in STAGES}
+    return {
+        name: (CODER_ROOT / "agents" / folder / "prompt.txt").read_text()
+        for name, folder in STAGES
+    }
 
 
 def render(source, card, graph, previous):

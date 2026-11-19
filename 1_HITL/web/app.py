@@ -10,7 +10,9 @@ from openai import OpenAIError
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-sys.path.insert(0, str(ROOT))
+if __name__ == "__main__":
+    sys.path[:0] = [str(ROOT), str(ROOT.parent / "2_Coder")]
+
 from web.host import HostService, UserError
 from problem_selection_agent.service import ProblemSelectionService, SelectionError
 from codegen.service import CodegenService, CodegenError
@@ -189,7 +191,7 @@ class AppServer(ThreadingHTTPServer):
 
 def make_server(host="127.0.0.1", port=7861, data_dir=None, client=None, library_dir=None):
     server = AppServer((host, port), Handler)
-    server.host_service = HostService(data_dir or ROOT / "data/authoring", client)
+    server.host_service = HostService(data_dir or ROOT.parent / "data/authoring", client)
     server.selection = ProblemSelectionService(
         server.host_service.data_dir / "sessions",
         library_dir or ROOT / "library",

@@ -2,7 +2,7 @@
 
 OPENAI_API_KEY takes precedence over the Git-ignored .openai_key at the repo root.
 
-codegen/model.py can build a separate client when a coder gateway is configured.
+2_Coder/codegen/model.py can build a separate client when a coder gateway is configured.
 """
 
 import os
@@ -11,7 +11,7 @@ from pathlib import Path
 from openai import OpenAI
 
 if not os.environ.get("OPENAI_API_KEY"):
-    key_file = Path(__file__).resolve().parents[1] / ".openai_key"
+    key_file = Path(__file__).resolve().parents[2] / ".openai_key"
     if key_file.exists():
         os.environ["OPENAI_API_KEY"] = key_file.read_text().strip()
 

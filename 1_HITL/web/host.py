@@ -11,7 +11,6 @@ from openai import OpenAI
 from boundary_condition_agent.mesh import read_mesh
 from common.models import credentials, profile, MODEL_PROFILES, FORMULATION_PROFILE, OPENROUTER_URL
 
-ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_MODEL = "gpt-5.4-mini"
 DEFAULT_REASONING = "low"
 

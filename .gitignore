@@ -11,4 +11,4 @@ __pycache__/
 *_api_key.txt
 .openai_key
 .openrouter_key
-knowledge_graph/referenced_sources/
+2_Coder/knowledge_graph/referenced_sources/

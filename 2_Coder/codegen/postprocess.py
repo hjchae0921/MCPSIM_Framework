@@ -2,12 +2,11 @@
 
 import argparse
 import json
-import os
 from pathlib import Path
 import subprocess
 import sys
 
-from codegen.cards import ROOT
+from codegen import worker_environment
 from codegen.contours import render
 from codegen.runner import write_json
 
@@ -28,8 +27,7 @@ def run(folder):
             work = results / "replay_work"
             work.mkdir(exist_ok=True)
             env = {
-                **os.environ,
-                "PYTHONPATH": str(ROOT) + os.pathsep + os.environ.get("PYTHONPATH", ""),
+                **worker_environment(),
                 "XDG_CACHE_HOME": str(folder / "work/cache"),
             }
             # Replaying an approved saved program requires no model or KG calls.

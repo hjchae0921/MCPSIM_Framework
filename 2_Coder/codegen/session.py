@@ -11,8 +11,7 @@ import time
 import traceback
 import types
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+from codegen import worker_environment
 from codegen.runner import write_json as write
 
 
@@ -128,12 +127,11 @@ class Session:
             {"home": str(self.home), "sources": [str(Path(p).resolve()) for p in sources]},
         )
         env = {
-            **os.environ,
+            **worker_environment(),
             "OMP_NUM_THREADS": "1",
             "OPENBLAS_NUM_THREADS": "1",
             "MKL_NUM_THREADS": "1",
             "XDG_CACHE_HOME": str(self.home / "cache"),
-            "PYTHONPATH": str(ROOT),
         }
         for key in ("OPENAI_API_KEY", "OPENROUTER_API_KEY", "CODER_API_KEY"):
             env.pop(key, None)
@@ -143,7 +141,8 @@ class Session:
             [
                 python,
                 "-B",
-                str(Path(__file__).resolve()),
+                "-m",
+                "codegen.session",
                 "--config",
                 str(self.home / "session.json"),
             ],

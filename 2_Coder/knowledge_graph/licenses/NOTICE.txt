@@ -1,0 +1,1 @@
+API descriptions and source-derived graph data include material from FEniCS DOLFINx, UFL and Basix. Pinned source URLs and revisions are recorded in 2_Coder/knowledge_graph/sources.json. Their upstream license texts are retained in this directory. KaTeX retains its license in 1_HITL/web/static/vendor/katex.

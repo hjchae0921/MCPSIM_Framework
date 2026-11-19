@@ -14,10 +14,11 @@ import threading
 import time
 import uuid
 
-from codegen.cards import ROOT, STAGES, split, templates, source_signature
+from codegen import PROJECT_ROOT, worker_environment
+from codegen.cards import STAGES, split, templates, source_signature
 from codegen.runner import write_json
 from solver_agent.agent import signature as solver_signature
-from web.host import credentials
+from common.models import credentials
 from common.models import MODEL_PROFILES, profile, reasoning_mode
 from knowledge_graph.retrieval import configuration as retrieval_configuration
 
@@ -176,7 +177,7 @@ class CodegenService:
             write_json(folder / "status.json", status)
             executable = os.environ.get("FENICSX_SOLVER_PYTHON") or sys.executable
             env = {
-                **os.environ,
+                **worker_environment(),
                 "PYTHONUNBUFFERED": "1",
                 "OMP_NUM_THREADS": "1",
                 "OPENBLAS_NUM_THREADS": "1",
@@ -190,7 +191,7 @@ class CodegenService:
             try:
                 process = self._launcher(
                     [executable, "-B", "-m", "codegen.runner", "--run-dir", str(folder)],
-                    cwd=ROOT,
+                    cwd=PROJECT_ROOT,
                     env=env,
                     stdout=log,
                     stderr=subprocess.STDOUT,
@@ -282,7 +283,7 @@ class CodegenService:
             executable = os.environ.get("FENICSX_SOLVER_PYTHON") or sys.executable
             log = (results / "postprocess.log").open("w")
             env = {
-                **os.environ,
+                **worker_environment(),
                 "OMP_NUM_THREADS": "1",
                 "OPENBLAS_NUM_THREADS": "1",
                 "MKL_NUM_THREADS": "1",
@@ -292,7 +293,7 @@ class CodegenService:
             try:
                 process = self._launcher(
                     [executable, "-B", "-m", "codegen.postprocess", "--run-dir", str(folder)],
-                    cwd=ROOT,
+                    cwd=PROJECT_ROOT,
                     env=env,
                     stdout=log,
                     stderr=subprocess.STDOUT,

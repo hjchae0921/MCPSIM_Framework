@@ -4,7 +4,7 @@ from copy import deepcopy
 import os
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 OPENROUTER_URL = "https://openrouter.ai/api/v1"
 DEFAULT_MODEL = "gpt-5.4-mini"
 FORMULATION_MODEL = "gpt-5.5"

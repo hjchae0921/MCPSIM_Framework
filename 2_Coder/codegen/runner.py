@@ -8,7 +8,8 @@ import sys
 import time
 import subprocess
 
-from codegen.cards import ROOT, STAGES, render
+from codegen import PROJECT_ROOT, worker_environment
+from codegen.cards import STAGES, render
 
 
 def write_json(path, value):
@@ -99,7 +100,7 @@ def run(folder, backend=None):
 
         C.TRACE = trace
         previous = ""
-        for number, (stage, filename) in enumerate(STAGES, 1):
+        for number, (stage, _) in enumerate(STAGES, 1):
             stage_dir = folder / f"{number}_{stage}"
             stage_dir.mkdir(exist_ok=True)
             stage_status = status["stages"][number - 1]
@@ -210,14 +211,11 @@ def run(folder, backend=None):
 
         if (folder / "results/manifest.json").is_file():
             try:
-                env = {
-                    **os.environ,
-                    "PYTHONPATH": str(ROOT) + os.pathsep + os.environ.get("PYTHONPATH", ""),
-                }
+                env = worker_environment()
                 with (folder / "results/render.log").open("w") as log:
                     result = subprocess.run(
                         [sys.executable, "-B", "-m", "codegen.contours", "--run-dir", str(folder)],
-                        cwd=ROOT,
+                        cwd=PROJECT_ROOT,
                         env=env,
                         stdout=log,
                         stderr=subprocess.STDOUT,
